@@ -1,0 +1,2391 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2021-11-20 19:17+0300\n"
+"PO-Revision-Date: 2021-11-20 19:18+0300\n"
+"Last-Translator: Dmitry Buryak <boss23rus@gmail.com>\n"
+"Language-Team: WPShop\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: _e;__;_ex;_n:1,2;_x:1,2c;esc_attr__;esc_attr_e;"
+"esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: vendor\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: languages\n"
+"X-Poedit-SearchPathExcluded-3: assets\n"
+
+#: src/AdminMenu.php:57 src/Plugin.php:245 templates/presets.php:20
+msgid "Presets"
+msgstr "Пресеты"
+
+#: src/AdminMenu.php:66 templates/icons.php:36
+msgid "Icons"
+msgstr "Иконки"
+
+#: src/Plugin.php:162
+msgid "edit"
+msgstr "изменить"
+
+#: src/Plugin.php:163
+msgid "remove"
+msgstr "удалить"
+
+#: src/Plugin.php:164
+msgid "Save"
+msgstr "Сохранить"
+
+#: src/Plugin.php:165
+msgid "OK"
+msgstr "ОК"
+
+#: src/Plugin.php:166
+msgid "Cancel"
+msgstr "Отмена"
+
+#: src/Plugin.php:167 src/Plugin.php:295 templates/tmpl-wpremark-popup.php:448
+#: templates/tmpl-wpremark-popup.php:452
+msgid "Title"
+msgstr "Заголовок"
+
+#: src/Plugin.php:168 src/Plugin.php:173 src/Plugin.php:306
+#: templates/tmpl-wpremark-popup.php:120 templates/tmpl-wpremark-popup.php:159
+#: templates/tmpl-wpremark-popup.php:517
+msgid "Text"
+msgstr "Текст"
+
+#: src/Plugin.php:169
+msgid "Link"
+msgstr "Ссылка"
+
+#: src/Plugin.php:170
+msgid "Add attention block"
+msgstr "Добавить блок внимания"
+
+#: src/Plugin.php:171
+msgid "Attention block"
+msgstr "Блок внимания"
+
+#: src/Plugin.php:172 templates/tmpl-wpremark-popup.php:484
+#: templates/tmpl-wpremark-popup.php:552
+msgid "Style"
+msgstr "Стиль"
+
+#: src/Plugin.php:174
+msgid "Please, select preset"
+msgstr "Выберите пресет, пожалуйста"
+
+#: src/Plugin.php:175
+msgid "Cannot delete active preset"
+msgstr "Нельзя удалить активный пресет"
+
+#: src/Plugin.php:176
+msgid "Enter name preset"
+msgstr "Введите название пресета"
+
+#: src/Plugin.php:177
+msgid "Are you sure you want update preset"
+msgstr "Вы уверены, что хотите обновить пресет"
+
+#: src/Plugin.php:178
+msgid "Are you sure you want removes preset"
+msgstr "Вы уверены, что хотите удалить пресет"
+
+#: src/Plugin.php:235 templates/tmpl-wpremark-popup.php:361
+msgid "Top"
+msgstr "Сверху"
+
+#: src/Plugin.php:236 templates/tmpl-wpremark-popup.php:364
+#: templates/tmpl-wpremark-popup.php:469 templates/tmpl-wpremark-popup.php:530
+msgid "Right"
+msgstr "Справа"
+
+#: src/Plugin.php:237 templates/tmpl-wpremark-popup.php:367
+msgid "Bottom"
+msgstr "Снизу"
+
+#: src/Plugin.php:238 templates/tmpl-wpremark-popup.php:370
+#: templates/tmpl-wpremark-popup.php:465 templates/tmpl-wpremark-popup.php:526
+msgid "Left"
+msgstr "Слева"
+
+#: src/Plugin.php:239 templates/tmpl-wpremark-popup.php:467
+#: templates/tmpl-wpremark-popup.php:528
+msgid "Center"
+msgstr "По центру"
+
+#: src/Plugin.php:240 templates/tmpl-wpremark-popup.php:338
+msgid "Size"
+msgstr "Размер"
+
+#: src/Plugin.php:241 templates/tmpl-wpremark-popup.php:342
+msgid "Auto"
+msgstr "Авто"
+
+#: src/Plugin.php:242 templates/tmpl-wpremark-popup.php:344
+msgid "Cover"
+msgstr "Cover"
+
+#: src/Plugin.php:243 templates/tmpl-wpremark-popup.php:346
+msgid "Contain"
+msgstr "Contain"
+
+#: src/Plugin.php:244 templates/tmpl-wpremark-live-preview.php:103
+#: templates/tmpl-wpremark-popup.php:183
+msgid "Enter text..."
+msgstr "Введите текст..."
+
+#: src/Plugin.php:246 templates/tmpl-wpremark-popup.php:188
+msgid "Icon"
+msgstr "Иконка"
+
+#: src/Plugin.php:247
+msgid "Show icon"
+msgstr "Показать иконку"
+
+#: src/Plugin.php:248 templates/tmpl-wpremark-popup.php:194
+msgid "Search icon"
+msgstr "Поиск иконки"
+
+#: src/Plugin.php:249
+msgid "Own image"
+msgstr "Своя картинка"
+
+#: src/Plugin.php:250
+msgid "Width, px"
+msgstr "Ширина, px"
+
+#: src/Plugin.php:251
+msgid "Height, px"
+msgstr "Высота, px"
+
+#: src/Plugin.php:252 templates/tmpl-wpremark-popup.php:232
+msgid "Indent, px"
+msgstr "Отступ, px"
+
+#: src/Plugin.php:253 templates/tmpl-wpremark-popup.php:241
+#: templates/tmpl-wpremark-popup.php:312
+msgid "Position"
+msgstr "Положение"
+
+#: src/Plugin.php:254 templates/tmpl-wpremark-popup.php:245
+msgid "Left top"
+msgstr "Слева сверху"
+
+#: src/Plugin.php:255 templates/tmpl-wpremark-popup.php:247
+msgid "Left center"
+msgstr "Слева по центру"
+
+#: src/Plugin.php:256 templates/tmpl-wpremark-popup.php:249
+msgid "Left bottom"
+msgstr "Слева снизу"
+
+#: src/Plugin.php:257 templates/tmpl-wpremark-popup.php:252
+#: templates/tmpl-wpremark-popup.php:316
+msgid "Top left"
+msgstr "Сверху слева"
+
+#: src/Plugin.php:258 templates/tmpl-wpremark-popup.php:254
+#: templates/tmpl-wpremark-popup.php:318
+msgid "Top center"
+msgstr "Сверху по центру"
+
+#: src/Plugin.php:259 templates/tmpl-wpremark-popup.php:256
+#: templates/tmpl-wpremark-popup.php:320
+msgid "Top right"
+msgstr "Сверху справа"
+
+#: src/Plugin.php:260 templates/tmpl-wpremark-popup.php:322
+msgid "Middle left"
+msgstr "По середине слева"
+
+#: src/Plugin.php:261 templates/tmpl-wpremark-popup.php:324
+msgid "Middle center"
+msgstr "По середине по центру"
+
+#: src/Plugin.php:262 templates/tmpl-wpremark-popup.php:326
+msgid "Middle right"
+msgstr "По середине справа"
+
+#: src/Plugin.php:263 templates/tmpl-wpremark-popup.php:259
+msgid "Right top"
+msgstr "Справа сверху"
+
+#: src/Plugin.php:264 templates/tmpl-wpremark-popup.php:261
+msgid "Right center"
+msgstr "Справа по центру"
+
+#: src/Plugin.php:265 templates/tmpl-wpremark-popup.php:263
+msgid "Right bottom"
+msgstr "Справа снизу"
+
+#: src/Plugin.php:266 templates/tmpl-wpremark-popup.php:266
+#: templates/tmpl-wpremark-popup.php:328
+msgid "Bottom left"
+msgstr "Снизу слева"
+
+#: src/Plugin.php:267 templates/tmpl-wpremark-popup.php:268
+#: templates/tmpl-wpremark-popup.php:330
+msgid "Bottom center"
+msgstr "Снизу по центру"
+
+#: src/Plugin.php:268 templates/tmpl-wpremark-popup.php:270
+#: templates/tmpl-wpremark-popup.php:332
+msgid "Bottom right"
+msgstr "Снизу справа"
+
+#: src/Plugin.php:269 templates/tmpl-wpremark-popup.php:278
+msgid "Background"
+msgstr "Фон"
+
+#: src/Plugin.php:270
+msgid "Show background"
+msgstr "Показать фон"
+
+#: src/Plugin.php:271
+msgid "Image"
+msgstr "Изображение"
+
+#: src/Plugin.php:272
+msgid "Select image"
+msgstr "Выбрать изображение"
+
+#: src/Plugin.php:273
+msgid "Delete image"
+msgstr "Удалить изображение"
+
+#: src/Plugin.php:274 templates/tmpl-wpremark-popup.php:215
+#: templates/tmpl-wpremark-popup.php:395 templates/tmpl-wpremark-popup.php:430
+#: templates/tmpl-wpremark-popup.php:477
+msgid "Color"
+msgstr "Цвет"
+
+#: src/Plugin.php:275 templates/tmpl-wpremark-popup.php:289
+msgid "Picture"
+msgstr "Изображение"
+
+#: src/Plugin.php:276 templates/tmpl-wpremark-popup.php:296
+msgid "Repeat"
+msgstr "Повторение"
+
+#: src/Plugin.php:277 templates/tmpl-wpremark-popup.php:300
+msgid "No repeat"
+msgstr "Не повторять"
+
+#: src/Plugin.php:278 templates/tmpl-wpremark-popup.php:302
+msgid "Repeat horizontal and vertical"
+msgstr "Повторять по горизонтали и по вертикали"
+
+#: src/Plugin.php:279 templates/tmpl-wpremark-popup.php:304
+msgid "Repeat horizontal"
+msgstr "Повторять по горизонтали"
+
+#: src/Plugin.php:280
+msgid "Repeat vertical"
+msgstr "Повторять по вертикали"
+
+#: src/Plugin.php:281 templates/tmpl-wpremark-popup.php:354
+msgid "Border"
+msgstr "Рамка"
+
+#: src/Plugin.php:282
+msgid "Border width"
+msgstr "Толщина границы"
+
+#: src/Plugin.php:283
+msgid "Border style"
+msgstr "Стиль границы"
+
+#: src/Plugin.php:284 templates/tmpl-wpremark-popup.php:382
+msgid "Dotted"
+msgstr "Точки"
+
+#: src/Plugin.php:285 templates/tmpl-wpremark-popup.php:384
+msgid "Dashed"
+msgstr "Пунктир"
+
+#: src/Plugin.php:286 templates/tmpl-wpremark-popup.php:386
+msgid "Solid"
+msgstr "Сплошная"
+
+#: src/Plugin.php:287 templates/tmpl-wpremark-popup.php:388
+msgid "Double"
+msgstr "Двойная"
+
+#: src/Plugin.php:288 templates/tmpl-wpremark-popup.php:404
+msgid "Shadow"
+msgstr "Тень"
+
+#: src/Plugin.php:289
+msgid "Show shadow"
+msgstr "Показать тень"
+
+#: src/Plugin.php:290
+msgid "Shift on X, px"
+msgstr "Сдвиг по X, px"
+
+#: src/Plugin.php:291
+msgid "Shift on Y, px"
+msgstr "Сдвиг по Y, px"
+
+#: src/Plugin.php:292
+msgid "Blurring, px"
+msgstr "Размытие, px"
+
+#: src/Plugin.php:293
+msgid "Stretching, px"
+msgstr "Растяжение, px"
+
+#: src/Plugin.php:294 templates/tmpl-wpremark-popup.php:437
+msgid "Opacity"
+msgstr "Непрозрачность"
+
+#: src/Plugin.php:296
+msgid "Show title"
+msgstr "Показать заголовок"
+
+#: src/Plugin.php:297 templates/tmpl-wpremark-popup.php:459
+#: templates/tmpl-wpremark-popup.php:520
+msgid "Align"
+msgstr "Выравнивание"
+
+#: src/Plugin.php:298 templates/tmpl-wpremark-popup.php:463
+#: templates/tmpl-wpremark-popup.php:524
+msgid "Not set"
+msgstr "Не задано"
+
+#: src/Plugin.php:299 templates/tmpl-wpremark-popup.php:471
+#: templates/tmpl-wpremark-popup.php:532
+msgid "By width"
+msgstr "По ширине"
+
+#: src/Plugin.php:300 templates/tmpl-wpremark-popup.php:487
+#: templates/tmpl-wpremark-popup.php:555
+msgid "Bold"
+msgstr "Жирный"
+
+#: src/Plugin.php:301 templates/tmpl-wpremark-popup.php:490
+#: templates/tmpl-wpremark-popup.php:558
+msgid "Italic"
+msgstr "Курсив"
+
+#: src/Plugin.php:302 templates/tmpl-wpremark-popup.php:493
+#: templates/tmpl-wpremark-popup.php:561
+msgid "Underlined"
+msgstr "Подчеркнутый"
+
+#: src/Plugin.php:303 templates/tmpl-wpremark-popup.php:496
+#: templates/tmpl-wpremark-popup.php:564
+msgid "Uppercase"
+msgstr "Верхний регистр"
+
+#: src/Plugin.php:304 templates/tmpl-wpremark-popup.php:502
+#: templates/tmpl-wpremark-popup.php:570
+msgid "Font size, px"
+msgstr "Размер шрифта, px"
+
+#: src/Plugin.php:305 templates/tmpl-wpremark-popup.php:509
+#: templates/tmpl-wpremark-popup.php:577
+msgid "Line height"
+msgstr "Высота строки"
+
+#: src/Plugin.php:307
+msgid "Color settings"
+msgstr "Настройки цвета"
+
+#: src/Plugin.php:308 templates/tmpl-wpremark-popup.php:538
+msgid "Text color"
+msgstr "Цвет текста"
+
+#: src/Plugin.php:309 templates/tmpl-wpremark-popup.php:545
+msgid "Link color"
+msgstr "Цвет ссылки"
+
+#: src/Plugin.php:310 templates/tmpl-wpremark-popup.php:585
+msgid "Advanced settings"
+msgstr "Расширенные настройки"
+
+#: src/Plugin.php:311
+msgid "Inner padding top"
+msgstr "Внутренний отступ сверху"
+
+#: src/Plugin.php:312
+msgid "Inner padding right"
+msgstr "Внутренний отступ справа"
+
+#: src/Plugin.php:313
+msgid "Inner padding bottom"
+msgstr "Внутренний отступ снизу"
+
+#: src/Plugin.php:314
+msgid "Inner padding left"
+msgstr "Внутренний отступ слева"
+
+#: src/Plugin.php:315
+msgid "External indent top"
+msgstr "Внешний отступ сверху"
+
+#: src/Plugin.php:316
+msgid "External indent right"
+msgstr "Внешний отступ справа"
+
+#: src/Plugin.php:317
+msgid "External indent bottom"
+msgstr "Внешний отступ снизу"
+
+#: src/Plugin.php:318
+msgid "External indent left"
+msgstr "Внешний отступ слева"
+
+#: src/Plugin.php:319 templates/tmpl-wpremark-popup.php:613
+msgid "Rounding corners"
+msgstr "Скругление углов"
+
+#: src/Plugin.php:320 templates/tmpl-wpremark-popup.php:620
+msgid "Tag"
+msgstr "Тег"
+
+#: src/Plugin.php:389
+msgid "Attention!"
+msgstr "Внимание!"
+
+#: src/Plugin.php:390
+#, php-format
+msgid ""
+"To activate plugin %s you need to enter the license key on <a href=\"%s"
+"\">this page</a>."
+msgstr ""
+"Чтобы активировать плагин %s, вы должны ввести лицензионный ключ на <a href="
+"\"%s\">этой странице</a>."
+
+#: src/Plugin.php:425 src/Plugin.php:427 src/Plugin.php:469
+msgid "Unable to check license without activation url"
+msgstr "Невозможно проверить лицензию без url-адреса активации"
+
+#: src/Plugin.php:451 src/Plugin.php:453
+msgid "Can't get response from license server"
+msgstr "Не получается получить ответ от сервера лицензий"
+
+#: src/Preset.php:71 src/Preset.php:95 src/Preset.php:114 src/Templates.php:129
+#: src/Templates.php:163
+msgid "Forbidden"
+msgstr "Запрещенный"
+
+#: src/Preset.php:75
+msgid "Unable to save unnamed preset"
+msgstr "Невозможно сохранить безымянный пресет"
+
+#: src/Preset.php:87
+msgid "Unable to save preset"
+msgstr "Невозможно сохранить пресет"
+
+#: src/Preset.php:99
+msgid "Unable to remove unnamed preset"
+msgstr "Невозможно удалить безымянный пресет"
+
+#: src/Preset.php:106
+msgid "Unable to remove preset"
+msgstr "Невозможно удалить пресет"
+
+#: src/Preset.php:118
+msgid "Unable to retrieve unnamed preset"
+msgstr "Невозможно получить безымянный пресет"
+
+#: src/Preset.php:125
+msgid "Unable to retrieve preset"
+msgstr "Невозможно получить пресет"
+
+#: src/SettingsProvider.php:61 src/SettingsProvider.php:62
+msgid "Settings"
+msgstr "Настройки"
+
+#: src/SettingsProvider.php:71
+msgid "Main"
+msgstr "Основные"
+
+#: src/SettingsProvider.php:77
+msgid "License"
+msgstr "Лицензия"
+
+#: src/SettingsProvider.php:78
+msgid "Enter license key"
+msgstr "Введите лицензионный ключ"
+
+#: src/SettingsProvider.php:112
+msgid "Extended"
+msgstr "Расширенные"
+
+#: src/SettingsProvider.php:118
+msgid "Before content"
+msgstr "Перед контентом"
+
+#: src/SettingsProvider.php:119
+msgid ""
+"If you want to display the same attention block in front of the content in "
+"all posts, configure it in the field below and check the box"
+msgstr ""
+"Если Вы хотите вывести одинаковый блок внимания перед контентом во всех "
+"записях, настройте его в поле ниже и поставьте галочку"
+
+#: src/SettingsProvider.php:129 src/SettingsProvider.php:164
+msgid "Show only in posts"
+msgstr "Показывать только в записях"
+
+#: src/SettingsProvider.php:130 src/SettingsProvider.php:136
+#: src/SettingsProvider.php:165 src/SettingsProvider.php:171
+msgid "Add ID of posts, separated by commas"
+msgstr "Добавьте ID записей, разделенные запятой"
+
+#: src/SettingsProvider.php:135 src/SettingsProvider.php:170
+msgid "Do not show in posts"
+msgstr "Не показывать в записях"
+
+#: src/SettingsProvider.php:141 src/SettingsProvider.php:176
+msgid "Show only in categories"
+msgstr "Показывать только в рубриках"
+
+#: src/SettingsProvider.php:142 src/SettingsProvider.php:148
+#: src/SettingsProvider.php:177 src/SettingsProvider.php:183
+msgid "Add ID of categories, separated by commas"
+msgstr "Добавьте ID рубрик, разделенные запятой"
+
+#: src/SettingsProvider.php:147 src/SettingsProvider.php:182
+msgid "Do not show in categories"
+msgstr "Не показывать в рубриках"
+
+#: src/SettingsProvider.php:153
+msgid "After content"
+msgstr "После контента"
+
+#: src/SettingsProvider.php:154
+msgid ""
+"If you want to display the same attention block after the content in all "
+"posts, configure it in the field below and check the box"
+msgstr ""
+"Если Вы хотите вывести одинаковый блок внимания после контента во всех "
+"записях, настройте его в поле ниже и поставьте галочку"
+
+#: src/Templates.php:133 src/Templates.php:167
+msgid "Unable to import unnamed preset"
+msgstr "Невозможно импортировать безымянный пресет"
+
+#: src/Templates.php:143
+msgid "Unable to import preset"
+msgstr "Невозможно импортировать пресет"
+
+#: src/Templates.php:247
+#, php-format
+msgid "Invalid API response code (%d)."
+msgstr "Неверный код ответа API (%d)."
+
+#: src/Templates.php:253
+msgid "Unable to parse json"
+msgstr "Невозможно проанализировать json"
+
+#: templates/icons.php:19
+msgid "Copied"
+msgstr "Скопировано"
+
+#: templates/info.php:23
+msgid "Documentation"
+msgstr "Документация"
+
+#: templates/info.php:25
+msgid ""
+"If you have a question about our product, perhaps the answer is already in "
+"our documentation."
+msgstr ""
+"Если у вас есть вопрос о нашем продукте, возможно, ответ уже есть в нашей "
+"документации."
+
+#: templates/info.php:33
+msgid "Questions and answers"
+msgstr "Вопросы и ответы"
+
+#: templates/info.php:35
+msgid ""
+"Section of frequently asked questions and answers to them. You can quickly "
+"find the answer to a question."
+msgstr ""
+"Раздел часто задаваемых вопросов и ответов на них. Вы можете быстро найти "
+"ответ на свой вопрос."
+
+#: templates/info.php:43
+msgid "Video instructions"
+msgstr "Видео-инструкции"
+
+#: templates/info.php:45
+msgid ""
+"An overview of the plugin and functions in video format. Subscribe to the "
+"channel so you don't miss it."
+msgstr ""
+"Обзор плагина и функций в видео формате. Подпишитесь на канал, чтобы не "
+"пропустить."
+
+#: templates/info.php:50
+msgid "Our pages:"
+msgstr "Наши страницы:"
+
+#: templates/info.php:57
+msgid "Affiliate program"
+msgstr "Партнерская программа"
+
+#: templates/info.php:65
+msgid "License key"
+msgstr "Лицензионный ключ"
+
+#: templates/info.php:79
+msgid "Activate"
+msgstr "Активировать"
+
+#: templates/presets.php:22
+msgid ""
+"On this page you can add new presets to the editor or delete the current "
+"ones."
+msgstr ""
+"На данной странице можно добавить в редактор новые пресеты или удалить "
+"текущие."
+
+#: templates/presets.php:74
+msgid "Remove"
+msgstr "Удалить"
+
+#: templates/presets.php:79
+msgid "Download"
+msgstr "Загрузить"
+
+#: templates/presets.php:81
+msgid "Copied!"
+msgstr "Скопировано!"
+
+#: templates/presets.php:83
+msgid "Shortcode"
+msgstr "Шорткод"
+
+#: templates/tmpl-wpremark-popup.php:192
+msgid "Select icon"
+msgstr "Выбрать иконку"
+
+#: templates/tmpl-wpremark-popup.php:207
+msgid "Own picture (url)"
+msgstr "Своя картинка (url)"
+
+#: templates/tmpl-wpremark-popup.php:222
+msgid "Size, px"
+msgstr "Размеры, px"
+
+#: templates/tmpl-wpremark-popup.php:282
+msgid "Сolor"
+msgstr "Цвет"
+
+#: templates/tmpl-wpremark-popup.php:306
+msgid "Repeat verticals"
+msgstr "Повторять по вертикали"
+
+#: templates/tmpl-wpremark-popup.php:358
+msgid "Show border"
+msgstr "Показать рамку"
+
+#: templates/tmpl-wpremark-popup.php:376
+msgid "Thickness and style"
+msgstr "Толщина и стиль"
+
+#: templates/tmpl-wpremark-popup.php:408
+msgid "Shift on X and Y, px"
+msgstr "Сдвиг по X и Y, px"
+
+#: templates/tmpl-wpremark-popup.php:419
+msgid "Blurring and stretching, px"
+msgstr "Размытие и растяжение, px"
+
+#: templates/tmpl-wpremark-popup.php:587
+msgid "Inner padding"
+msgstr "Внутренний отступ"
+
+#: templates/tmpl-wpremark-popup.php:595 templates/tmpl-wpremark-popup.php:608
+msgid "Top, right, bottom and left"
+msgstr "Сверху, справа, снизу и слева"
+
+#: templates/tmpl-wpremark-popup.php:600
+msgid "External indent"
+msgstr "Внешний отступ"
+
+#: templates/tmpl-wpremark-popup.php:632
+msgid "Styles output"
+msgstr "Вывод стилей"
+
+#: templates/tmpl-wpremark-popup.php:636
+msgid "In &lt;head&gt;"
+msgstr "В &lt;head&gt;"
+
+#: templates/tmpl-wpremark-popup.php:638
+msgid "Near the block"
+msgstr "Возле блока"
+
+#: templates/tmpl-wpremark-popup.php:644
+msgid "Additional class"
+msgstr "Дополнительный класс"
+
+#~ msgid "Import"
+#~ msgstr "Импортировать"
+
+#~ msgid "Create preset"
+#~ msgstr "Создать пресет"
+
+#~ msgid "Transparency"
+#~ msgstr "Прозрачность"
+
+#~ msgid "Show border top"
+#~ msgstr "Показать границу сверху"
+
+#~ msgid "Show border right"
+#~ msgstr "Показать границу справа"
+
+#~ msgid "Show border bottom"
+#~ msgstr "Показать границу снизу"
+
+#~ msgid "Show border left"
+#~ msgstr "Показать границу слева"
+
+#~ msgid "Enter text"
+#~ msgstr "Введите текст"
+
+#~ msgid "Show License"
+#~ msgstr "Показать лицензию"
+
+#~ msgid "Show license key in input"
+#~ msgstr "Показать лицензионный ключ при вводе"
+
+#~ msgid "m."
+#~ msgstr "млн."
+
+#~ msgid "k."
+#~ msgstr "тыс."
+
+#, fuzzy
+#~| msgid "Exclude in posts"
+#~ msgid "Include in posts"
+#~ msgstr "Исключить в записях"
+
+#~ msgid "Exclude in posts"
+#~ msgstr "Исключить в записях"
+
+#, fuzzy
+#~| msgid "Exclude in categories"
+#~ msgid "Include in categories"
+#~ msgstr "Исключить в рубриках"
+
+#~ msgid "Exclude in categories"
+#~ msgstr "Исключить в рубриках"
+
+#~ msgid "Custom image"
+#~ msgstr "Произвольное изображение"
+
+#~ msgid ""
+#~ "By default, displayed the preset icon.<br>If you set an arbitrary "
+#~ "picture, it will be displayed as an icon"
+#~ msgstr ""
+#~ "По умолчанию выводится иконка пресета.<br>Если вы зададите произвольное "
+#~ "изображение, оно будет отображаться в виде иконки"
+
+#~ msgid "Delete"
+#~ msgstr "Удалить"
+
+#~ msgid "Select"
+#~ msgstr "Выбрать"
+
+#~ msgid "add [wpremark][/wpremark] after content"
+#~ msgstr "добавить [wpremark][/wpremark] после контента"
+
+#~ msgid "add [wpremark][/wpremark] before content"
+#~ msgstr "добавить [wpremark][/wpremark] перед контентом"
+
+#~ msgid "Blockquote content"
+#~ msgstr "Контент блока внимания"
+
+#~ msgid "Blockquotes"
+#~ msgstr "Блоки внимания"
+
+#~ msgid "Text style"
+#~ msgstr "Стиль текста"
+
+#~ msgid "Background color"
+#~ msgstr "Цвет фона"
+
+#~ msgid "Border color"
+#~ msgstr "Цвет рамки"
+
+#~ msgid "Shift shadow X, Y, px"
+#~ msgstr "Сдвиг тени X, Y, px"
+
+#~ msgid "Shadow color"
+#~ msgstr "Цвет тени"
+
+#~ msgid "Shadow transparency"
+#~ msgstr "Прозрачность тени"
+
+#~ msgid "Title color"
+#~ msgstr "Цвет заголовка"
+
+#~ msgid "Please enter name"
+#~ msgstr "Пожалуйста, введите название"
+
+#~ msgid "Preset"
+#~ msgstr "Пресет"
+
+#~ msgid "Saved presets"
+#~ msgstr "Сохранённые пресеты"
+
+#, fuzzy
+#~| msgid "-- select preset --"
+#~ msgid "select preset"
+#~ msgstr "-- выбрать пресет --"
+
+#~ msgid "Save Preset"
+#~ msgstr "Сохранить пресет"
+
+#~ msgid "Apply"
+#~ msgstr "Применить"
+
+#~ msgid "Apply And Close"
+#~ msgstr "Применить и закрыть"
+
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgid "Update Preset"
+#~ msgstr "Обновить пресет"
+
+#~ msgctxt "tpl_"
+#~ msgid "Name"
+#~ msgstr "Название"
+
+#~ msgid "Additionally"
+#~ msgstr "Дополнительно"
+
+#~ msgid "Left right"
+#~ msgstr "Слева справа"
+
+#, fuzzy
+#~| msgid "Right top"
+#~ msgid "Right right"
+#~ msgstr "Справа сверху"
+
+#~ msgctxt "tpl"
+#~ msgid "Align"
+#~ msgstr "Выравнивание"
+
+#~ msgctxt "tpl"
+#~ msgid "Not set"
+#~ msgstr "Не задано"
+
+#~ msgctxt "tpl"
+#~ msgid "Left"
+#~ msgstr "Слева"
+
+#~ msgctxt "tpl"
+#~ msgid "Center"
+#~ msgstr "По центру"
+
+#~ msgctxt "tpl"
+#~ msgid "Right"
+#~ msgstr "Справа"
+
+#~ msgctxt "tpl"
+#~ msgid "By width"
+#~ msgstr "По ширине"
+
+#~ msgctxt "tpl"
+#~ msgid "Text style"
+#~ msgstr "Стиль текста"
+
+#~ msgctxt "tpl"
+#~ msgid "Bold"
+#~ msgstr "Жирный"
+
+#~ msgctxt "tpl"
+#~ msgid "Italic"
+#~ msgstr "Курсив"
+
+#~ msgctxt "tpl"
+#~ msgid "Underlined"
+#~ msgstr "Подчеркнутый"
+
+#~ msgctxt "tpl"
+#~ msgid "Uppercase"
+#~ msgstr "Верхний регистр"
+
+#~ msgctxt "tpl"
+#~ msgid "Font size, px"
+#~ msgstr "Размер шрифта, px"
+
+#~ msgctxt "tpl"
+#~ msgid "Line height"
+#~ msgstr "Высота строки"
+
+#~ msgctxt "tpl"
+#~ msgid "Title"
+#~ msgstr "Заголовок"
+
+#~ msgctxt "tpl"
+#~ msgid "Background"
+#~ msgstr "Фон"
+
+#~ msgctxt "tpl"
+#~ msgid "Picture"
+#~ msgstr "Изображение"
+
+#~ msgctxt "tpl"
+#~ msgid "Repeat"
+#~ msgstr "Повторение"
+
+#~ msgctxt "tpl"
+#~ msgid "No repeat"
+#~ msgstr "Не повторять"
+
+#~ msgctxt "tpl"
+#~ msgid "Repeat horizontal and vertical"
+#~ msgstr "Повторять по горизонтали и по вертикали"
+
+#~ msgctxt "tpl"
+#~ msgid "Repeat horizontal"
+#~ msgstr "Повторять по горизонтали"
+
+#~ msgctxt "tpl"
+#~ msgid "Position"
+#~ msgstr "Положение"
+
+#~ msgctxt "tpl"
+#~ msgid "Top left"
+#~ msgstr "Сверху слева"
+
+#~ msgctxt "tpl"
+#~ msgid "Top center"
+#~ msgstr "Сверху по центру"
+
+#~ msgctxt "tpl"
+#~ msgid "Top right"
+#~ msgstr "Сверху справа"
+
+#~ msgctxt "tpl"
+#~ msgid "Middle left"
+#~ msgstr "По середине слева"
+
+#~ msgctxt "tpl"
+#~ msgid "Middle center"
+#~ msgstr "По середине по центру"
+
+#~ msgctxt "tpl"
+#~ msgid "Middle right"
+#~ msgstr "По середине справа"
+
+#~ msgctxt "tpl"
+#~ msgid "Bottom left"
+#~ msgstr "Снизу слева"
+
+#~ msgctxt "tpl"
+#~ msgid "Bottom center"
+#~ msgstr "Снизу по центру"
+
+#~ msgctxt "tpl"
+#~ msgid "Bottom right"
+#~ msgstr "Снизу справа"
+
+#~ msgctxt "tpl"
+#~ msgid "Border"
+#~ msgstr "Рамка"
+
+#~ msgctxt "tpl"
+#~ msgid "Solid"
+#~ msgstr "Сплошная"
+
+#~ msgctxt "tpl"
+#~ msgid "Dashed"
+#~ msgstr "Пунктир"
+
+#~ msgctxt "tpl"
+#~ msgid "Dotted"
+#~ msgstr "Точки"
+
+#~ msgctxt "js_i18n"
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Cancel"
+#~ msgstr "Отмена"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Title"
+#~ msgstr "Заголовок"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Text"
+#~ msgstr "Текст"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Link"
+#~ msgstr "Ссылка"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Style"
+#~ msgstr "Стиль"
+
+#~ msgid "Backgroundgfg"
+#~ msgstr "Фон"
+
+#~ msgctxt "tpl"
+#~ msgid "Default"
+#~ msgstr "По умолчанию"
+
+#~ msgctxt "tpl"
+#~ msgid "Small"
+#~ msgstr "Маленький"
+
+#~ msgctxt "tpl"
+#~ msgid "Medium"
+#~ msgstr "Средний"
+
+#~ msgctxt "tpl"
+#~ msgid "Large"
+#~ msgstr "Большой"
+
+#~ msgctxt "tpl"
+#~ msgid "General"
+#~ msgstr "Общие"
+
+#~ msgctxt "tpl"
+#~ msgid "Attention block tag"
+#~ msgstr "Тег блока внимания"
+
+#~ msgctxt "tpl"
+#~ msgid "Icon color"
+#~ msgstr "Цвет иконки"
+
+#~ msgctxt "tpl"
+#~ msgid "Icon image link"
+#~ msgstr "Ссылка на картинку иконки"
+
+#~ msgctxt "tpl"
+#~ msgid "Background image link"
+#~ msgstr "Ссылка на картинку фона"
+
+#~ msgctxt "tpl"
+#~ msgid "Background repeat"
+#~ msgstr "Повторение фона"
+
+#~ msgctxt "tpl"
+#~ msgid "Background position"
+#~ msgstr "Расположение фона"
+
+#~ msgctxt "tpl"
+#~ msgid "Shift shadow from axis X, px"
+#~ msgstr "Сдвиг тени по оси X, px"
+
+#~ msgctxt "tpl"
+#~ msgid ""
+#~ "A positive value shifts the shadow to the right,<br>a negative value to "
+#~ "the left"
+#~ msgstr ""
+#~ "Положительное значение задает сдвиг тени вправо,<br>отрицательное — влево"
+
+#~ msgctxt "tpl"
+#~ msgid "A positive value shifts the shadow down,<br>a negative value up"
+#~ msgstr ""
+#~ "Положительное значение задает сдвиг тени вниз,<br>отрицательное — вверх"
+
+#~ msgctxt "tpl"
+#~ msgid "Text align"
+#~ msgstr "Выравнивание текста"
+
+#~ msgctxt "tpl"
+#~ msgid ""
+#~ "The first is from the top, the second is from the right, the third is "
+#~ "from the bottom and the fourth is from the bottom"
+#~ msgstr ""
+#~ "Первый - сверху, второй - справа, третий - снизу и четвертый - снизу"
+
+#~ msgctxt "tpl"
+#~ msgid "Blockquote"
+#~ msgstr "Блок внимания"
+
+#~ msgctxt "tpl"
+#~ msgid "Indent text top and bottom"
+#~ msgstr "Отступ текста сверху и снизу"
+
+#~ msgctxt "tpl"
+#~ msgid "Icon code"
+#~ msgstr "Код иконки"
+
+#~ msgctxt "tpl"
+#~ msgid ""
+#~ "By default, the icon code is f534.<br>The code of other icons can be "
+#~ "viewed"
+#~ msgstr ""
+#~ "По умолчанию, код иконки - f534.<br>Код других иконок можно посмотреть"
+
+#~ msgctxt "tpl"
+#~ msgid "here"
+#~ msgstr "здесь"
+
+#~ msgctxt "tpl"
+#~ msgid "Blockquote view"
+#~ msgstr "Вид блока внимания"
+
+#~ msgctxt "tpl"
+#~ msgid "With background without borders"
+#~ msgstr "С фоном без границ"
+
+#~ msgctxt "tpl"
+#~ msgid "No background with borders"
+#~ msgstr "Без фона с границами"
+
+#~ msgctxt "tpl"
+#~ msgid "With background with borders"
+#~ msgstr "С фоном с границами"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Select text"
+#~ msgstr "Выделить текст"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Add spoiler"
+#~ msgstr "Добавить спойлер"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Spoiler"
+#~ msgstr "Спойлер"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Show hidden content"
+#~ msgstr "Показать скрытое содержимое"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Add social buttons"
+#~ msgstr "Добавить соц. кнопки"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Social buttons"
+#~ msgstr "Соц. кнопки"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Links to our social networks"
+#~ msgstr "Ссылки на наши социальные сети"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Buttons style"
+#~ msgstr "Стиль кнопок"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Square"
+#~ msgstr "Квадратные"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Circle"
+#~ msgstr "Круглые"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Hide links with JS"
+#~ msgstr "Скрыть ссылки с помощью JS"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Add related post"
+#~ msgstr "Добавить похожую запись"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Related post"
+#~ msgstr "Похожая запись"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Read also"
+#~ msgstr "Читайте также"
+
+#~ msgctxt "js_i18n"
+#~ msgid "ID post"
+#~ msgstr "ID записи"
+
+#~ msgid "Social buttons"
+#~ msgstr "Соц. кнопки"
+
+#~ msgid "add [editor_options_social_buttons] before content"
+#~ msgstr "добавить [editor_options_social_buttons] перед контентом"
+
+#~ msgid "add [editor_options_social_buttons] after content"
+#~ msgstr "добавить [editor_options_social_buttons] после контента"
+
+#~ msgid "Social buttons content"
+#~ msgstr "Контент соц. кнопок"
+
+#~ msgid "Related post"
+#~ msgstr "Похожая запись"
+
+#~ msgid "add [editor_options_related_post] before content"
+#~ msgstr "добавить [editor_options_related_post] перед контентом"
+
+#~ msgid "add [editor_options_related_post] after content"
+#~ msgstr "добавить [editor_options_related_post] после контента"
+
+#~ msgid "Related post content"
+#~ msgstr "Контент похожей записи"
+
+#~ msgctxt "editor_options_spoiler"
+#~ msgid "Show hidden content"
+#~ msgstr "Показать скрытый контент"
+
+#~ msgctxt "tpl"
+#~ msgid "Example header post"
+#~ msgstr "Пример заголовка записи"
+
+#~ msgctxt "tpl"
+#~ msgid "Example of description post"
+#~ msgstr "Пример описания записи"
+
+#~ msgctxt "tpl"
+#~ msgid "ID post"
+#~ msgstr "ID записи"
+
+#~ msgctxt "tpl"
+#~ msgid "Style"
+#~ msgstr "Стиль"
+
+#~ msgctxt "tpl"
+#~ msgid "Title align"
+#~ msgstr "Выравнивание заголовка"
+
+#~ msgctxt "tpl"
+#~ msgid "Font size title"
+#~ msgstr "Размер шрифта заголовка"
+
+#~ msgctxt "tpl"
+#~ msgid "Show thumbnail post"
+#~ msgstr "Показать миниатюру записи"
+
+#~ msgctxt "tpl"
+#~ msgid "Style thumbnail"
+#~ msgstr "Стиль миниатюры"
+
+#~ msgctxt "tpl"
+#~ msgid "Square"
+#~ msgstr "Квадратные"
+
+#~ msgctxt "tpl"
+#~ msgid "Circle"
+#~ msgstr "Круглые"
+
+#~ msgctxt "tpl"
+#~ msgid "Show excerpt post"
+#~ msgstr "Показать отрывок записи"
+
+#~ msgctxt "tpl"
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgctxt "tpl"
+#~ msgid "Vkontakte"
+#~ msgstr "ВКонтакте"
+
+#~ msgctxt "tpl"
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgctxt "tpl"
+#~ msgid "Odnoklassniki"
+#~ msgstr "Одноклассники"
+
+#~ msgctxt "tpl"
+#~ msgid "Telegram"
+#~ msgstr "Telegram"
+
+#~ msgctxt "tpl"
+#~ msgid "Youtube"
+#~ msgstr "YouTube"
+
+#~ msgctxt "tpl"
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgctxt "tpl"
+#~ msgid "Tiktok"
+#~ msgstr "Tik Tok"
+
+#~ msgctxt "tpl"
+#~ msgid "Linkedin"
+#~ msgstr "Linkedin"
+
+#~ msgctxt "tpl"
+#~ msgid "Whatsapp"
+#~ msgstr "Whatsapp"
+
+#~ msgctxt "tpl"
+#~ msgid "Viber"
+#~ msgstr "Viber"
+
+#~ msgctxt "tpl"
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgctxt "tpl"
+#~ msgid "Yandexzen"
+#~ msgstr "Яндекс Дзен"
+
+#~ msgctxt "tpl"
+#~ msgid "Facebook link"
+#~ msgstr "Ссылка на Facebook"
+
+#~ msgctxt "tpl"
+#~ msgid "Vkontakte link"
+#~ msgstr "Ссылка на ВКонтакте"
+
+#~ msgctxt "tpl"
+#~ msgid "Twitter link"
+#~ msgstr "Ссылка на Twitter"
+
+#~ msgctxt "tpl"
+#~ msgid "Odnoklassniki link"
+#~ msgstr "Ссылка на Одноклассники"
+
+#~ msgctxt "tpl"
+#~ msgid "Telegram link"
+#~ msgstr "Ссылка на Telegram"
+
+#~ msgctxt "tpl"
+#~ msgid "Youtube link"
+#~ msgstr "Ссылка на YouTube"
+
+#~ msgctxt "tpl"
+#~ msgid "Instagram link"
+#~ msgstr "Ссылка на Instagram"
+
+#~ msgctxt "tpl"
+#~ msgid "Tiktok link"
+#~ msgstr "Ссылка на Tik Tok"
+
+#~ msgctxt "tpl"
+#~ msgid "Linkedin link"
+#~ msgstr "Ссылка на Linkedin"
+
+#~ msgctxt "tpl"
+#~ msgid "Whatsapp link"
+#~ msgstr "Ссылка на Whatsapp"
+
+#~ msgctxt "tpl"
+#~ msgid "Viber link"
+#~ msgstr "Ссылка на Viber"
+
+#~ msgctxt "tpl"
+#~ msgid "Pinterest link"
+#~ msgstr "Ссылка на Pinterest"
+
+#~ msgctxt "tpl"
+#~ msgid "Yandexzen link"
+#~ msgstr "Ссылка на Яндекс Дзен"
+
+#~ msgctxt "tpl"
+#~ msgid "Buttons width, px"
+#~ msgstr "Ширина кнопок, px"
+
+#~ msgctxt "tpl"
+#~ msgid "Buttons height, px"
+#~ msgstr "Высота кнопок, px"
+
+#~ msgctxt "tpl"
+#~ msgid "Buttons style"
+#~ msgstr "Стиль кнопок"
+
+#~ msgctxt "tpl"
+#~ msgid "Without background"
+#~ msgstr "Без фона"
+
+#~ msgctxt "tpl"
+#~ msgid "Buttons background"
+#~ msgstr "Фон кнопок"
+
+#~ msgctxt "tpl"
+#~ msgid "Arbitrary"
+#~ msgstr "Произвольный"
+
+#~ msgctxt "tpl"
+#~ msgid "Hide links with JS"
+#~ msgstr "Скрыть ссылки с помощью JS"
+
+#~ msgctxt "tpl"
+#~ msgid "Title background color"
+#~ msgstr "Цвет фона заголовка"
+
+#~ msgctxt "tpl"
+#~ msgid "Text background color"
+#~ msgstr "Цвет фона текста"
+
+#~ msgid "comma separated values"
+#~ msgstr "значения, разделенные запятой"
+
+#~ msgid "comma or new line separated category names"
+#~ msgstr "названия рубрик, разделенные запятой или новой строкой"
+
+#~ msgctxt "related_post_options"
+#~ msgid "Related post"
+#~ msgstr "Похожая запись"
+
+#, fuzzy
+#~| msgctxt "js_i18n"
+#~| msgid "Social buttons"
+#~ msgctxt "social_buttons_options"
+#~ msgid "Social buttons"
+#~ msgstr "Соц. кнопки"
+
+#, fuzzy
+#~| msgctxt "like_options"
+#~| msgid "Likes before content"
+#~ msgctxt "social_buttons_options"
+#~ msgid "Before content"
+#~ msgstr "Лайк перед контентом"
+
+#, fuzzy
+#~| msgctxt "like_options"
+#~| msgid "Likes after content"
+#~ msgctxt "social_buttons_options"
+#~ msgid "After content"
+#~ msgstr "Лайк после контента"
+
+#, fuzzy
+#~| msgctxt "like_options"
+#~| msgid "Exclude post categories"
+#~ msgctxt "social_buttons_options"
+#~ msgid "Exclude posts"
+#~ msgstr "Исключить рубрики"
+
+#, fuzzy
+#~| msgctxt "like_options"
+#~| msgid "Exclude post categories"
+#~ msgctxt "social_buttons_options"
+#~ msgid "Exclude post categories"
+#~ msgstr "Исключить рубрики"
+
+#, fuzzy
+#~| msgctxt "like_options"
+#~| msgid "Likes before content"
+#~ msgctxt "related_post_options"
+#~ msgid "Before content"
+#~ msgstr "Лайк перед контентом"
+
+#, fuzzy
+#~| msgctxt "like_options"
+#~| msgid "Likes after content"
+#~ msgctxt "related_post_options"
+#~ msgid "After content"
+#~ msgstr "Лайк после контента"
+
+#, fuzzy
+#~| msgctxt "like_options"
+#~| msgid "Exclude post categories"
+#~ msgctxt "related_post_options"
+#~ msgid "Exclude posts"
+#~ msgstr "Исключить рубрики"
+
+#, fuzzy
+#~| msgctxt "like_options"
+#~| msgid "Exclude post categories"
+#~ msgctxt "related_post_options"
+#~ msgid "Exclude post categories"
+#~ msgstr "Исключить рубрики"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Facebook"
+#~ msgstr "Facebook"
+
+#~ msgctxt "js_i18n"
+#~ msgid "VKontakte"
+#~ msgstr "ВКонтакте"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Twitter"
+#~ msgstr "Twitter"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Odnoklassniki"
+#~ msgstr "Одноклассники"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Telegram"
+#~ msgstr "Telegram"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Youtube"
+#~ msgstr "YouTube"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Instagram"
+#~ msgstr "Instagram"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Tiktok"
+#~ msgstr "Tik Tok"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Linkedin"
+#~ msgstr "Linkedin"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Whatsapp"
+#~ msgstr "Whatsapp"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Viber"
+#~ msgstr "Viber"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Pinterest"
+#~ msgstr "Pinterest"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Yandexzen"
+#~ msgstr "Яндекс Дзен"
+
+#~ msgid "Description of advanced settings"
+#~ msgstr "Описание расширенных настроек"
+
+#~ msgctxt "tpl"
+#~ msgid "Usual"
+#~ msgstr "Обычный"
+
+#~ msgctxt "tpl"
+#~ msgid "Italics"
+#~ msgstr "Курсив"
+
+#~ msgctxt "tpl"
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgctxt "tpl"
+#~ msgid ""
+#~ "A positive value for this parameter sets the shift of the shadow to the "
+#~ "right, negative - to the left"
+#~ msgstr ""
+#~ "Положительное значение этого параметра задает сдвиг тени вправо, "
+#~ "отрицательное - влево"
+
+#~ msgctxt "tpl"
+#~ msgid "Shift from axis y, px"
+#~ msgstr "Сдвиг по оси Y, px"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Usual"
+#~ msgstr "Обычный"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Bold"
+#~ msgstr "Жирный"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Underlined"
+#~ msgstr "Подчеркнутый"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Uppercase"
+#~ msgstr "Верхний регистр"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Left"
+#~ msgstr "Слева"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Center"
+#~ msgstr "По центру"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Right"
+#~ msgstr "Справа"
+
+#~ msgctxt "js_i18n"
+#~ msgid "By width"
+#~ msgstr "По ширине"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Default"
+#~ msgstr "По умолчанию"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Small"
+#~ msgstr "Маленький"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Medium"
+#~ msgstr "Средний"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Large"
+#~ msgstr "Большой"
+
+#~ msgctxt "js_i18n"
+#~ msgid "With background without borders"
+#~ msgstr "С фоном без границ"
+
+#~ msgctxt "js_i18n"
+#~ msgid "No background with borders"
+#~ msgstr "Без фона с границами"
+
+#~ msgctxt "js_i18n"
+#~ msgid "With background with borders"
+#~ msgstr "С фоном с границами"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Background color"
+#~ msgstr "Цвет фона"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Border color"
+#~ msgstr "Цвет границы"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Round corners"
+#~ msgstr "Скруглить углы"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Title style"
+#~ msgstr "Стиль заголовка"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Title align"
+#~ msgstr "Выравнивание заголовка"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Title font size"
+#~ msgstr "Размер шрифта заголовка"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Tilte color"
+#~ msgstr "Цвет заголовка"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Text color"
+#~ msgstr "Цвет текста"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Text style"
+#~ msgstr "Стиль текста"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Text align"
+#~ msgstr "Выравнивание текста"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Text font size"
+#~ msgstr "Размер шрифта текста"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Text line height"
+#~ msgstr "Высота строки"
+
+#~ msgctxt "js_i18n"
+#~ msgid "ID of related post"
+#~ msgstr "ID похожей записи"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Style of related post"
+#~ msgstr "Стиль"
+
+#, fuzzy
+#~| msgctxt "js_i18n"
+#~| msgid "Usual"
+#~ msgid "Usual"
+#~ msgstr "Обычный"
+
+#, fuzzy
+#~| msgctxt "js_i18n"
+#~| msgid "Italic"
+#~ msgid "Italics"
+#~ msgstr "Курсив"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Text Style"
+#~ msgstr "Стиль текста"
+
+#~ msgid "Polls"
+#~ msgstr "Опросы"
+
+#~ msgid "Poll Data"
+#~ msgstr "Данные опроса"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Phone"
+#~ msgstr "Телефон"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Question"
+#~ msgstr "Вопрос"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Submit"
+#~ msgstr "Отправить"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Your question was successfully submitted"
+#~ msgstr "Вопрос успешно отправлен"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Require to update custom form generation"
+#~ msgstr "Необходимо обновить код генерации пользовательской формы"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Field cannot be empty"
+#~ msgstr "Поле не может быть пустым"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Field must be checked"
+#~ msgstr "Поле должно быть отмечено"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Consent to the processing of personal data"
+#~ msgstr "Согласие на обработку персональных данных"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Please, enter at least name"
+#~ msgstr "Пожалуйста, введите хотя бы имя"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Expert Review"
+#~ msgstr "Отзыв эксперта"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Plus & Minus"
+#~ msgstr "Плюсы и минусы"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Questions to the expert"
+#~ msgstr "Вопрос эксперту"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Add Expert Review Block"
+#~ msgstr "Добавить блок эксперта"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Add Likes"
+#~ msgstr "Добавить лайки"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Add Likes for Comments"
+#~ msgstr "Добавить лайки для комментов"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Expert Review Likes"
+#~ msgstr "Лайки"
+
+#~ msgctxt "js_i18n"
+#~ msgid "show"
+#~ msgstr "показать"
+
+#~ msgctxt "js_i18n"
+#~ msgid "hide"
+#~ msgstr "скрыть"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Show Count"
+#~ msgstr "Показать количество"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Hide Dislikes"
+#~ msgstr "Скрыть дизлайки"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Label Like"
+#~ msgstr "Текст нравится"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Label Dislike"
+#~ msgstr "Текст не нравится"
+
+#~ msgctxt "js_i18n_label_name"
+#~ msgid "Name"
+#~ msgstr "Название"
+
+#~ msgctxt "js_i18n"
+#~ msgid ""
+#~ "If you fill out this field, the likes will be attached to the name and "
+#~ "not to the post"
+#~ msgstr ""
+#~ "Если заполнить это поле, то лайки будут привязаны к названию а не к посту"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Post ID"
+#~ msgstr "ID записи"
+
+#~ msgctxt "js_i18n_label_name"
+#~ msgid "if Name is filled this field will be ignored"
+#~ msgstr "eсли Название заполнено, это поле будет проигнорировано"
+
+#~ msgctxt "js_i18n"
+#~ msgid "If you fill out this field, it will be used in rating table"
+#~ msgstr ""
+#~ "Если заполнить это поле, то ссылка будет использоваться в таблице рейтинга"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Like"
+#~ msgstr "Мне нравится"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Dislike"
+#~ msgstr "Не нравится"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Add Likes Rate"
+#~ msgstr "Добавить рейтинг лайков"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Likes Rate"
+#~ msgstr "Рейтинг лайков"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Rate result table"
+#~ msgstr "Итоговая таблица рейтинга"
+
+#~ msgctxt "js_i18n"
+#~ msgid "asc"
+#~ msgstr "по возрастанию"
+
+#~ msgctxt "js_i18n"
+#~ msgid "desc"
+#~ msgstr "по убыванию"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Post IDs"
+#~ msgstr "ID записей"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Show Total Score"
+#~ msgstr "Показать общий балл"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Ask Question"
+#~ msgstr "Задать вопрос"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Add FAQ"
+#~ msgstr "Добавить FAQ"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Frequently Asked Questions"
+#~ msgstr "Часто задаваемые вопросы"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Poll"
+#~ msgstr "Опрос"
+
+#~ msgid ""
+#~ "Cannot handle question without consent to the processing of personal data"
+#~ msgstr ""
+#~ "Невозможно обработать вопрос без согласия на обработку персональных данных"
+
+#, php-format
+#~ msgid ""
+#~ "Warning! Looks like custom form used not properly according new version. "
+#~ "More at %s"
+#~ msgstr ""
+#~ "Внимание! Похоже пользовательская форма не соответствует новой версии. "
+#~ "Подробнее %s"
+
+#~ msgid "The settings passed through the form are invalid"
+#~ msgstr "Настройки, переданные через форму, недействительны"
+
+#~ msgid "Please, fill email field"
+#~ msgstr "Введите валидный email"
+
+#, php-format
+#~ msgid ""
+#~ "Question from: %s %s, page: %s\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Вопрос от: %s %s, страница %s\n"
+#~ "\n"
+
+#, php-format
+#~ msgid "Question to Expert from %s"
+#~ msgstr "Вопрос к эксперту от %s"
+
+#~ msgid "Experts"
+#~ msgstr "Эксперты"
+
+#~ msgctxt "experts_options"
+#~ msgid "Use Users Links"
+#~ msgstr "Использовать ссылку на пользователя"
+
+#~ msgctxt "experts_options"
+#~ msgid "link of user profiles will be used if users is used as expert"
+#~ msgstr ""
+#~ "будет использоваться ссылка на профиль пользователя, если он выбран в "
+#~ "качестве эксперта"
+
+#~ msgctxt "like_options"
+#~ msgid "Likes"
+#~ msgstr "Лайки"
+
+#~ msgctxt "like_options"
+#~ msgid "Likes before post content"
+#~ msgstr "Лайк перед контентом записи"
+
+#~ msgctxt "like_options"
+#~ msgid "add [expert_review_likes] before content"
+#~ msgstr "добавить [expert_review_likes] перед контентом"
+
+#~ msgctxt "like_options"
+#~ msgid "add [expert_review_likes] after content"
+#~ msgstr "добавить [expert_review_likes] после контента"
+
+#~ msgctxt "like_options"
+#~ msgid "Like Content"
+#~ msgstr "Контент лайка"
+
+#~ msgctxt "like_options"
+#~ msgid "Likes for Comment"
+#~ msgstr "Лайки для комментариев"
+
+#~ msgctxt "like_options"
+#~ msgid "add likes after comment"
+#~ msgstr "добавить лайки после комментариев"
+
+#~ msgctxt "like_options"
+#~ msgid "Like Content for Comment"
+#~ msgstr "Контент лайков для комментариев"
+
+#~ msgctxt "settings"
+#~ msgid "HTML Tags"
+#~ msgstr "HTML тэги"
+
+#~ msgid "Question Tag to Wrap (Q&A)"
+#~ msgstr "Tэг для оборачивания вопроса (Q&A)"
+
+#~ msgid "The tag used for wrapping questions in question and answers"
+#~ msgstr ""
+#~ "Тэг, используемый для оборачивания вопросов в блоке вопросов и ответов"
+
+#~ msgid "Question Tag to Wrap (FAQ)"
+#~ msgstr "Tэг для оборачивания вопроса (FAQ)"
+
+#~ msgid "The tag used for wrapping questions in FAQ"
+#~ msgstr "Тэг, используемый для оборачивания вопросов в блоке FAQ"
+
+#~ msgid "Header Tag to Wrap (Pluses and Minuses)"
+#~ msgstr "Тэг для оборачивания заголовка (Плюсы и минусы)"
+
+#~ msgctxt "settings"
+#~ msgid "Advanced"
+#~ msgstr "Расширенные"
+
+#~ msgid "Output microdata of faq page in json+ld"
+#~ msgstr "Выводить микроразметку страницы FAQ в формате json+ld"
+
+#~ msgid "where to scroll when click on button Ask Question"
+#~ msgstr "куда скролить при клике на кнопку Задать вопрос"
+
+#~ msgid "Expert in New Tab"
+#~ msgstr "Эксперт в новом окне"
+
+#~ msgid "always open new tab on Ask Question button click if link type used"
+#~ msgstr ""
+#~ "всегда открывать новое окно по клику на кнопку \"Задать вопрос\", если "
+#~ "используется ссылка"
+
+#~ msgid "question will be sent to the email"
+#~ msgstr "вопрос будет отправлен на этот email"
+
+#~ msgid "Email Copy To (CC)"
+#~ msgstr "Копия письма (CC)"
+
+#~ msgid ""
+#~ "New line separated values. Example John Doe &lt;john@example.com&gt; or "
+#~ "john@example.com"
+#~ msgstr ""
+#~ "Значения, разделённые новой строкой. Пример: John Doe &lt;john@example."
+#~ "com&gt; или john@example.com"
+
+#~ msgid "Email Copy To (BCC)"
+#~ msgstr "Копия письма (BCC)"
+
+#~ msgid "Email Copy To Expert"
+#~ msgstr "Копия письма эксперту"
+
+#~ msgid "Send copy of email to expert if has it"
+#~ msgstr "Отправить копию письма эксперту, если email задан"
+
+#~ msgid "Don't send"
+#~ msgstr "Не отправлять"
+
+#~ msgid "Enable Consent Checkbox"
+#~ msgstr "Включить подтверждение"
+
+#~ msgid "consent to the processing of personal data"
+#~ msgstr "cогласие на обработку персональных данных"
+
+#~ msgid "Questions to the expert"
+#~ msgstr "Вопрос эксперту"
+
+#~ msgid "Plus & Minus"
+#~ msgstr "Плюсы и минусы"
+
+#~ msgctxt "shortcode"
+#~ msgid "Ask Question"
+#~ msgstr "Задать вопрос"
+
+#~ msgid "Result"
+#~ msgstr "Итого"
+
+#~ msgctxt "expert_review_likes"
+#~ msgid "Like"
+#~ msgstr "Мне нравится"
+
+#~ msgctxt "expert_review_likes"
+#~ msgid "Dislike"
+#~ msgstr "Не нравится"
+
+#~ msgid "Show Results"
+#~ msgstr "Показать результаты"
+
+#~ msgid "Hide Results"
+#~ msgstr "Скрыть результаты"
+
+#~ msgid "Voted"
+#~ msgstr "Проголосовало"
+
+#~ msgid "Poll"
+#~ msgstr "Опрос"
+
+#~ msgid "All Polls"
+#~ msgstr "Все опросы"
+
+#~ msgid "Add new"
+#~ msgstr "Добавить новый"
+
+#~ msgid "Add new Poll"
+#~ msgstr "Добавить новый опрос"
+
+#~ msgid "Info"
+#~ msgstr "Инфо"
+
+#~ msgid "Actions"
+#~ msgstr "Действия"
+
+#~ msgid "In Posts"
+#~ msgstr "В постах"
+
+#~ msgid "Total Votes"
+#~ msgstr "Всего голосов"
+
+#~ msgid "hide"
+#~ msgstr "скрыть"
+
+#~ msgid "display"
+#~ msgstr "показать"
+
+#~ msgid "pause voting"
+#~ msgstr "приостановить голосование"
+
+#~ msgid "resume voting"
+#~ msgstr "продолжить голосование"
+
+#~ msgid "reset voting"
+#~ msgstr "переголосовать"
+
+#, php-format
+#~ msgid ""
+#~ "Are you sure you want to change answers of poll with id %d? This will "
+#~ "change answers in other polls on this page with this id when you update "
+#~ "the post."
+#~ msgstr ""
+#~ "Вы уверены, что хотите изменить ответы опроса с id %d? Это изменит ответы "
+#~ "во всех опросах на странице с таким же id, когда вы обновите пост."
+
+#~ msgid "Avatar URL"
+#~ msgstr "URL аватарки"
+
+#~ msgid "Choose"
+#~ msgstr "Выбрать"
+
+#~ msgid "Add New Expert"
+#~ msgstr "Добавить нового эксперта"
+
+#~ msgctxt "tpl"
+#~ msgid "Poll Result"
+#~ msgstr "Результаты опроса"
+
+#~ msgctxt "tpl"
+#~ msgid "Total Voted"
+#~ msgstr "Всего проголосовало"
+
+#~ msgid "Answer"
+#~ msgstr "Ответ"
+
+#~ msgid "Count of Votes"
+#~ msgstr "Количество голосов"
+
+#~ msgctxt "tpl"
+#~ msgid "Preview may vary from actual"
+#~ msgstr "Предварительный просмотр может отличаться от фактического"
+
+#~ msgctxt "tpl"
+#~ msgid "no header"
+#~ msgstr "нет заголовка"
+
+#~ msgctxt "tpl"
+#~ msgid "rating"
+#~ msgstr "рейтинг"
+
+#~ msgctxt "tpl"
+#~ msgid "pros & cons"
+#~ msgstr "плюсы и минусы"
+
+#~ msgctxt "tpl"
+#~ msgid "Output"
+#~ msgstr "Выводить"
+
+#~ msgctxt "tpl"
+#~ msgid "show"
+#~ msgstr "показать"
+
+#~ msgctxt "tpl"
+#~ msgid "Question"
+#~ msgstr "Вопрос"
+
+#~ msgctxt "tpl"
+#~ msgid "Answer"
+#~ msgstr "Ответ"
+
+#~ msgctxt "tpl"
+#~ msgid "Example"
+#~ msgstr "Пример"
+
+#~ msgctxt "tpl"
+#~ msgid "Voted"
+#~ msgstr "Проголосовало"
+
+#~ msgctxt "tpl"
+#~ msgid "Existing Polls"
+#~ msgstr "Существующие опросы"
+
+#~ msgctxt "tpl"
+#~ msgid "-- select value --"
+#~ msgstr "-- выберите значение --"
+
+#~ msgctxt "tpl"
+#~ msgid "select existing poll or create new one manually"
+#~ msgstr "выберите существующий опрос или создайте новый"
+
+#~ msgctxt "tpl"
+#~ msgid "Show Count"
+#~ msgstr "Показать количество"
+
+#~ msgctxt "tpl"
+#~ msgid "Results Button"
+#~ msgstr "Кнопка результатов"
+
+#~ msgctxt "tpl"
+#~ msgid "Expert"
+#~ msgstr "Эксперт"
+
+#~ msgctxt "tpl"
+#~ msgid "Show"
+#~ msgstr "Показать"
+
+#~ msgctxt "tpl"
+#~ msgid "Setup manually"
+#~ msgstr "Указать вручную"
+
+#~ msgctxt "tpl"
+#~ msgid "Select from users"
+#~ msgstr "Выбрать из пользователей"
+
+#~ msgctxt "tpl"
+#~ msgid "Avatar Alt"
+#~ msgstr "Alt аватарки"
+
+#~ msgctxt "tpl"
+#~ msgid "Avatar URL"
+#~ msgstr "URL аватарки"
+
+#~ msgctxt "tpl"
+#~ msgid "Name"
+#~ msgstr "Имя"
+
+#~ msgctxt "tpl"
+#~ msgid "Link"
+#~ msgstr "Ссылка"
+
+#~ msgctxt "tpl"
+#~ msgid "Experts"
+#~ msgstr "Эксперты"
+
+#~ msgctxt "tpl"
+#~ msgid "User"
+#~ msgstr "Пользователь"
+
+#~ msgctxt "tpl"
+#~ msgid "Ask Question"
+#~ msgstr "Задать вопрос"
+
+#~ msgctxt "tpl"
+#~ msgid "Ask Question - text"
+#~ msgstr "Задать вопрос - текст"
+
+#~ msgctxt "tpl"
+#~ msgid "Ask Question - action"
+#~ msgstr "Задать вопрос - действие"
+
+#~ msgctxt "tpl"
+#~ msgid "Popup"
+#~ msgstr "Попап"
+
+#~ msgctxt "tpl"
+#~ msgid "Comments"
+#~ msgstr "Коментарии"
+
+#~ msgctxt "tpl"
+#~ msgid "Ask Question - link"
+#~ msgstr "Задать вопрос - ссылка"
+
+#~ msgctxt "tpl"
+#~ msgid "Phone instead of email"
+#~ msgstr "Телефон вместо email"
+
+#~ msgctxt "tpl"
+#~ msgid "Text (if needed)"
+#~ msgstr "Текст (если нужен)"
+
+#~ msgid "Q&A"
+#~ msgstr "Вопросы и ответы"
+
+#~ msgid "Rating"
+#~ msgstr "Рейтинг"
+
+#~ msgctxt "tpl"
+#~ msgid "Result Text (if needed)"
+#~ msgstr "Итоговый текст (если нужен)"
+
+#~ msgctxt "tpl"
+#~ msgid "Result Score"
+#~ msgstr "Итоговая оценка"
+
+#~ msgctxt "tpl"
+#~ msgid "Maximum Points"
+#~ msgstr "Максимум баллов"
+
+#~ msgctxt "tpl"
+#~ msgid "Symbol"
+#~ msgstr "Символ"
+
+#~ msgid "Pros and Cons"
+#~ msgstr "Плюсы и минусы"
+
+#~ msgctxt "settings"
+#~ msgid "Question & Answer"
+#~ msgstr "Вопросы и ответы"
+
+#~ msgid "Email Copy To Expert (BCC)"
+#~ msgstr "Копия письма эксперту (BCC)"
+
+#~ msgid ""
+#~ "Are you sure you want to change answers of this poll? This will change "
+#~ "answers of all polls with same title."
+#~ msgstr ""
+#~ "Вы уверены что хотите изменить ответы данного опроса? Это изменит ответы "
+#~ "во всех подобных опросах."
+
+#~ msgctxt "tpl"
+#~ msgid "Multiple"
+#~ msgstr "Множественный"
+
+#~ msgctxt "tpl"
+#~ msgid "allow fiew answers"
+#~ msgstr "разрешить несколько ответов"
+
+#~ msgctxt "tpl"
+#~ msgid "Choose"
+#~ msgstr "Выбрать"
+
+#~ msgctxt "tpl"
+#~ msgid "Choose and close"
+#~ msgstr "Выбрать и закрыть"
+
+#~ msgctxt "tpl"
+#~ msgid "Save New Preset"
+#~ msgstr "Сохранить новый пресет"
+
+#~ msgid "show"
+#~ msgstr "показать"
+
+#~ msgid "Question"
+#~ msgstr "Вопрос"
+
+#~ msgid "Add"
+#~ msgstr "Добавить"
+
+#~ msgid "Expert"
+#~ msgstr "Эксперт"
+
+#~ msgctxt "expert_review_popup"
+#~ msgid "Show Title"
+#~ msgstr "Показать заголовок"
+
+#~ msgctxt "expert_review_popup"
+#~ msgid "Title"
+#~ msgstr "Заголовок"
+
+#~ msgctxt "js_i18n_label_name"
+#~ msgid "If you fill out this field, the name will be ignored"
+#~ msgstr "Если заполнить поле, то Название не будет использоваться"
+
+#~ msgctxt "js_i18n_label_name"
+#~ msgid "Link"
+#~ msgstr "Ссылка"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Show Title"
+#~ msgstr "Показать заголовок"
+
+#~ msgctxt "js_i18n"
+#~ msgid "Add Expert Review"
+#~ msgstr "Добавить отзыв эксперта"
+
+#~ msgctxt "shortcode"
+#~ msgid "Like Rate Result"
+#~ msgstr "Итоговая таблица рейтинга"
+
+#~ msgid ""
+#~ "To activate plugin you need to enter the license key on <a href=\"%s"
+#~ "\">this page</a>."
+#~ msgstr ""
+#~ "Чтобы активировать плагин, вы должны ввести лицензионный ключ на <a href="
+#~ "\"%s\">этой странице</a>."
+
+#~ msgid "Expert Review"
+#~ msgstr "Отзыв эксперта"
+
+#~ msgid "Like"
+#~ msgstr "Мне нравится"
+
+#~ msgid "Dislike"
+#~ msgstr "Не нравится"
+
+#~ msgid ""
+#~ "Question from: %s <%s>, page: %s\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Вопрос от: %s <%s>, страница %s\n"
+#~ "\n"
+
+#~ msgid "Add Expert Review"
+#~ msgstr "Добавить отзыв эксперта"
+
+#~ msgid ""
+#~ "Question from: %s <%s>\n"
+#~ "\n"
+#~ msgstr ""
+#~ "Вопрос от: %s <%s>\n"
+#~ "\n"

@@ -1,0 +1,250 @@
+/* ==========================================================================
+   INGREDIENTS
+   ========================================================================== */
+
+.admin-ingredients__header {
+  position: relative;
+}
+
+.admin-ingredients__header:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.admin-ingredients__header > div {
+  font-size: 13px;
+  font-style: italic;
+  background: none;
+  height: 1em;
+}
+
+.admin-ingredients {
+  max-width: 1000px;
+}
+
+.admin-ingredients li {
+  position: relative;
+  height: 32px;
+}
+
+.admin-ingredients li:hover {
+  background: #eee;
+}
+
+.admin-ingredients__1,
+.admin-ingredients__2,
+.admin-ingredients__3,
+.admin-ingredients__4,
+.admin-ingredients__text,
+.admin-ingredients__term {
+  float: left;
+}
+
+.admin-ingredients__1 input,
+.admin-ingredients__2 input,
+.admin-ingredients__3 input,
+.admin-ingredients__4 input,
+.admin-ingredients__text input,
+.admin-ingredients__term input{
+  width: 100%;
+}
+
+.admin-ingredients__1 {
+  display: block;
+  width: 6%;
+  height: 30px;
+  background: #E4E4E4 url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOBAMAAADtZjDiAAAAJFBMVEUAAAB7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3t7e3tlwATQAAAAC3RSTlMA0MtwIPa4sYyLEYssD5cAAAA/SURBVAjXYwCCcgYw4Nw9AUxb794Mpr0El4AoEwYlBmcGBo4NQJq7gSF7o2CooPQ2GA0Th6qD6oOZgzAXZg8A2zkRqxrrp9AAAAAASUVORK5CYII=") center center no-repeat;
+  cursor: move;
+  opacity: 0.5;
+}
+
+.admin-ingredients__2 {
+  width: 45%;
+  margin-right: 1%;
+}
+
+.admin-ingredients__term {
+  width: 4%;
+  padding-top: 4px;
+  color: #dbdbdb;
+  white-space: nowrap;
+}
+
+.admin-ingredients__term .dashicons {
+  
+}
+
+.admin-ingredients__term .dashicons.active {
+  color: #48b202;
+  cursor: pointer;
+}
+
+.admin-ingredients__term .dashicons.active:hover {
+  color: #d9291a;
+}
+
+.admin-ingredients__term input {
+  width: 35px;
+}
+
+.admin-ingredients__3 {
+  width: 10%;
+  margin-right: 1%;
+}
+
+.admin-ingredients__3 input {
+  text-align: right;
+}
+
+.admin-ingredients__text {
+  width: 25%;
+  margin-right: 1%;
+}
+
+.admin-ingredients__2 .description, .admin-ingredients__3 .description, .admin-ingredients__text .description {
+  font-size: 13px;
+  text-align: center;
+  margin: 0;
+}
+
+.ui-state-highlight {
+  background: #f2f2f2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+.admin-ingredients-delete {
+  position: absolute;
+  top: 3px;
+  right: 0;
+  padding: 2px 6px;
+  color: #E2AAAA;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.admin-ingredients-delete:hover {
+  color: #f00;
+}
+
+.admin-ingredients-add {
+  margin-left: 6%;
+}
+
+
+
+/* ==========================================================================
+   STEPS
+   ========================================================================== */
+
+.admin-steps {
+  margin-left: 0;
+  list-style: none;
+}
+
+.admin-steps li {
+  border-bottom: 1px dashed #ccc;
+  padding-bottom: 10px;
+  min-height: 130px;
+  list-style: none;
+}
+
+.admin-steps li img {
+}
+
+.admin-steps textarea {
+  width: 100%;
+  resize: vertical;
+}
+
+.admin-steps-delete {
+  color: #E2AAAA;
+  font-size: 12px;
+  border-bottom: 1px dotted #E2AAAA;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.admin-steps-delete:hover {
+  color: #f00;
+  border-bottom: 1px dotted #f00;
+}
+
+.admin-steps-add {
+  margin-left: 2em;
+}
+
+.ui-state-highlight-step {
+  height: 200px;
+  background: #f2f2f2;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+
+
+
+/* ==========================================================================
+   INFORMATION
+   ========================================================================== */
+label.admin-recipe-info {display: block;}
+
+
+.photo-box {
+  float: left;
+  width: 120px;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.admin-step-text {
+  overflow: hidden;
+}
+
+.postbox table.form-table .description {
+  font-size: 13px;
+}
+
+
+.attachment-uploader {
+  position: relative;
+  float: left;
+  margin-right: 15px;
+  margin-left: 10px;
+}
+
+.attachment-uploader__placeholder {
+  width: 120px;
+  height: 100px;
+  background: #e6e7f0 url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyIiBoZWlnaHQ9IjEwMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48dGl0bGU+YmFja2dyb3VuZDwvdGl0bGU+PHBhdGggZmlsbD0ibm9uZSIgZD0iTS0xLTFoMTA0djEwM2gtMTA0eiIvPjx0aXRsZT5MYXllciAxPC90aXRsZT48cGF0aCBmaWxsPSIjYmZiZmM4IiBzdHJva2U9Im51bGwiIGQ9Ik03MCA2NS4zMzRoLTM4Yy0xLjcgMC0zLTEuMy0zLTN2LTIyYzAtMS43IDEuMy0zIDMtM2g4LjdjLjQgMCAuNy0uMi45LS41bC45LTEuOWMuNC0xIDEuNS0xLjcgMi43LTEuN2gxMS41YzEuMiAwIDIuMy43IDIuNyAxLjdsLjkgMS43Yy4yLjMuNS41LjkuNWg4LjhjMS43IDAgMyAxLjMgMyAzdjIyYzAgMS45LTEuMyAzLjItMyAzLjJ6bS0zOC0yNmMtLjYgMC0xIC40LTEgMXYyMmMwIC42LjQgMSAxIDFoMzhjLjYgMCAxLS40IDEtMXYtMjJjMC0uNi0uNC0xLTEtMWgtOC44Yy0xLjEgMC0yLjEtLjYtMi43LTEuNmwtLjktMS44Yy0uMi0uNC0uNS0uNS0uOS0uNWgtMTEuNWMtLjQgMC0uNy4yLS45LjVsLS45IDEuOWMtLjQgMS0xLjUgMS43LTIuNyAxLjdoLTguN3YtLjJ6Ii8+PHBhdGggZmlsbD0iI2JmYmZjOCIgc3Ryb2tlPSJudWxsIiBkPSJNNTEgNjEuMzM0Yy01LjUgMC0xMC00LjUtMTAtMTBzNC41LTEwIDEwLTEwIDEwIDQuNSAxMCAxMC00LjUgMTAtMTAgMTB6bTAtMThjLTQuNCAwLTggMy42LTggOHMzLjYgOCA4IDggOC0zLjYgOC04LTMuNi04LTgtOHoiLz48L3N2Zz4=') center no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  cursor: pointer;
+}
+
+.attachment-uploader__placeholder:hover {
+  background-color: #dcdde6
+}
+
+.attachment-uploader__delete {
+  content: '×';
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #fff;
+  text-align: center;
+  font-size: 16px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.3);
+  opacity: .8;
+  cursor: pointer;
+}
+
+.attachment-uploader__delete:hover {
+  opacity: 1;
+}

@@ -1,0 +1,23 @@
+﻿/*
+Theme Name: Cook It Child
+Theme URI: https://wpshop.ru/themes/cook-it
+Author: WPShop.biz
+Author URI: http://wpshop.biz/
+Template: cook-it
+Version: 1.0.0
+*/
+
+/* Below you can add your CSS styles */
+/* Ниже Вы можете добавить свои CSS стили */
+
+.ingredients ul li input[type="checkbox"] {
+    display: none;
+}
+.ingredients ul li.checked {
+    /* Удалите свойство opacity */
+}
+
+.ingredients ul li.checked:before {
+    /* Удалите свойство background */
+}
+

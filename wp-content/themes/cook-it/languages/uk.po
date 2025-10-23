@@ -1,0 +1,3746 @@
+# Copyright (C) 2016 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2022-06-10 19:11+0300\n"
+"PO-Revision-Date: 2022-06-10 19:18+0300\n"
+"Last-Translator: Sergey <support@wpshop.biz>\n"
+"Language-Team: https://wpshop.ru/\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-Generator: Poedit 3.0.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex;_n;_nx;esc_html__;esc_html_e;"
+"esc_html_x;esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: gulp\n"
+
+# @ _s
+#: 404.php:24
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "На жаль, ця сторінка не існує."
+
+# @ _s
+#: 404.php:27
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Нічого не знайдено за цим запитом. Спробуйте скористатися пошуком щоб знайти "
+"те, що Вам потрібно!"
+
+#: archive.php:49 inc/recipes/recipes.php:247 inc/recipes/recipes.php:254
+#: inc/recipes/recipes.php:261 inc/recipes/shortcodes.php:127
+msgid "g"
+msgstr "г"
+
+#: archive.php:52
+msgid "Calories in 100 G"
+msgstr "Калорійність на 100 грам (кбжу)"
+
+#: archive.php:57
+msgctxt "Proteins"
+msgid "Protein"
+msgstr "Білки"
+
+#: archive.php:63 inc/recipes/recipes.php:252 inc/recipes/recipes.php:767
+#: inc/recipes/shortcodes.php:140
+msgid "Fats"
+msgstr "Жири"
+
+#: archive.php:69 inc/recipes/recipes.php:771
+msgid "Carbs"
+msgstr "Вуглеводи"
+
+#: archive.php:75 inc/recipes/recipes.php:240 inc/recipes/shortcodes.php:134
+msgid "kcal"
+msgstr "ккал"
+
+#: comments.php:35
+msgid "Comments number"
+msgstr "Коментарів"
+
+#: comments.php:39 comments.php:61
+msgid "Comment navigation"
+msgstr "Навігація по коментарям"
+
+#: comments.php:42 comments.php:64
+msgid "Older Comments"
+msgstr "Старі коментарі"
+
+#: comments.php:43 comments.php:65
+msgid "Newer Comments"
+msgstr "Нові коментарі"
+
+#: comments.php:79
+msgid "Comments are closed."
+msgstr "Коментарі вимкнені."
+
+#: comments.php:96
+msgctxt "noun"
+msgid "Comment"
+msgstr "Коментар"
+
+#: comments.php:98
+msgid "Name"
+msgstr "Ім'я"
+
+#: comments.php:100
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:102
+msgid "Website"
+msgstr "Сайт"
+
+#: header.php:44
+msgid "Skip to content"
+msgstr "Перейти до вмісту"
+
+#: inc/comments.php:98
+msgid "author"
+msgstr "автор"
+
+#: inc/comments.php:106
+msgid "at"
+msgstr "о"
+
+#: inc/comments.php:119
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш коментар очікує модерації."
+
+#: inc/core.php:43 inc/core.php:44
+msgid "Theme Settings"
+msgstr "Налаштування теми"
+
+#: inc/core.php:139
+msgid "After the header and top menu (for the entire width of the site)"
+msgstr "Після шапки і верхнього меню (на всю ширину сайту)"
+
+#: inc/core.php:167
+msgid "Before ingredients"
+msgstr "Перед інгредієнтами"
+
+#: inc/core.php:171
+msgid "After ingredients"
+msgstr "Після інгредієнтів"
+
+#: inc/core.php:175
+msgid "After cooking steps"
+msgstr "Після кроків приготування"
+
+#: inc/core.php:179
+msgid "After additional information"
+msgstr "Після додаткової інформації"
+
+#: inc/core.php:183
+msgid "Before related posts"
+msgstr "Перед схожими записами"
+
+#: inc/core.php:187
+msgid "After related posts"
+msgstr "Після схожих записів"
+
+#: inc/core.php:191
+msgid "Before the bottom menu and footer (for the entire width of the site)"
+msgstr "Перед нижнім меню і підвалом (на всю ширину сайту)"
+
+#: inc/core.php:205 inc/recipes/recipe-form.php:67
+msgid "Your name"
+msgstr "Ваше ім'я"
+
+#: inc/core.php:211 inc/recipes/recipe-form.php:71
+msgid "Your e-mail"
+msgstr "Ваш e-mail"
+
+#: inc/core.php:216
+msgid "Your subject"
+msgstr "Тема"
+
+#: inc/core.php:221
+msgid "Message"
+msgstr "Повідомлення"
+
+#: inc/customizer/customizer.php:59
+msgid "Big card"
+msgstr "Велика картка"
+
+#: inc/customizer/customizer.php:60
+msgid "Horizontal card"
+msgstr "Горизонтальна картка"
+
+#: inc/customizer/customizer.php:61
+msgid "Small card"
+msgstr "Маленька картка"
+
+#: inc/customizer/customizer.php:62
+msgid "Square card"
+msgstr "Квадратна картка"
+
+#: inc/customizer/customizer.php:66
+msgid "Right"
+msgstr "Справа"
+
+#: inc/customizer/customizer.php:67
+msgid "Left"
+msgstr "Зліва"
+
+#: inc/customizer/customizer.php:68
+msgid "Do not show"
+msgstr "Не показувати"
+
+#: inc/customizer/customizer.php:72 inc/customizer/customizer.php:381
+#: inc/customizer/customizer.php:424 inc/customizer/customizer.php:1164
+#: inc/customizer/customizer.php:1486 inc/meta-boxes.php:28
+#: inc/meta-boxes.php:94
+msgid "Thumbnail"
+msgstr "Мініатюра"
+
+#: inc/customizer/customizer.php:73 inc/customizer/customizer.php:1165
+#: inc/meta-boxes.php:26 inc/meta-boxes.php:93
+#: inc/widgets/widget-articles.php:197 inc/widgets/widget-social-links.php:38
+#: inc/widgets/widget-subscribe.php:41
+#: inc/widgets/widget-table-of-contents.php:68
+#: inc/widgets/widget-top-commentators.php:95
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:173
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:259
+msgid "Title"
+msgstr "Заголовок"
+
+#: inc/customizer/customizer.php:74 inc/customizer/customizer.php:382
+#: inc/customizer/customizer.php:1489
+msgid "Category"
+msgstr "Рубрика"
+
+#: inc/customizer/customizer.php:75 inc/customizer/customizer.php:1166
+msgid "Meta"
+msgstr "Метаінформація"
+
+#: inc/customizer/customizer.php:76 inc/customizer/customizer.php:388
+#: inc/customizer/customizer.php:1167 inc/customizer/customizer.php:1488
+msgid "Excerpt"
+msgstr "Уривок"
+
+#: inc/customizer/customizer.php:80 inc/customizer/customizer.php:1175
+msgid "Сooking time"
+msgstr "Час готування"
+
+#: inc/customizer/customizer.php:81 inc/customizer/customizer.php:1176
+#: inc/recipes/recipes.php:529 inc/recipes/shortcodes.php:33
+#: inc/recipes/shortcodes.php:69
+msgid "Serves"
+msgstr "Порції"
+
+#: inc/customizer/customizer.php:82 inc/customizer/customizer.php:384
+#: inc/customizer/customizer.php:1487
+msgid "Date"
+msgstr "Дата"
+
+#: inc/customizer/customizer.php:83 inc/customizer/customizer.php:385
+#: inc/customizer/customizer.php:1177 inc/customizer/customizer.php:1492
+msgid "Comments count"
+msgstr "Кількість коментарів"
+
+#: inc/customizer/customizer.php:84 inc/customizer/customizer.php:386
+#: inc/customizer/customizer.php:1178 inc/customizer/customizer.php:1491
+msgid "Views count"
+msgstr "Кількість переглядів"
+
+#: inc/customizer/customizer.php:85 inc/customizer/customizer.php:383
+#: inc/customizer/customizer.php:1490
+msgid "Author"
+msgstr "Автор"
+
+#: inc/customizer/customizer.php:104
+msgid "Layout"
+msgstr "Структура"
+
+#: inc/customizer/customizer.php:110 inc/customizer/customizer.php:243
+#: inc/customizer/customizer.php:1246 inc/meta-boxes.php:23
+#: inc/meta-boxes.php:90
+msgid "Header"
+msgstr "Шапка"
+
+#: inc/customizer/customizer.php:111
+msgid "In this section, you can customize the width and height of the header"
+msgstr "У даній секції Ви можете налаштувати ширину і висоту шапки"
+
+#: inc/customizer/customizer.php:111 inc/customizer/customizer.php:153
+#: inc/customizer/customizer.php:180 inc/customizer/customizer.php:207
+#: inc/customizer/customizer.php:244 inc/customizer/customizer.php:299
+#: inc/customizer/customizer.php:326 inc/customizer/customizer.php:367
+#: inc/customizer/customizer.php:410 inc/customizer/customizer.php:444
+#: inc/customizer/customizer.php:484 inc/customizer/customizer.php:514
+#: inc/customizer/customizer.php:538 inc/customizer/customizer.php:626
+#: inc/customizer/customizer.php:664 inc/customizer/customizer.php:678
+#: inc/customizer/customizer.php:706 inc/customizer/customizer.php:796
+#: inc/customizer/customizer.php:816 inc/customizer/customizer.php:856
+#: inc/customizer/customizer.php:871 inc/customizer/customizer.php:900
+#: inc/customizer/customizer.php:939 inc/customizer/customizer.php:994
+#: inc/customizer/customizer.php:1279 inc/customizer/customizer.php:1460
+#: inc/widgets/widget-subscribe.php:38
+msgid "Help"
+msgstr "Допомога"
+
+#: inc/customizer/customizer.php:116
+msgid "Header width"
+msgstr "Ширина шапки"
+
+#: inc/customizer/customizer.php:119 inc/customizer/customizer.php:128
+#: inc/customizer/customizer.php:161 inc/customizer/customizer.php:170
+#: inc/customizer/customizer.php:188 inc/customizer/customizer.php:197
+#: inc/customizer/customizer.php:215 inc/customizer/customizer.php:224
+#: inc/customizer/customizer.php:546
+msgid "Full width"
+msgstr "На всю ширину"
+
+#: inc/customizer/customizer.php:120 inc/customizer/customizer.php:129
+#: inc/customizer/customizer.php:162 inc/customizer/customizer.php:171
+#: inc/customizer/customizer.php:189 inc/customizer/customizer.php:198
+#: inc/customizer/customizer.php:216 inc/customizer/customizer.php:225
+#: inc/customizer/customizer.php:547
+msgid "Fixed width"
+msgstr "Фіксована ширина"
+
+#: inc/customizer/customizer.php:125
+msgid "Header inner width"
+msgstr "Ширина всередині шапки"
+
+#: inc/customizer/customizer.php:134
+msgid "Header padding top"
+msgstr "Відступ зверху в шапки"
+
+#: inc/customizer/customizer.php:137
+msgid "You can set padding top and bottom, ex. for background image"
+msgstr ""
+"Ви можете задати відступ зверху та знизу для шапки, наприклад, щоб помістити "
+"вибраний фон"
+
+#: inc/customizer/customizer.php:142
+msgid "Header padding bottom"
+msgstr "Відступ снизу в шапки"
+
+#: inc/customizer/customizer.php:152 inc/meta-boxes.php:24
+#: inc/meta-boxes.php:91 inc/setup.php:58
+msgid "Header menu"
+msgstr "Меню під шапкою"
+
+#: inc/customizer/customizer.php:153
+msgid ""
+"In this section, you can customize the width and fixation of the menu under "
+"the header"
+msgstr ""
+"У даній секції Ви можете налаштувати ширину і фіксування меню під шапкою"
+
+#: inc/customizer/customizer.php:158
+msgid "Header menu width"
+msgstr "Ширина меню під шапкою"
+
+#: inc/customizer/customizer.php:167
+msgid "Header menu inner width"
+msgstr "Ширина всередині меню під шапкою"
+
+#: inc/customizer/customizer.php:179 inc/meta-boxes.php:39
+#: inc/meta-boxes.php:102 inc/setup.php:59
+msgid "Footer menu"
+msgstr "Меню в підвалі"
+
+#: inc/customizer/customizer.php:180
+msgid ""
+"In this section, you can customize the width and display on the mobile menu "
+"in the footer"
+msgstr ""
+"У даній секції Ви можете налаштувати ширину і висновок на мобільному меню в "
+"підвалі"
+
+#: inc/customizer/customizer.php:185
+msgid "Footer menu width"
+msgstr "Ширина меню в підвалі"
+
+#: inc/customizer/customizer.php:194
+msgid "Footer menu inner width"
+msgstr "Ширина всередині меню в підвалі"
+
+#: inc/customizer/customizer.php:206 inc/customizer/customizer.php:298
+#: inc/meta-boxes.php:40 inc/meta-boxes.php:103 inc/setup.php:91
+msgid "Footer"
+msgstr "Підвал"
+
+#: inc/customizer/customizer.php:207
+msgid "In this section, you can customize the width of the footer"
+msgstr "У даній секції Ви можете налаштувати ширину підвалу"
+
+#: inc/customizer/customizer.php:212
+msgid "Footer width"
+msgstr "Ширина підвалу"
+
+#: inc/customizer/customizer.php:221
+msgid "Footer inner width"
+msgstr "Ширина всередині підвалу"
+
+#: inc/customizer/customizer.php:237
+msgid "Blocks"
+msgstr "Блоки"
+
+#: inc/customizer/customizer.php:244
+msgid "In this section, you can customize the appearance of the header"
+msgstr "У даній секції Ви можете налаштувати зовнішній вигляд шапки"
+
+#: inc/customizer/customizer.php:250
+msgid "Logotype"
+msgstr "Логотип"
+
+#: inc/customizer/customizer.php:255
+msgid "Logotype max width, px"
+msgstr "Максимальна ширина логотипу, px"
+
+#: inc/customizer/customizer.php:261
+msgid "Logotype max height, px"
+msgstr "Максимальна висота логотипу, px"
+
+#: inc/customizer/customizer.php:267
+msgid "Hide site title and description"
+msgstr "Приховати назву та опис сайту"
+
+#: inc/customizer/customizer.php:269
+msgid ""
+"If you hide the title and description, it is desirable to set for the main "
+"page h1, for example, in the section \"Blocks\" -> \"Home\""
+msgstr ""
+"Якщо приховати заголовок і опис, бажано задати для головної сторінки h1, "
+"наприклад, у розділі \"Блоки\" -> \"Головна\""
+
+#: inc/customizer/customizer.php:273
+msgid "Show social links"
+msgstr "Показати соціальні мережі"
+
+#: inc/customizer/customizer.php:275
+msgid "Links to social networks can be set in Modules -> Social Profiles"
+msgstr ""
+"Посилання на соц. профілі автора можна задати в розділі Модулі -> Соціальні "
+"профілі"
+
+#: inc/customizer/customizer.php:279
+msgid "HTML code #1"
+msgstr "HTML код #1"
+
+#: inc/customizer/customizer.php:281
+msgid "Code will be displayed after logotype"
+msgstr "Код буде розміщений після логотипу"
+
+#: inc/customizer/customizer.php:285
+msgid "HTML code #2"
+msgstr "HTML код #2"
+
+#: inc/customizer/customizer.php:287
+msgid "Code will be displayed after top menu"
+msgstr "Код буде розміщений після меню в шапці"
+
+#: inc/customizer/customizer.php:291
+msgid "Show search"
+msgstr "Показати пошук"
+
+#: inc/customizer/customizer.php:299
+msgid "In this section, you can customize the appearance of the footer"
+msgstr "У даній секції Ви можете налаштувати зовнішній вигляд підвалу"
+
+#: inc/customizer/customizer.php:304
+msgid "Number of widget areas"
+msgstr "К-сть віджет блоків"
+
+#: inc/customizer/customizer.php:305
+msgid "0 - for disable, maximum 5"
+msgstr "0 - вимкнено, максимум 5"
+
+#: inc/customizer/customizer.php:311
+msgid "Copyright"
+msgstr "Копірайт"
+
+#: inc/customizer/customizer.php:312
+msgid "Use %year% to add the current year"
+msgstr "Використовуйте %year%, щоб додати поточний рік"
+
+#: inc/customizer/customizer.php:317
+msgid "Counters"
+msgstr "Лічильники"
+
+#: inc/customizer/customizer.php:325 inc/default-options.php:113
+#: vendor/wpshop/core/src/Breadcrumbs.php:98
+msgid "Home"
+msgstr "Головна"
+
+#: inc/customizer/customizer.php:326
+msgid "In this section, you can customize the appearance of the home page"
+msgstr ""
+"У даній секції Ви можете налаштувати зовнішній вигляд головної сторінки"
+
+#: inc/customizer/customizer.php:331
+msgid "Post cards on home"
+msgstr "Картки постів на головній"
+
+#: inc/customizer/customizer.php:337 inc/customizer/customizer.php:372
+#: inc/customizer/customizer.php:415 inc/customizer/customizer.php:455
+#: inc/customizer/customizer.php:513 inc/meta-boxes.php:38
+#: inc/meta-boxes.php:101 inc/setup.php:76
+msgid "Sidebar"
+msgstr "Сайдбар"
+
+#: inc/customizer/customizer.php:343 inc/customizer/customizer.php:1284
+msgid "Header H1"
+msgstr "Заголовок H1"
+
+#: inc/customizer/customizer.php:344
+msgid ""
+"If the field is not specified, the logo (site name) becomes the h1 header"
+msgstr "Якщо поле не задане, заголовком H1 стає логотип (назва сайту)"
+
+#: inc/customizer/customizer.php:348
+msgid "Text"
+msgstr "Текст"
+
+#: inc/customizer/customizer.php:350
+msgid "The text under the heading H1 is displayed only on the main"
+msgstr "Текст під заголовком H1, відображається тільки на головній"
+
+#: inc/customizer/customizer.php:354
+msgid "H1 and text position"
+msgstr "H1 і розташування тексту"
+
+#: inc/customizer/customizer.php:357 inc/customizer/customizer.php:474
+msgid "Top"
+msgstr "Зверху"
+
+#: inc/customizer/customizer.php:358 inc/customizer/customizer.php:475
+msgid "Bottom"
+msgstr "Знизу"
+
+#: inc/customizer/customizer.php:366
+msgid "Single"
+msgstr "Запис"
+
+#: inc/customizer/customizer.php:367
+msgid "In this section, you can customize the appearance of the post"
+msgstr "У даній секції Ви можете налаштувати зовнішній вигляд запису"
+
+#: inc/customizer/customizer.php:378 inc/customizer/customizer.php:421
+#: inc/meta-boxes.php:14 inc/meta-boxes.php:81
+msgid "Hide elements"
+msgstr "Сховати елементи"
+
+#: inc/customizer/customizer.php:387 inc/customizer/customizer.php:425
+#: inc/meta-boxes.php:29 inc/meta-boxes.php:95
+msgid "Top social buttons"
+msgstr "Верхні соціальні кнопки"
+
+#: inc/customizer/customizer.php:389 inc/recipes/recipes.php:521
+msgid "Cooking time"
+msgstr "Час готування"
+
+#: inc/customizer/customizer.php:390 inc/customizer/customizer.php:815
+#: inc/meta-boxes.php:33
+msgid "Author block"
+msgstr "Блок автора"
+
+#: inc/customizer/customizer.php:391 inc/customizer/customizer.php:426
+#: inc/meta-boxes.php:34 inc/meta-boxes.php:97
+msgid "Bottom social buttons"
+msgstr "Нижні соціальні кнопки"
+
+#: inc/customizer/customizer.php:392 inc/customizer/customizer.php:427
+#: inc/default-options.php:337 inc/meta-boxes.php:35 inc/meta-boxes.php:98
+#: template-parts/content-page.php:98 template-parts/content-single.php:140
+msgid "Rating"
+msgstr "Рейтинг"
+
+#: inc/customizer/customizer.php:393
+msgid "Tags"
+msgstr "Мітки"
+
+#: inc/customizer/customizer.php:394 inc/customizer/customizer.php:428
+#: inc/customizer/customizer.php:483 inc/meta-boxes.php:37
+#: inc/meta-boxes.php:100
+msgid "Comments"
+msgstr "Коментарі"
+
+#: inc/customizer/customizer.php:399 inc/customizer/customizer.php:433
+msgid "Count of related articles"
+msgstr "Кількість схожих постів"
+
+#: inc/customizer/customizer.php:402 inc/customizer/customizer.php:436
+msgid "0 - for disable, maximum 50"
+msgstr "0 - вимкнено, максимум 50"
+
+#: inc/customizer/customizer.php:409
+msgid "Page"
+msgstr "Сторінка"
+
+#: inc/customizer/customizer.php:410
+msgid "In this section, you can customize the appearance of the page"
+msgstr "У даній секції Ви можете налаштувати зовнішній вигляд сторінки"
+
+#: inc/customizer/customizer.php:443
+msgid "Archive"
+msgstr "Архіви"
+
+#: inc/customizer/customizer.php:444
+msgid "In this section, you can customize the appearance of the archive"
+msgstr "У даній секції Ви можете налаштувати зовнішній вигляд архівів"
+
+#: inc/customizer/customizer.php:449
+msgid "Post cards in archive"
+msgstr "Картки постів в архівах"
+
+#: inc/customizer/customizer.php:461
+msgid "Show description"
+msgstr "Показати опис"
+
+#: inc/customizer/customizer.php:466
+msgid "Show subcategories"
+msgstr "Показувати підрубрики"
+
+#: inc/customizer/customizer.php:471
+msgid "Position of archive description"
+msgstr "Розташування опису"
+
+#: inc/customizer/customizer.php:484
+msgid "In this section, you can customize the appearance of the comments"
+msgstr "У даній секції Ви можете налаштувати зовнішній вигляд коментарів"
+
+#: inc/customizer/customizer.php:489 inc/customizer/customizer.php:861
+msgid "Text before Send button"
+msgstr "Текст перед кнопкою Відправити"
+
+#: inc/customizer/customizer.php:495
+msgid "Show comment date"
+msgstr "Показати дату коментаря"
+
+#: inc/customizer/customizer.php:500
+msgid "Show comment time"
+msgstr "Показати час коментаря"
+
+#: inc/customizer/customizer.php:505
+msgid "Show smiles"
+msgstr "Показувати смайлики"
+
+#: inc/customizer/customizer.php:514
+msgid "In this section, you can customize the appearance of the sidebar"
+msgstr "У цій секції Ви можете налаштувати зовнішній вигляд сайдбару"
+
+#: inc/customizer/customizer.php:519
+msgid "Enable sidebar on mobile"
+msgstr "Показати сайдбар на мобільних"
+
+#: inc/customizer/customizer.php:531
+msgid "Modules"
+msgstr "Модулі"
+
+#: inc/customizer/customizer.php:537
+msgid "Slider"
+msgstr "Слайдер"
+
+#: inc/customizer/customizer.php:538
+msgid "In this section, you can customize the slider"
+msgstr "У даній секції Ви можете налаштувати слайдер"
+
+#: inc/customizer/customizer.php:543
+msgid "Slider width"
+msgstr "Ширина слайдера"
+
+#: inc/customizer/customizer.php:552
+msgid "Autoplay"
+msgstr "Автопрокручування"
+
+#: inc/customizer/customizer.php:555
+msgid "Autoplay slides in ms, 0 - for disable"
+msgstr "Автопрокручування слайдера в мс, 0 - щоб вимкнути"
+
+#: inc/customizer/customizer.php:559
+msgid "Slider type"
+msgstr "Тип слайдера"
+
+#: inc/customizer/customizer.php:562
+msgid "One slide"
+msgstr "Один слайд"
+
+#: inc/customizer/customizer.php:563
+msgid "Three slides"
+msgstr "Три слайди"
+
+#: inc/customizer/customizer.php:564
+msgid "With thumbnails"
+msgstr "З мініатюрами"
+
+#: inc/customizer/customizer.php:569
+msgid "Count of slider posts"
+msgstr "К-сть записів у слайдері"
+
+#: inc/customizer/customizer.php:572
+msgid ""
+"The latest posts with thumbnails will be displayed. 0 - for disable, maximum "
+"15"
+msgstr ""
+"Будуть виводитися останні записи з мініатюрами. 0 - щоб вимкнути, максимум 15"
+
+#: inc/customizer/customizer.php:576
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:217
+msgid "Order posts"
+msgstr "Сортування записів"
+
+#: inc/customizer/customizer.php:579
+msgid "Rand"
+msgstr "Випадково"
+
+#: inc/customizer/customizer.php:580
+msgid "By views"
+msgstr "За переглядами"
+
+#: inc/customizer/customizer.php:581 inc/widgets/widget-articles.php:205
+msgid "By comments"
+msgstr "За коментарями"
+
+#: inc/customizer/customizer.php:582
+msgid "New top"
+msgstr "Нові зверху"
+
+#: inc/customizer/customizer.php:587
+msgid "ID posts for the slider"
+msgstr "ID записів для слайдера"
+
+#: inc/customizer/customizer.php:588
+msgid ""
+"You can specify the ID of posts separated by commas to display certain posts "
+"in the slider. Missing will be filled with the latest posts."
+msgstr ""
+"Ви можете вказати ID записів через кому, для виведення певних постів у "
+"слайдері. Відсутні будуть заповнені останніми записами."
+
+#: inc/customizer/customizer.php:592
+msgid "ID category posts for the slider"
+msgstr "ID рубрик записів для слайдера"
+
+#: inc/customizer/customizer.php:593
+msgid ""
+"You can specify the ID of category for posts separated by commas to display "
+"certain posts in the slider. Missing will be filled with posts in accordance "
+"with the sorting."
+msgstr ""
+"Ви можете вказати ID рубрик записів через кому, для виведення певних постів "
+"у слайдері. Відсутні будуть заповнені записами відповідно до сортування."
+
+#: inc/customizer/customizer.php:597
+msgid "Show on pagination pages"
+msgstr "Показати на сторінках паґінації"
+
+#: inc/customizer/customizer.php:602
+msgid "Show category"
+msgstr "Показати рубрику"
+
+#: inc/customizer/customizer.php:607
+msgid "Show title"
+msgstr "Показати заголовок"
+
+#: inc/customizer/customizer.php:612
+msgid "Show excerpt"
+msgstr "Показати уривок"
+
+#: inc/customizer/customizer.php:617
+msgid "Disable slider on mobile"
+msgstr "Відключити слайдер на мобільному"
+
+#: inc/customizer/customizer.php:625 inc/default-options.php:106
+#: inc/meta-boxes.php:32 inc/meta-boxes.php:96
+#: inc/widgets/widget-table-of-contents.php:14
+#: vendor/wpshop/core/src/TableOfContents.php:167
+msgid "Contents"
+msgstr "Зміст"
+
+#: inc/customizer/customizer.php:626
+msgid "In this section, you can customize the toc"
+msgstr "У даній секції Ви можете налаштувати зміст"
+
+#: inc/customizer/customizer.php:631
+msgid "Enable on posts"
+msgstr "Увімкнути в записах"
+
+#: inc/customizer/customizer.php:636
+msgid "Enable on pages"
+msgstr "Увімкнути на сторінках"
+
+#: inc/customizer/customizer.php:641
+msgid "Default open"
+msgstr "За замовчуванням відкритий"
+
+#: inc/customizer/customizer.php:646
+msgid "Wrap the content in noindex"
+msgstr "Обернути зміст у noindex"
+
+#: inc/customizer/customizer.php:651
+msgid "Display the content at the beginning of the post"
+msgstr "Вивести зміст на початку запису"
+
+#: inc/customizer/customizer.php:656
+msgid "Content title"
+msgstr "Заголовок змісту"
+
+#: inc/customizer/customizer.php:663
+msgid "Lightbox"
+msgstr "Лайтбокс"
+
+#: inc/customizer/customizer.php:664
+msgid ""
+"In this section, you can turn on the enlargement of the picture when you "
+"click on it"
+msgstr "У даній секції Ви можете включити збільшення картинки при кліці на неї"
+
+#: inc/customizer/customizer.php:669
+msgid "Enable lightbox"
+msgstr "Увімкнути лайтбокс"
+
+#: inc/customizer/customizer.php:677 inc/meta-boxes.php:25
+#: inc/meta-boxes.php:92
+msgid "Breadcrumbs"
+msgstr "Хлібні крихти"
+
+#: inc/customizer/customizer.php:678
+msgid "In this section, you can customize the breadcrumbs"
+msgstr "У даній секції Ви можете налаштувати хлібні крихти"
+
+#: inc/customizer/customizer.php:683
+msgid "Enable breadcrumbs"
+msgstr "Увімкнути хлібні крихти"
+
+#: inc/customizer/customizer.php:688
+msgid "Home text"
+msgstr "Назва головної"
+
+#: inc/customizer/customizer.php:692
+msgid "Show breadcrumbs in archives"
+msgstr "Показати хлібні крихти в архівах"
+
+#: inc/customizer/customizer.php:697
+msgid "Display page title"
+msgstr "Вивести назву сторінки"
+
+#: inc/customizer/customizer.php:705
+msgid "Social profiles"
+msgstr "Соціальні профілі"
+
+#: inc/customizer/customizer.php:706
+msgid "In this section, you can customize the social profiles"
+msgstr "У даній секції Ви можете налаштувати соціальні профілі"
+
+#: inc/customizer/customizer.php:711 vendor/wpshop/core/src/Social.php:36
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/customizer/customizer.php:715
+msgid "Vk"
+msgstr "Vk"
+
+#: inc/customizer/customizer.php:719 vendor/wpshop/core/src/Social.php:39
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/customizer/customizer.php:723 vendor/wpshop/core/src/Social.php:37
+msgid "Odnoklassniki"
+msgstr "Однокласники"
+
+#: inc/customizer/customizer.php:727 vendor/wpshop/core/src/Social.php:38
+msgid "Telegram"
+msgstr "Telegram"
+
+#: inc/customizer/customizer.php:731
+msgid "Youtube"
+msgstr "Youtube"
+
+#: inc/customizer/customizer.php:735 vendor/wpshop/core/src/Social.php:73
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/customizer/customizer.php:739
+msgid "Tik Tok"
+msgstr "Tik Tok"
+
+#: inc/customizer/customizer.php:743
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: inc/customizer/customizer.php:747 vendor/wpshop/core/src/Social.php:68
+msgid "WhatsApp"
+msgstr "WhatsApp"
+
+#: inc/customizer/customizer.php:751 vendor/wpshop/core/src/Social.php:67
+msgid "Viber"
+msgstr "Viber"
+
+#: inc/customizer/customizer.php:755 vendor/wpshop/core/src/Social.php:46
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/customizer/customizer.php:759
+msgid "Yandex Zen"
+msgstr "Яндекс.Дзен"
+
+#: inc/customizer/customizer.php:763
+msgid "GitHub"
+msgstr "GitHub"
+
+#: inc/customizer/customizer.php:767
+msgid "Discord"
+msgstr "Discord"
+
+#: inc/customizer/customizer.php:771
+msgid "RuTube"
+msgstr "RuTube"
+
+#: inc/customizer/customizer.php:775
+msgid "Yappy"
+msgstr "Yappy"
+
+#: inc/customizer/customizer.php:779
+msgid "Pikabu"
+msgstr "Pikabu"
+
+#: inc/customizer/customizer.php:783
+msgid "Yandex"
+msgstr "Яндекс"
+
+#: inc/customizer/customizer.php:787
+msgid "Hide links by JS"
+msgstr "Приховати посилання через JS"
+
+#: inc/customizer/customizer.php:795 inc/customizer/customizer.php:807
+msgid "Share buttons"
+msgstr "Кнопки Поділитися"
+
+#: inc/customizer/customizer.php:796
+msgid "In this section, you can customize the share buttons"
+msgstr "У даній секції Ви можете налаштувати соціальні кнопки"
+
+#: inc/customizer/customizer.php:801
+msgid "Enable counters"
+msgstr "Увімкнути лічильники"
+
+#: inc/customizer/customizer.php:816
+msgid "In this section, you can customize the author block"
+msgstr "У даній секції Ви можете налаштувати блок автора"
+
+#: inc/customizer/customizer.php:821
+msgid "Display a link to the author’s page"
+msgstr "Виводити посилання на сторінку автора"
+
+#: inc/customizer/customizer.php:826 inc/widgets/widget-articles.php:250
+msgid "Open link in new window"
+msgstr "Відкривати посилання у новому вікні"
+
+#: inc/customizer/customizer.php:831
+msgid "Display author social profiles"
+msgstr "Показати соціальні профілі автора"
+
+#: inc/customizer/customizer.php:833
+msgid "Links to social profiles author can be set in Users"
+msgstr "Посилання на соц. профілі автора можна задати в розділі Користувачі"
+
+#: inc/customizer/customizer.php:838
+msgid "Social profiles title"
+msgstr "Заголовок соц. профілів"
+
+#: inc/customizer/customizer.php:842
+msgid "Show title social profiles"
+msgstr "Показати заголовок соц. профілів"
+
+#: inc/customizer/customizer.php:847
+msgid "Hide links social profiles by JS"
+msgstr "Приховати посилання на соц. профілі через JS"
+
+#: inc/customizer/customizer.php:855
+msgid "Contact Form"
+msgstr "Контактна форма"
+
+#: inc/customizer/customizer.php:856
+msgid "In this section, you can customize the contact form"
+msgstr "У даній секції Ви можете налаштувати форму зворотного зв'язку"
+
+#: inc/customizer/customizer.php:870
+msgid "Sitemap"
+msgstr "Карта сайту"
+
+#: inc/customizer/customizer.php:871
+msgid "In this section, you can customize the sitemap"
+msgstr "У даній секції Ви можете налаштувати карту сайту"
+
+#: inc/customizer/customizer.php:876 inc/customizer/customizer.php:924
+msgid "ID of categories to exclude"
+msgstr "ID категорій для виключення"
+
+#: inc/customizer/customizer.php:877
+msgid ""
+"Enter the ID of the categories separated by commas to exclude them from the "
+"sitemap"
+msgstr "Вкажіть ID категорій через кому, щоб виключити їх з карти сайту"
+
+#: inc/customizer/customizer.php:881 inc/customizer/customizer.php:919
+msgid "ID of posts to exclude"
+msgstr "ID записів для виключення"
+
+#: inc/customizer/customizer.php:882
+msgid ""
+"Enter the ID of the posts separated by commas to exclude them from the "
+"sitemap"
+msgstr "Вкажіть ID записів через кому, щоб виключити їх з карти сайту"
+
+#: inc/customizer/customizer.php:886
+msgid "Show pages in sitemap"
+msgstr "Показати сторінки в карті сайту"
+
+#: inc/customizer/customizer.php:891
+msgid "ID of pages to exclude"
+msgstr "ID сторінок для виключення"
+
+#: inc/customizer/customizer.php:892
+msgid ""
+"Enter the ID of the pages separated by commas to exclude them from the "
+"sitemap"
+msgstr "Вкажіть ID сторінок через кому, щоб виключити їх з карти сайту"
+
+#: inc/customizer/customizer.php:899 inc/customizer/customizer.php:1156
+#: inc/meta-boxes.php:36 inc/meta-boxes.php:99
+msgid "Related posts"
+msgstr "Схожі записи"
+
+#: inc/customizer/customizer.php:900
+msgid "In this section, you can customize the related posts"
+msgstr "У даній секції Ви можете налаштувати схожі записи"
+
+#: inc/customizer/customizer.php:905
+msgid "Related posts title"
+msgstr "Заголовок схожих записів"
+
+#: inc/customizer/customizer.php:909
+msgid "Order related posts"
+msgstr "Сортування схожих записів"
+
+#: inc/customizer/customizer.php:912
+msgid "By categories"
+msgstr "По рубриках"
+
+#: inc/customizer/customizer.php:913
+msgid "By tags"
+msgstr "За мітками"
+
+#: inc/customizer/customizer.php:915
+msgid ""
+"In related posts, posts from the same category\\tag are displayed first, and "
+"then, if there is not enough related articles to the specified number, they "
+"are displayed randomly"
+msgstr ""
+"У схожих записах спочатку виводяться записи з тієї ж рубрики\\мітки, а "
+"потім, якщо не вистачає до зазначенної кількості схожих статей, виводяться "
+"рандомно"
+
+#: inc/customizer/customizer.php:920
+msgid ""
+"You can specify the ID of the posts separated by commas to exclude them from "
+"the related posts"
+msgstr ""
+"Ви можете вказати ID записів через кому, щоб виключити їх зі схожих записів"
+
+#: inc/customizer/customizer.php:925
+msgid ""
+"You can specify the ID of categories separated by commas to exclude them "
+"from the related posts"
+msgstr ""
+"Ви можете вказати ID рубрик записів через кому, щоб виключити їх зі схожих "
+"записів"
+
+#: inc/customizer/customizer.php:929
+msgid "Display related posts after comments"
+msgstr "Вивести схожі записи після коментарів"
+
+#: inc/customizer/customizer.php:931
+msgid "By default, related posts are displayed before comments"
+msgstr "За замовчуванням, схожі записи виводяться перед коментарями"
+
+#: inc/customizer/customizer.php:938
+msgid "Scroll to top button"
+msgstr "Кнопка Наверх"
+
+#: inc/customizer/customizer.php:939
+msgid "In this section, you can customize the top button"
+msgstr "У даній секції Ви можете налаштувати кнопку Наверх"
+
+#: inc/customizer/customizer.php:944
+msgid "Enable scroll to top button"
+msgstr "Увімкнути кнопку Наверх"
+
+#: inc/customizer/customizer.php:949
+msgid "Enable on mobile"
+msgstr "Увімкнути на мобільних"
+
+#: inc/customizer/customizer.php:954
+msgid "Background color"
+msgstr "Колір фону"
+
+#: inc/customizer/customizer.php:959
+msgid "Arrow color"
+msgstr "Колір стрілки"
+
+#: inc/customizer/customizer.php:964
+msgid "Button width"
+msgstr "Ширина кнопки"
+
+#: inc/customizer/customizer.php:971
+msgid "Button height"
+msgstr "Высота кнопки"
+
+#: inc/customizer/customizer.php:978
+msgid "Button icon"
+msgstr "Іконка на кнопці"
+
+#: inc/customizer/customizer.php:993
+msgid "Views counter"
+msgstr "Лічильник переглядів"
+
+#: inc/customizer/customizer.php:994
+msgid "In this section, you can customize the views counter"
+msgstr "У даній секції Ви можете налаштувати лічильник переглядів"
+
+#: inc/customizer/customizer.php:999
+msgid "Enable view counter"
+msgstr "Увімкнути лічильник переглядів"
+
+#: inc/customizer/customizer.php:1004
+msgid "Count views"
+msgstr "Рахувати перегляди"
+
+#: inc/customizer/customizer.php:1007
+msgid "Everyone"
+msgstr "Всіх"
+
+#: inc/customizer/customizer.php:1008
+msgid "Only guests"
+msgstr "Тільки гостей"
+
+#: inc/customizer/customizer.php:1009
+msgid "Only registered users"
+msgstr "Тільки зареєстрованих користувачів"
+
+#: inc/customizer/customizer.php:1014
+msgid "Exclude bot views"
+msgstr "Виключити перегляди ботів"
+
+#: inc/customizer/customizer.php:1017
+msgid "No"
+msgstr "Ні"
+
+#: inc/customizer/customizer.php:1018
+msgid "Yes"
+msgstr "Так"
+
+#: inc/customizer/customizer.php:1030
+msgid "Post cards"
+msgstr "Картки постів"
+
+#: inc/customizer/customizer.php:1036
+msgid "Big"
+msgstr "Велика"
+
+#: inc/customizer/customizer.php:1042 inc/customizer/customizer.php:1072
+#: inc/customizer/customizer.php:1102 inc/customizer/customizer.php:1132
+#: inc/customizer/customizer.php:1162
+msgid "Order"
+msgstr "Порядок"
+
+#: inc/customizer/customizer.php:1048 inc/customizer/customizer.php:1078
+#: inc/customizer/customizer.php:1108 inc/customizer/customizer.php:1138
+#: inc/customizer/customizer.php:1173
+msgid "Order Meta"
+msgstr "Порядок метаінформації"
+
+#: inc/customizer/customizer.php:1053 inc/customizer/customizer.php:1083
+#: inc/customizer/customizer.php:1113 inc/customizer/customizer.php:1143
+#: inc/customizer/customizer.php:1183
+msgid "Excerpt length"
+msgstr "Довжина уривку"
+
+#: inc/customizer/customizer.php:1058 inc/customizer/customizer.php:1088
+#: inc/customizer/customizer.php:1118 inc/customizer/customizer.php:1148
+#: inc/customizer/customizer.php:1188
+msgid "Round off a thumbnail"
+msgstr "Закруглити мініатюру"
+
+#: inc/customizer/customizer.php:1066
+msgid "Horizontal"
+msgstr "Горизонтальна"
+
+#: inc/customizer/customizer.php:1096
+msgid "Small"
+msgstr "Маленька"
+
+#: inc/customizer/customizer.php:1126
+msgid "Square"
+msgstr "Квадратна"
+
+#: inc/customizer/customizer.php:1200
+msgid "Codes"
+msgstr "Коди"
+
+#: inc/customizer/customizer.php:1206
+msgid "In &lt;head&gt; section"
+msgstr "У &lt;head&gt; секції"
+
+#: inc/customizer/customizer.php:1207
+msgid "Before &lt;/head&gt; tag"
+msgstr "Перед &lt;/head&gt; тегом"
+
+#: inc/customizer/customizer.php:1212
+msgid "Before &lt;/body&gt;"
+msgstr "Перед &lt;/body&gt;"
+
+#: inc/customizer/customizer.php:1217
+#: vendor/wpshop/core/src/Advertising.php:120
+msgid "After content"
+msgstr "Після контенту"
+
+#: inc/customizer/customizer.php:1226
+msgid "Typography"
+msgstr "Типографіка"
+
+#: inc/customizer/customizer.php:1232
+msgid "General"
+msgstr "Загальні"
+
+#: inc/customizer/customizer.php:1237
+msgid "Main text"
+msgstr "Основний текст"
+
+#: inc/customizer/customizer.php:1251
+msgid "Site title"
+msgstr "Назва сайту"
+
+#: inc/customizer/customizer.php:1257
+msgid "Site description"
+msgstr "Опис сайту"
+
+#: inc/customizer/customizer.php:1266
+msgid "Menu"
+msgstr "Меню"
+
+#: inc/customizer/customizer.php:1270
+msgid "Links in the menu"
+msgstr "Посилання у меню"
+
+#: inc/customizer/customizer.php:1278
+msgid "Headers"
+msgstr "Шапка"
+
+#: inc/customizer/customizer.php:1279
+msgid "Font sizes of headings are in relative em units"
+msgstr "Розмір шрифтів заголовків вказано в відносних одиницях виміру em"
+
+#: inc/customizer/customizer.php:1290
+msgid "Header H2"
+msgstr "Заголовок H2"
+
+#: inc/customizer/customizer.php:1296
+msgid "Header H3"
+msgstr "Заголовок H3"
+
+#: inc/customizer/customizer.php:1302
+msgid "Header H4"
+msgstr "Заголовок H4"
+
+#: inc/customizer/customizer.php:1308
+msgid "Header H5"
+msgstr "Заголовок H5"
+
+#: inc/customizer/customizer.php:1314
+msgid "Header H6"
+msgstr "Заголовок H6"
+
+#: inc/customizer/customizer.php:1327
+msgid "Colors"
+msgstr "Кольори"
+
+#: inc/customizer/customizer.php:1333
+msgid "Base site color"
+msgstr "Основний колір сайту"
+
+#: inc/customizer/customizer.php:1338
+msgid "Site text color"
+msgstr "Основний колір тексту"
+
+#: inc/customizer/customizer.php:1343
+msgid "Link color"
+msgstr "Колір посилань"
+
+#: inc/customizer/customizer.php:1348
+msgid "Link hover color"
+msgstr "Колір посилань при наведенні"
+
+#: inc/customizer/customizer.php:1353
+msgid "Header background color"
+msgstr "Колір фону шапки"
+
+#: inc/customizer/customizer.php:1358
+msgid "Header text and link color"
+msgstr "Колір тексту і посилань шапки"
+
+#: inc/customizer/customizer.php:1363
+msgid "Site title color"
+msgstr "Колір назви сайту"
+
+#: inc/customizer/customizer.php:1368
+msgid "Site description color"
+msgstr "Колір опису сайту"
+
+#: inc/customizer/customizer.php:1373
+msgid "Menu background color"
+msgstr "Колір фону меню"
+
+#: inc/customizer/customizer.php:1378
+msgid "Menu link color"
+msgstr "Колір посилань у меню"
+
+#: inc/customizer/customizer.php:1383
+msgid "Content background color"
+msgstr "Колір фону контенту"
+
+#: inc/customizer/customizer.php:1388
+msgid "Footer background color"
+msgstr "Колір фону підвалу"
+
+#: inc/customizer/customizer.php:1393
+msgid "Footer text and link color"
+msgstr "Колір тексту і посилань підвалу"
+
+#: inc/customizer/customizer.php:1402
+msgid "Background"
+msgstr "Фонове зображення"
+
+#: inc/customizer/customizer.php:1408
+msgid "Site background link"
+msgstr "Посилання на фонове зображення"
+
+#: inc/customizer/customizer.php:1412
+msgid "Hide link background by JS"
+msgstr "Приховати посилання на фонове зображення через JS"
+
+#: inc/customizer/customizer.php:1417
+msgid "Header background"
+msgstr "Фон шапки"
+
+#: inc/customizer/customizer.php:1419
+msgid ""
+"By default, the background of the header is displayed only on the desktop"
+msgstr "За замовчуванням, фон шапки виводиться тільки на десктопі"
+
+#: inc/customizer/customizer.php:1423
+msgid "Header background repeat"
+msgstr "Повторення фону"
+
+#: inc/customizer/customizer.php:1426
+msgid "No repeat"
+msgstr "Не повторювати"
+
+#: inc/customizer/customizer.php:1427
+msgid "Repeat horizontal and vertical"
+msgstr "Повторювати по горизонталі та вертикалі"
+
+#: inc/customizer/customizer.php:1428
+msgid "Repeat horizontal"
+msgstr "Повторювати по горизонталі"
+
+#: inc/customizer/customizer.php:1429
+msgid "Repeat vertical"
+msgstr "Повторювати по вертикалі"
+
+#: inc/customizer/customizer.php:1434
+msgid "Header background position"
+msgstr "Розташування фону"
+
+#: inc/customizer/customizer.php:1437
+msgid "Top left"
+msgstr "Зверху ліворуч"
+
+#: inc/customizer/customizer.php:1438
+msgid "Top center"
+msgstr "Зверху по центру"
+
+#: inc/customizer/customizer.php:1439
+msgid "Top right"
+msgstr "Зверху праворуч"
+
+#: inc/customizer/customizer.php:1440
+msgid "Middle left"
+msgstr "Посередині ліворуч"
+
+#: inc/customizer/customizer.php:1441
+msgid "Middle center"
+msgstr "Посередині по центру"
+
+#: inc/customizer/customizer.php:1442
+msgid "Middle right"
+msgstr "Посередині праворуч"
+
+#: inc/customizer/customizer.php:1443
+msgid "Bottom left"
+msgstr "Знизу ліворуч"
+
+#: inc/customizer/customizer.php:1444
+msgid "Bottom center"
+msgstr "Знизу по центру"
+
+#: inc/customizer/customizer.php:1445
+msgid "Bottom right"
+msgstr "Знизу праворуч"
+
+#: inc/customizer/customizer.php:1450
+msgid "Display header background on mobile"
+msgstr "Вивести фон шапки на мобільному"
+
+#: inc/customizer/customizer.php:1459 inc/customizer/customizer.php:1466
+msgid "Home constructor"
+msgstr "Конструктор головної"
+
+#: inc/customizer/customizer.php:1460
+msgid "In this section, you can customize the main constructor blocks"
+msgstr "У даній секції Ви можете налаштувати блоки конструктора головної"
+
+#: inc/customizer/customizer.php:1532
+msgid "Display constructor blocks on the main static page"
+msgstr "Вивести блоки конструктора головної на головній статичній сторінці"
+
+#: inc/customizer/customizer.php:1534
+msgid ""
+"By default, the main constructor blocks are displayed on the blog page with "
+"the latest posts"
+msgstr ""
+"За замовчуванням, блоки конструктора головною виводяться на сторінці блогу з "
+"останніми записами"
+
+#: inc/customizer/customizer.php:1541
+msgid "Tweak options"
+msgstr "Розширені налаштування"
+
+#: inc/customizer/customizer.php:1547
+msgid "Content on full width"
+msgstr "Контент на всю ширину"
+
+#: inc/customizer/customizer.php:1552
+msgid "Social buttons title"
+msgstr "Заголовок соц. кнопок"
+
+#: inc/customizer/customizer.php:1556
+msgid "Show title social buttons"
+msgstr "Показати заголовок соц. кнопок"
+
+#: inc/customizer/customizer.php:1561
+msgid "Rating title"
+msgstr "Заголовок рейтингу"
+
+#: inc/customizer/customizer.php:1565
+msgid "Show rating statistics"
+msgstr "Показати статистику рейтингу"
+
+#: inc/customizer/customizer.php:1570
+msgid "Enable avertising on pages"
+msgstr "Увімкнути рекламу на сторінках"
+
+#: inc/customizer/customizer.php:1575
+msgid "The value of the telephone field for publisher microdata"
+msgstr "Значення поля telephone для мікророзмітки publisher"
+
+#: inc/customizer/customizer.php:1576
+msgid ""
+"If the field is not specified, the site name will be displayed as the "
+"telephone value"
+msgstr ""
+"Якщо поле не задане, в якості значення telephone буде виводиться назва сайту"
+
+#: inc/customizer/customizer.php:1580
+msgid "The value of the address field for publisher microdata"
+msgstr "Значення поля address для мікророзмітки publisher"
+
+#: inc/customizer/customizer.php:1581
+msgid ""
+"If the field is not specified, the site address will be displayed as the "
+"address value"
+msgstr ""
+"Якщо поле не задане, в якості значення address буде виводиться адреса сайту"
+
+#: inc/customizer/customizer.php:1585
+msgid "Show ingredients link"
+msgstr "Показати посилання на інгредієнти"
+
+#: inc/customizer/customizer.php:1593
+msgid "Affiliate program"
+msgstr "Партнерська програма"
+
+#: inc/customizer/customizer.php:1600
+msgid "Start earning money"
+msgstr "Почати заробляти гроші"
+
+#: inc/customizer/customizer.php:1605
+msgid "Text before link"
+msgstr "Текст перед посиланням"
+
+#: inc/customizer/customizer.php:1609
+msgid "Text after link"
+msgstr "Текст після посилання"
+
+#: inc/default-options.php:146 template-parts/author-box.php:66
+msgid "Author profiles"
+msgstr "Профілі автора"
+
+#: inc/default-options.php:160 template-parts/related-posts.php:225
+#: yarpp-template-wpshop.php:18
+msgid "Related articles"
+msgstr "Схожі матеріали"
+
+#: inc/default-options.php:335 template-parts/content-page.php:89
+#: template-parts/content-single.php:131
+msgid "Share to friends"
+msgstr "Поділитися з друзями"
+
+#: inc/default-options.php:347 vendor/wpshop/core/src/Partner.php:40
+msgid "Powered by theme"
+msgstr "Сайт працює на темі"
+
+#: inc/enqueue.php:56 vendor/wpshop/core/src/StarRating.php:86
+msgid "average"
+msgstr "середнє"
+
+#: inc/enqueue.php:57 vendor/wpshop/core/src/StarRating.php:86
+msgid "from"
+msgstr "з"
+
+#: inc/meta-boxes.php:27
+msgid "Meta-information (date, category, author)"
+msgstr "Метаінформація (дата, рубрика, автор)"
+
+#: inc/meta-boxes.php:30 inc/recipes/ingredients.php:8
+#: inc/recipes/recipe-form.php:87 inc/recipes/recipes.php:60
+#: inc/recipes/shortcodes.php:38 inc/recipes/shortcodes.php:65
+msgid "Ingredients"
+msgstr "Інгредієнти"
+
+#: inc/meta-boxes.php:31 inc/recipes/recipes.php:341
+msgid "Steps"
+msgstr "Кроки"
+
+#: inc/meta-boxes.php:56
+msgid "Post settings"
+msgstr "Налаштування запису"
+
+#: inc/meta-boxes.php:64 template-parts/content-single.php:113
+#: template-parts/content-single.php:115
+msgid "Source"
+msgstr "Джерело"
+
+#: inc/meta-boxes.php:64
+msgid ""
+"If you need to provide a link to an external site as a source, fill in this "
+"field"
+msgstr ""
+"Якщо необхідно вказати посилання на зовнішній сайт як Джерело, заповніть це "
+"поле"
+
+#: inc/meta-boxes.php:65
+msgid "Hide link to source using JS"
+msgstr "Приховати посилання через JS"
+
+#: inc/meta-boxes.php:66 inc/meta-boxes.php:127
+msgid "ID related posts"
+msgstr "ID схожих записів"
+
+#: inc/meta-boxes.php:66 inc/meta-boxes.php:127
+msgid ""
+"Enter the ID of the posts separated by commas to display certain posts in "
+"related posts"
+msgstr ""
+"Вкажіть ID записів через кому, для виведення певних постів у схожих записах"
+
+#: inc/meta-boxes.php:119
+msgid "Page settings"
+msgstr "Налаштування сторінки"
+
+#: inc/recipes/ingredients.php:6
+msgctxt "Taxonomy General Name"
+msgid "Ingredients"
+msgstr "Інгредієнти"
+
+#: inc/recipes/ingredients.php:7
+msgctxt "Taxonomy Singular Name"
+msgid "Ingredients"
+msgstr "Інгредієнти"
+
+#: inc/recipes/ingredients.php:9
+msgid "All Ingredients"
+msgstr "Усі інгредієнти"
+
+#: inc/recipes/ingredients.php:10
+msgid "Ingredient Category"
+msgstr "Категорія інгредієнта"
+
+#: inc/recipes/ingredients.php:11
+msgid "Ingredient Category:"
+msgstr "Категорія інгредієнта:"
+
+#: inc/recipes/ingredients.php:12
+msgid "New Ingredient Name"
+msgstr "Новий інгредієнт"
+
+#: inc/recipes/ingredients.php:13
+msgid "Add New Ingredient"
+msgstr "Додати новий інгредієнт"
+
+#: inc/recipes/ingredients.php:14
+msgid "Edit Ingredient"
+msgstr "Редагувати інгредієнт"
+
+#: inc/recipes/ingredients.php:15
+msgid "Update Ingredient"
+msgstr "Оновити інгредієнт"
+
+#: inc/recipes/ingredients.php:16
+msgid "View Ingredient"
+msgstr "Переглянути інгредієнт"
+
+#: inc/recipes/ingredients.php:17
+msgid "Separate ingredients with commas"
+msgstr "Розділіть інгредієнти через кому"
+
+#: inc/recipes/ingredients.php:18
+msgid "Add or remove ingredients"
+msgstr "Додати чи видалити інгредієнт"
+
+#: inc/recipes/ingredients.php:19
+msgid "Choose from the most used"
+msgstr "Виберіть з популярних"
+
+#: inc/recipes/ingredients.php:20
+msgid "Popular Ingredients"
+msgstr "Популярні інгредієнти"
+
+#: inc/recipes/ingredients.php:21
+msgid "Search Ingredient"
+msgstr "Знайти інгредієнт"
+
+#: inc/recipes/ingredients.php:22
+msgid "Not Found"
+msgstr "Не знайдено"
+
+#: inc/recipes/ingredients.php:23
+msgid "No Ingredients"
+msgstr "Нема інгредієнтів"
+
+#: inc/recipes/ingredients.php:24
+msgid "Ingredients list"
+msgstr "Список інгредієнтів"
+
+#: inc/recipes/ingredients.php:25
+msgid "Ingredients list navigation"
+msgstr "Навігація по інгредієнтам"
+
+#: inc/recipes/recipe-form.php:43
+msgid "Message from "
+msgstr "Повідомлення від "
+
+#: inc/recipes/recipe-form.php:56 vendor/wpshop/core/src/ContactForm.php:131
+msgid "Message sent successfully!"
+msgstr "Повідомлення успішно відправлено!"
+
+#: inc/recipes/recipe-form.php:75
+msgid "Recipe name"
+msgstr "Назва рецепту"
+
+#: inc/recipes/recipe-form.php:79
+msgid "Number of servings"
+msgstr "К-сть порцій"
+
+#: inc/recipes/recipe-form.php:83
+msgid "Time for cooking"
+msgstr "Час готування"
+
+#: inc/recipes/recipe-form.php:91
+msgid "Cooking method"
+msgstr "Спосіб готування"
+
+#: inc/recipes/recipe-form.php:99 vendor/wpshop/core/src/ContactForm.php:174
+msgid "Send"
+msgstr "Відправити"
+
+#: inc/recipes/recipes.php:78
+msgid "Ingredient name"
+msgstr "Назва інгредієнта"
+
+#: inc/recipes/recipes.php:80
+msgid "Number of"
+msgstr "К-ть"
+
+#: inc/recipes/recipes.php:81
+msgid "Unit of measurement"
+msgstr "Од. вимірювання"
+
+#: inc/recipes/recipes.php:126
+msgid "Add ingredient"
+msgstr "Додати інгредієнт"
+
+#: inc/recipes/recipes.php:127
+msgid "Add separator"
+msgstr "Додати розділювач"
+
+#: inc/recipes/recipes.php:216
+msgid "Nutritional value"
+msgstr "Поживна цінність"
+
+#: inc/recipes/recipes.php:238 inc/recipes/recipes.php:775
+#: inc/recipes/shortcodes.php:134
+msgid "Calories"
+msgstr "Калорії"
+
+#: inc/recipes/recipes.php:245 inc/recipes/recipes.php:763
+msgid "Protein"
+msgstr "Білок"
+
+#: inc/recipes/recipes.php:259 inc/recipes/shortcodes.php:143
+msgid "Carbohydrates"
+msgstr "Вуглеводи"
+
+#: inc/recipes/recipes.php:366 inc/recipes/recipes.php:381
+#: inc/recipes/recipes.php:397
+msgid "Remove step"
+msgstr "Видалити крок"
+
+#: inc/recipes/recipes.php:387 inc/recipes/recipes.php:402
+msgid "Add step"
+msgstr "Додати крок"
+
+#: inc/recipes/recipes.php:490
+msgid "Additional information"
+msgstr "Додаткова інформація"
+
+#: inc/recipes/recipes.php:513
+msgid "Preparation time"
+msgstr "Час приготування"
+
+#: inc/recipes/recipes.php:515
+msgid "min."
+msgstr "хв."
+
+#: inc/recipes/recipes.php:516
+msgid "Specify the preparation time before cooking"
+msgstr "Вкажіть час приготування перед готуванням"
+
+#: inc/recipes/recipes.php:524
+msgid "Specify the cooking time"
+msgstr "Вкажіть час готування"
+
+#: inc/recipes/recipes.php:536
+msgid "Video link"
+msgstr "Посилання на відео"
+
+#: inc/recipes/recipes.php:543
+msgid "After steps text"
+msgstr "Текст після кроків"
+
+#: inc/recipes/recipes.php:670
+msgid "hrs"
+msgstr "год"
+
+#: inc/recipes/recipes.php:670 inc/recipes/recipes.php:672
+msgid "mins"
+msgstr "хв"
+
+#: inc/recipes/shortcodes.php:131
+msgid "Per serving"
+msgstr "На порцію"
+
+#: inc/recipes/shortcodes.php:137
+msgid "Proteins"
+msgstr "Білки"
+
+#: inc/recipes/shortcodes.php:198 inc/recipes/shortcodes.php:236
+msgid "Video recipe"
+msgstr "Відеорецепт"
+
+#: inc/recipes/shortcodes.php:203 inc/recipes/shortcodes.php:229
+msgid "Method"
+msgstr "Кроки"
+
+#: inc/recipes/shortcodes.php:238
+msgid "Print"
+msgstr "Друк"
+
+#: inc/setup.php:57
+msgid "Top menu"
+msgstr "Верхнє меню"
+
+#: inc/setup.php:93
+msgid "Add widgets here."
+msgstr "Добавьте виджеты сюда."
+
+#: inc/template-functions.php:130
+msgid "Facebook profile link"
+msgstr "Посилання на профіль Facebook"
+
+#: inc/template-functions.php:131
+msgid "Vkontakte profile link"
+msgstr "Посилання на профіль Vkontakte"
+
+#: inc/template-functions.php:132
+msgid "Twitter profile link"
+msgstr "Посилання на профіль Twitter"
+
+#: inc/template-functions.php:133
+msgid "Odnoklassniki profile link"
+msgstr "Посилання на профіль Однокласники"
+
+#: inc/template-functions.php:134
+msgid "Telegram profile link"
+msgstr "Посилання на профіль Telegram"
+
+#: inc/template-functions.php:135
+msgid "Youtube profile link"
+msgstr "Посилання на профіль Youtube"
+
+#: inc/template-functions.php:136
+msgid "Instagram profile link"
+msgstr "Посилання на профіль Instagram"
+
+#: inc/template-functions.php:137
+msgid "Tik Tok profile link"
+msgstr "Посилання на профіль Tik Tok"
+
+#: inc/template-functions.php:138
+msgid "Linkedin profile link"
+msgstr "Посилання на профіль Linkedin"
+
+#: inc/template-functions.php:139
+msgid "Whatsapp profile link"
+msgstr "Посилання на профіль Whatsapp"
+
+#: inc/template-functions.php:140
+msgid "Viber profile link"
+msgstr "Посилання на профіль Viber"
+
+#: inc/template-functions.php:141
+msgid "Pinterest profile link"
+msgstr "Посилання на профіль Pinterest"
+
+#: inc/template-functions.php:142
+msgid "Yandex Zen profile link"
+msgstr "Посилання на профіль Яндекс.Дзен"
+
+#: inc/template-functions.php:143
+msgid "GitHub profile link"
+msgstr "Посилання на профіль GitHub"
+
+#: inc/template-functions.php:144
+msgid "Discord profile link"
+msgstr "Посилання на профіль Discord"
+
+#: inc/template-functions.php:145
+msgid "RuTube profile link"
+msgstr "Посилання на профіль RuTube"
+
+#: inc/template-functions.php:146
+msgid "Yappy profile link"
+msgstr "Посилання на профіль Yappy"
+
+#: inc/template-functions.php:147
+msgid "Pikabu profile link"
+msgstr "Посилання на профіль Pikabu"
+
+#: inc/template-functions.php:148
+msgid "Yandex profile link"
+msgstr "Посилання на профіль Яндекс"
+
+#: inc/thumbnails.php:14
+#, php-format
+msgid "Рекомендуемый размер %s"
+msgstr "Рекомендований розмір %s"
+
+#: inc/thumbnails.php:30
+msgid "Thumbnail settings"
+msgstr "Налаштування мініатюри"
+
+#: inc/thumbnails.php:38
+#, php-format
+msgid ""
+"A thumbnail will be displayed on the page for the full width of the site. "
+"Recommended size %s"
+msgstr ""
+"На сторінці запису відображатиметься мініатюра на всю ширину сайту. "
+"Рекомендований розмір %s"
+
+#: inc/thumbnails.php:39
+msgid "Big thumbnail"
+msgstr "Велика мініатюра"
+
+#: inc/widgets/widget-articles.php:14 inc/widgets/widget-articles.php:15
+msgid "Articles output"
+msgstr "Вивід статей"
+
+#: inc/widgets/widget-articles.php:201
+msgid "Sorting"
+msgstr "Сортування"
+
+#: inc/widgets/widget-articles.php:203
+msgid "Accidentally"
+msgstr "Випадково"
+
+#: inc/widgets/widget-articles.php:204
+msgid "By views (views)"
+msgstr "За переглядами (views)"
+
+#: inc/widgets/widget-articles.php:206
+msgid "New on top"
+msgstr "Нові зверху"
+
+#: inc/widgets/widget-articles.php:210
+msgid "ID of posts separated by commas, if you need to display specific posts"
+msgstr "ID постів через кому, якщо потрібно вивести певні пости"
+
+#: inc/widgets/widget-articles.php:214
+msgid ""
+"The ID of the category separated by commas, if you want to display the posts "
+"of certain category (add a minus sign before the category ID to exclude it)"
+msgstr ""
+"ID рубрик через кому, якщо потрібно вивести пости певних рубрик (додайте "
+"мінус перед ID рубрики, щоб її виключити)"
+
+#: inc/widgets/widget-articles.php:218
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:210
+msgid "Number of posts"
+msgstr "Кількість постів"
+
+#: inc/widgets/widget-articles.php:222
+msgid "Number of days to show posts"
+msgstr "Кількість днів, за які показувати пости"
+
+#: inc/widgets/widget-articles.php:226
+msgid "Output"
+msgstr "Вивід"
+
+#: inc/widgets/widget-articles.php:228
+msgid "Normal"
+msgstr "Нормальний"
+
+#: inc/widgets/widget-articles.php:229
+msgid "Compact"
+msgstr "Компактно"
+
+#: inc/widgets/widget-articles.php:234
+msgid "Hide thumbnail"
+msgstr "Приховати мініатюру"
+
+#: inc/widgets/widget-articles.php:238
+msgid "Hide category"
+msgstr "Приховати рубрику"
+
+#: inc/widgets/widget-articles.php:242
+msgid "Hide description"
+msgstr "Приховати опис"
+
+#: inc/widgets/widget-articles.php:246
+msgid "Hide meta-information"
+msgstr "Приховати мета-інформацію"
+
+#: inc/widgets/widget-social-links.php:14
+msgid "Social links"
+msgstr "Соціальні мережі"
+
+#: inc/widgets/widget-social-links.php:15
+msgid ""
+"Links to accounts in social. networks specified in Appearance - Configure - "
+"Modules - Social profiles"
+msgstr ""
+"Посилання на акаунти в соц. мережах, зазначені в Зовнішній вигляд - "
+"Налаштувати - Модулі - Соц. профілі"
+
+#: inc/widgets/widget-subscribe.php:14
+msgid "Subscription"
+msgstr "Підписка"
+
+#: inc/widgets/widget-subscribe.php:15
+msgid "Update subscription form"
+msgstr "Форма підписки на поновлення"
+
+#: inc/widgets/widget-subscribe.php:38
+msgid "You can read how to customize the subscription form here"
+msgstr "Як налаштувати форму підписки можете прочитати тут"
+
+#: inc/widgets/widget-table-of-contents.php:15
+msgid "Widget for contents"
+msgstr "Віджет для змісту"
+
+#: inc/widgets/widget-table-of-contents.php:72
+msgid "Output in post types"
+msgstr "Виведення в типах постів"
+
+#: inc/widgets/widget-top-commentators.php:14
+#: inc/widgets/widget-top-commentators.php:15
+msgid "TOP commentators"
+msgstr "ТОП коментаторів"
+
+#: inc/widgets/widget-top-commentators.php:81
+msgid "You can be first"
+msgstr "Ви можете бути першим"
+
+#: inc/widgets/widget-top-commentators.php:100
+msgid "Period"
+msgstr "Період"
+
+#: inc/widgets/widget-top-commentators.php:102
+msgid "For all the time"
+msgstr "За весь час"
+
+#: inc/widgets/widget-top-commentators.php:103
+msgid "Per month"
+msgstr "За місяць"
+
+#: inc/widgets/widget-top-commentators.php:108
+msgid "Count of commentators"
+msgstr "Кількість коментаторів"
+
+#: inc/widgets/widgets.php:150
+msgid "CSS Classes"
+msgstr "CSS-класи"
+
+#: node_modules/@babel/parser/lib/index.js:75
+msgid "import.meta may appear only with 'sourceType: \"module\"'"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:78
+msgid "'import' and 'export' may appear only with 'sourceType: \"module\"'"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:114
+msgid "'arguments' is only allowed in functions and class methods."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:115
+msgid ""
+"Async functions can only be declared at the top level or inside a block."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:116
+msgid "Can not use 'await' as identifier inside an async function."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:117
+msgid "Can not use 'await' as identifier inside a static block."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:118
+msgid "'await' is not allowed in async function parameters."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:119
+msgid ""
+"'await' is only allowed within async functions and at the top levels of "
+"modules."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:120
+msgid "'await' is only allowed within async functions."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:121
+msgid "A 'get' accesor must not have any formal parameters."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:122
+msgid "A 'set' accesor must have exactly one formal parameter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:123
+msgid "A 'set' accesor function argument must not be a rest parameter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:124
+msgid "Classes may not have a field named 'constructor'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:125
+msgid "Classes may not have a private field named '#constructor'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:126
+msgid "Class constructor may not be an accessor."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:127
+msgid "Constructor can't be an async function."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:128
+msgid "Constructor can't be a generator."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:132
+msgid ""
+"Decorators must be placed *before* the 'export' keyword. You can set the "
+"'decoratorsBeforeExport' option to false to use the 'export @decorator class "
+"{}' syntax."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:133
+msgid ""
+"Decorators can't be used with a constructor. Did you mean '@dec class "
+"{ ... }'?"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:134
+msgid ""
+"Using the export keyword between a decorator and a class is not allowed. "
+"Please use `export @dec class` instead."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:135
+msgid "Decorators must not be followed by a semicolon."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:136
+msgid "Decorators can't be used with a static block."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:137
+msgid "Deleting a private field is not allowed."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:138
+msgid ""
+"ES2015 named imports do not destructure. Use another statement for "
+"destructuring after the import."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:139
+msgid "Duplicate constructor in the same class."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:140
+msgid "Only one default export allowed per module."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:144
+msgid "Redefinition of __proto__ property."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:145
+msgid "Duplicate regular expression flag."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:146
+msgid "Rest element must be last element."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:147
+msgid "Invalid Unicode escape."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:152
+msgid "'from' is not allowed as an identifier after 'export default'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:155
+msgid "ForInStatement"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:156
+msgid "The left-hand side of a for-of loop may not be 'async'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:157
+msgid "The left-hand side of a for-of loop may not start with 'let'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:158
+msgid "Generators can only be declared at the top level or inside a block."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:161
+msgid "BreakStatement"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:162
+msgid ""
+"Illegal 'use strict' directive in function with non-simple parameter list."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:163
+msgid "'return' outside of function."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:167
+msgid "Trailing comma is disallowed inside import(...) arguments."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:170
+msgid "one argument"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:171
+msgid "Cannot use new with import(...)."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:172
+msgid "`...` is not allowed in `import()`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:173
+msgid ""
+"The 'u' and 'v' regular expression flags cannot be enabled at the same time."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:174
+msgid "Invalid BigIntLiteral."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:175
+msgid "Code point out of bounds."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:176
+msgid "Invalid shorthand property initializer."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:177
+msgid "Invalid decimal."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:181
+msgid "Bad character escape sequence."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:182
+msgid "Invalid escape sequence in template."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:195
+msgid "Invalid number."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:196
+msgid "Floating-point numbers require a valid exponent after the 'e'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:200
+msgid "Invalid parenthesized assignment pattern."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:204
+msgid "Binding member expression."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:205
+msgid "Only properties and spread elements are allowed in record definitions."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:206
+msgid "Invalid rest operator's argument."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:210
+msgid ""
+"'let' is not allowed to be used as a name in 'let' or 'const' declarations."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:211
+msgid "No line break is allowed before '=>'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:212
+msgid "Invalid regular expression flag."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:213
+msgid "A class name is required."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:214
+msgid "Only '=' operator can be used for specifying default value."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:215
+msgid "Missing semicolon."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:222
+msgid "Expecting Unicode escape sequence \\uXXXX."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:223
+msgid ""
+"Nullish coalescing operator(??) requires parens when mixing with logical "
+"operators."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:224
+msgid "The only accepted module attribute is `type`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:225
+msgid "Only string literals are allowed as module attribute values."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:235
+msgid "Multiple default clauses."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:236
+msgid "Illegal newline after throw."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:237
+msgid "Missing catch or finally clause."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:238
+msgid "Identifier directly after number."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:239
+msgid ""
+"Numeric separators are not allowed inside unicode escape sequences or hex "
+"escape sequences."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:240
+msgid ""
+"'await*' has been removed from the async functions proposal. Use Promise."
+"all() instead."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:241
+msgid "Constructors in/after an Optional Chain are not allowed."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:242
+msgid "Tagged Template Literals are not allowed in optionalChain."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:243
+msgid "'override' modifier cannot appear on a constructor declaration."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:244
+msgid "Argument name clash."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:245
+msgid "Object pattern can't contain getter or setter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:246
+msgid "Object pattern can't contain methods."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:253
+msgid ""
+"Record expressions ending with '|}' are only allowed when the 'syntaxType' "
+"option of the 'recordAndTuple' plugin is set to 'bar'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:254
+msgid ""
+"Record expressions starting with '{|' are only allowed when the 'syntaxType' "
+"option of the 'recordAndTuple' plugin is set to 'bar'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:255
+msgid ""
+"Record expressions starting with '#{' are only allowed when the 'syntaxType' "
+"option of the 'recordAndTuple' plugin is set to 'hash'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:256
+msgid "'__proto__' is not allowed in Record expressions."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:257
+msgid "Unexpected trailing comma after rest element."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:258
+msgid ""
+"In non-strict mode code, functions can only be declared at top level, inside "
+"a block, or as the body of an if statement."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:259
+msgid "Classes may not have static property named prototype."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:260
+msgid ""
+"`super()` is only valid inside a class constructor of a subclass. Maybe a "
+"typo in the method name ('constructor') or not extending another class?"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:261
+msgid "Private fields can't be accessed on super."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:262
+msgid "Decorators must be attached to a class element."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:263
+msgid ""
+"Tuple expressions ending with '|]' are only allowed when the 'syntaxType' "
+"option of the 'recordAndTuple' plugin is set to 'bar'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:264
+msgid ""
+"Tuple expressions starting with '[|' are only allowed when the 'syntaxType' "
+"option of the 'recordAndTuple' plugin is set to 'bar'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:265
+msgid ""
+"Tuple expressions starting with '#[' are only allowed when the 'syntaxType' "
+"option of the 'recordAndTuple' plugin is set to 'hash'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:266
+msgid "Unexpected argument placeholder."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:267
+msgid ""
+"Unexpected \"await\" after pipeline body; await must have parentheses in "
+"minimal proposal."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:268
+msgid "Unexpected digit after hash token."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:269
+msgid "'import' and 'export' may only appear at the top level."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:273
+msgid "Leading decorators must be attached to a class declaration."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:274
+msgid "Lexical declaration cannot appear in a single-statement context."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:275
+msgid "`new.target` can only be used in functions or class properties."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:276
+msgid "A numeric separator is only allowed between two digits."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:277
+msgid "Unexpected private name."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:281
+msgid "'super' is only allowed in object methods and classes."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:286
+msgid ""
+"Illegal expression. Wrap left hand side or entire exponentiation in "
+"parentheses."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:287
+msgid "Binding should be performed on object property."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:288
+msgid "A decorated export must export a class declaration."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:289
+msgid ""
+"Only expressions, functions or classes are allowed as the `default` export."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:290
+msgid "`import` can only be used in `import()` or `import.meta`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:295
+msgid "Decorators cannot be used to decorate parameters."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:296
+msgid "Decorators cannot be used to decorate object literal properties."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:297
+msgid ""
+"'super' can only be used with function calls (i.e. super()) or in property "
+"accesses (i.e. super.prop or super[prop])."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:298
+msgid "Unterminated comment."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:299
+msgid "Unterminated regular expression."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:300
+msgid "Unterminated string constant."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:301
+msgid "Unterminated template."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:305
+msgid "Can not use 'yield' as identifier inside a generator."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:306
+msgid "Yield expression is not allowed in formal parameters."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:307
+msgid "Numeric separator can not be used after leading 0."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:311
+msgid "Deleting local variable in strict mode."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:318
+msgid ""
+"In strict mode code, functions can only be declared at top level or inside a "
+"block."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:319
+msgid "The only valid numeric escape in strict mode is '\\0'."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:320
+msgid "Legacy octal literals are not allowed in strict mode."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:321
+msgid "'with' in strict mode."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:326
+msgid ""
+"Unexpected yield after pipeline body; any yield expression acting as Hack-"
+"style pipe body must be parenthesized due to its loose operator precedence."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:327
+#: node_modules/@babel/parser/lib/index.js:343
+msgid ""
+"Topic reference is used, but the pipelineOperator plugin was not passed a "
+"\"proposal\": \"hack\" or \"smart\" option."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:328
+msgid "Topic reference is unbound; it must be inside a pipe body."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:332
+msgid ""
+"Hack-style pipe body does not contain a topic reference; Hack-style pipes "
+"must use topic at least once."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:338
+msgid ""
+"Unexpected arrow \"=>\" after pipeline body; arrow function in pipeline body "
+"must be parenthesized."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:339
+msgid "Pipeline body may not be a comma-separated sequence expression."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:340
+msgid "Pipeline head should not be a comma-separated sequence expression."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:341
+msgid "Pipeline is in topic style but does not use topic reference."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:342
+msgid "Topic reference was used in a lexical context without topic binding."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4324
+msgid ""
+"Ambiguous expression: wrap the arrow functions in parentheses to "
+"disambiguate."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4325
+msgid ""
+"Found both `declare module.exports` and `declare export` in the same module. "
+"Modules can only have 1 since they are either an ES module or they are a "
+"CommonJS module."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4329
+msgid "The `declare` modifier can only appear on class fields."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4330
+msgid "Initializers are not allowed in fields with the `declare` modifier."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4331
+msgid "Duplicate `declare module.exports` statement."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4375
+msgid "A getter cannot have a `this` parameter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4376
+msgid ""
+"The `type` and `typeof` keywords on named imports can only be used on "
+"regular `import` statements. It cannot be used with `import type` or `import "
+"typeof` statements."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4377
+msgid ""
+"Explicit inexact syntax cannot appear inside an explicit exact object type."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4378
+msgid ""
+"Explicit inexact syntax cannot appear in class or interface definitions."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4379
+msgid "Explicit inexact syntax cannot have variance."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4380
+msgid ""
+"Imports within a `declare module` body must always be `import type` or "
+"`import typeof`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4381
+msgid ""
+"Type parameter declaration needs a default, since a preceding type parameter "
+"declaration has a default."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4382
+msgid "`declare module` cannot be used inside another `declare module`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4383
+msgid "Cannot have a flow comment inside another flow comment."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4384
+msgid ""
+"A binding pattern parameter cannot be optional in an implementation "
+"signature."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4387
+msgid "A setter cannot have a `this` parameter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4388
+msgid "Spread properties cannot have variance."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4389
+msgid "A type annotation is required for the `this` parameter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4390
+msgid ""
+"Constructors cannot have a `this` parameter; constructors don't bind `this` "
+"like other functions."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4391
+msgid "The `this` parameter cannot be optional."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4392
+msgid "The `this` parameter must be the first function parameter."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4393
+msgid "The `this` parameter may not have a default value."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4394
+msgid ""
+"Type annotations must come before default assignments, e.g. instead of `age "
+"= 25: number` use `age: number = 25`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4395
+msgid "The type cast expression is expected to be wrapped with parenthesis."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4396
+msgid "Explicit inexact syntax must appear at the end of an inexact object."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4400
+msgid "`_` is only allowed as a type argument to call or new."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4401
+msgid "Spaces between `%` and `checks` are not allowed here."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4402
+msgid "Spread operator cannot appear in class or interface definitions."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4403
+msgid "Unexpected token, expected \"number\" or \"bigint\"."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4404
+msgid "Expected an arrow function after this type parameter declaration."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4405
+msgid ""
+"Type parameters must come after the async keyword, e.g. instead of `<T> "
+"async () => {}`, use `async <T>() => {}`."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4410
+msgid "Only declares and type imports are allowed inside declare module."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:4411
+msgid "Unterminated flow-comment."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:7585
+msgid "JSX attributes must only be assigned a non-empty expression."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:7589
+msgid "Expected corresponding JSX closing tag for <>."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:7590
+msgid ""
+"Sequence expressions cannot be directly nested inside JSX. Did you mean to "
+"wrap it in parentheses (...)?"
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:7595
+msgid "JSX value should be either an expression or a quoted JSX text."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:7596
+msgid "Unterminated JSX contents."
+msgstr ""
+
+#: node_modules/@babel/parser/lib/index.js:7597
+msgid ""
+"Adjacent JSX elements must be wrapped in an enclosing tag. Did you want a "
+"JSX fragment <>...</>?"
+msgstr ""
+
+#: node_modules/browser-sync-ui/public/js/app.js:2
+msgid "area,br,col,hr,img,wbr"
+msgstr ""
+
+#: node_modules/browser-sync-ui/public/js/app.js:2
+msgid "colgroup,dd,dt,li,p,tbody,td,tfoot,th,thead,tr"
+msgstr ""
+
+#: node_modules/browser-sync-ui/public/js/app.js:2
+msgid "rp,rt"
+msgstr ""
+
+#: node_modules/browser-sync-ui/public/js/app.js:2
+msgid ""
+"address,article,aside,blockquote,caption,center,del,dir,div,dl,figure,"
+"figcaption,footer,h1,h2,h3,h4,h5,h6,header,hgroup,hr,ins,map,menu,nav,ol,pre,"
+"section,table,ul"
+msgstr ""
+
+#: node_modules/browser-sync-ui/public/js/app.js:2
+msgid ""
+"a,abbr,acronym,b,bdi,bdo,big,br,cite,code,del,dfn,em,font,i,img,ins,kbd,"
+"label,map,mark,q,ruby,rp,rt,s,samp,small,span,strike,strong,sub,sup,time,tt,"
+"u,var"
+msgstr ""
+
+#: node_modules/browser-sync-ui/public/js/app.js:2
+msgid ""
+"circle,defs,desc,ellipse,font-face,font-face-name,font-face-src,g,glyph,"
+"hkern,image,linearGradient,line,marker,metadata,missing-glyph,mpath,path,"
+"polygon,polyline,radialGradient,rect,stop,svg,switch,text,title,tspan"
+msgstr ""
+
+#: node_modules/browser-sync-ui/public/js/app.js:2
+msgid "script,style"
+msgstr ""
+
+#: node_modules/browser-sync-ui/public/js/app.js:2
+msgid "background,cite,href,longdesc,src,xlink:href,xml:base"
+msgstr ""
+
+#: node_modules/browser-sync-ui/public/js/app.js:2
+msgid ""
+"abbr,align,alt,axis,bgcolor,border,cellpadding,cellspacing,class,clear,color,"
+"cols,colspan,compact,coords,dir,face,headers,height,hreflang,hspace,ismap,"
+"lang,language,nohref,nowrap,rel,rev,rows,rowspan,rules,scope,scrolling,shape,"
+"size,span,start,summary,tabindex,target,title,type,valign,value,vspace,width"
+msgstr ""
+
+#: node_modules/browser-sync-ui/public/js/app.js:2
+msgid ""
+"accent-height,accumulate,additive,alphabetic,arabic-form,ascent,baseProfile,"
+"bbox,begin,by,calcMode,cap-height,class,color,color-rendering,content,cx,cy,"
+"d,dx,dy,descent,display,dur,end,fill,fill-rule,font-family,font-size,font-"
+"stretch,font-style,font-variant,font-weight,from,fx,fy,g1,g2,glyph-name,"
+"gradientUnits,hanging,height,horiz-adv-x,horiz-origin-x,ideographic,k,"
+"keyPoints,keySplines,keyTimes,lang,marker-end,marker-mid,marker-start,"
+"markerHeight,markerUnits,markerWidth,mathematical,max,min,offset,opacity,"
+"orient,origin,overline-position,overline-thickness,panose-1,path,pathLength,"
+"points,preserveAspectRatio,r,refX,refY,repeatCount,repeatDur,"
+"requiredExtensions,requiredFeatures,restart,rotate,rx,ry,slope,stemh,stemv,"
+"stop-color,stop-opacity,strikethrough-position,strikethrough-thickness,"
+"stroke,stroke-dasharray,stroke-dashoffset,stroke-linecap,stroke-linejoin,"
+"stroke-miterlimit,stroke-opacity,stroke-width,systemLanguage,target,text-"
+"anchor,to,transform,type,u1,u2,underline-position,underline-thickness,"
+"unicode,unicode-range,units-per-em,values,version,viewBox,visibility,width,"
+"widths,x,x-height,x1,x2,xlink:actuate,xlink:arcrole,xlink:role,xlink:show,"
+"xlink:title,xlink:type,xml:base,xml:lang,xml:space,xmlns,xmlns:xlink,y,y1,y2,"
+"zoomAndPan"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs-parser/build/lib/yargs-parser.js:422
+#: node_modules/localtunnel/node_modules/yargs-parser/build/lib/yargs-parser.js:419
+#, javascript-format
+msgid "Argument unexpected for: %s"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs-parser/build/lib/yargs-parser.js:431
+#: node_modules/browser-sync/node_modules/yargs-parser/build/lib/yargs-parser.js:445
+#: node_modules/browser-sync/node_modules/yargs-parser/build/lib/yargs-parser.js:498
+#: node_modules/localtunnel/node_modules/yargs-parser/build/lib/yargs-parser.js:428
+#: node_modules/localtunnel/node_modules/yargs-parser/build/lib/yargs-parser.js:442
+#: node_modules/localtunnel/node_modules/yargs-parser/build/lib/yargs-parser.js:495
+#: node_modules/yargs-parser/index.js:302
+#, javascript-format
+msgid "Not enough arguments following: %s"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs-parser/build/lib/yargs-parser.js:635
+#: node_modules/localtunnel/node_modules/yargs-parser/build/lib/yargs-parser.js:634
+#: node_modules/yargs-parser/index.js:450
+#, javascript-format
+msgid "Invalid JSON config file: %s"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs-parser/build/lib/yargs-parser.js:964
+#: node_modules/localtunnel/node_modules/yargs-parser/build/lib/yargs-parser.js:963
+#, javascript-format
+msgid "Invalid configuration: %s, opts.count excludes opts.array."
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs-parser/build/lib/yargs-parser.js:968
+#: node_modules/localtunnel/node_modules/yargs-parser/build/lib/yargs-parser.js:967
+#, javascript-format
+msgid "Invalid configuration: %s, opts.count excludes opts.narg."
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:92
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:90
+msgid "Positionals:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:186
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:189
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:184
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:187
+msgid "command"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:195
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:193
+#: node_modules/yargs/lib/usage.js:169
+msgid "Commands:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:214
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:211
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:299
+msgid "default"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:216
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:213
+#: node_modules/yargs/lib/usage.js:179
+msgid "aliases:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:220
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:326
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:217
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:323
+#, javascript-format
+msgid "deprecated: %s"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:223
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:327
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:220
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:324
+msgid "deprecated"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:242
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:239
+msgid "Options:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:314
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:311
+#: node_modules/yargs/lib/usage.js:241
+msgid "boolean"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:316
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:313
+#: node_modules/yargs/lib/usage.js:242
+msgid "count"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:318
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:320
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:315
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:317
+#: node_modules/yargs/lib/usage.js:243 node_modules/yargs/lib/usage.js:244
+msgid "string"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:322
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:319
+#: node_modules/yargs/lib/usage.js:245
+msgid "array"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:324
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:321
+#: node_modules/yargs/lib/usage.js:246
+msgid "number"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:333
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:330
+#: node_modules/yargs/lib/usage.js:250
+msgid "required"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:335
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:332
+#: node_modules/yargs/lib/usage.js:251
+msgid "choices:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:354
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:351
+#: node_modules/yargs/lib/usage.js:270
+msgid "Examples:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:459
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:456
+#: node_modules/yargs/lib/usage.js:385
+msgid "generated-value"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/usage.js:476
+#: node_modules/localtunnel/node_modules/yargs/build/lib/usage.js:473
+#: node_modules/yargs/lib/usage.js:177 node_modules/yargs/lib/usage.js:407
+msgid "default:"
+msgstr "за замовчуванням:"
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/validation.js:160
+#: node_modules/localtunnel/node_modules/yargs/build/lib/validation.js:160
+#: node_modules/yargs/lib/validation.js:185
+msgid "Invalid values:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/validation.js:162
+#: node_modules/localtunnel/node_modules/yargs/build/lib/validation.js:162
+#: node_modules/yargs/lib/validation.js:188
+#, javascript-format
+msgid "Argument: %s, Given: %s, Choices: %s"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/validation.js:221
+#: node_modules/localtunnel/node_modules/yargs/build/lib/validation.js:221
+#: node_modules/yargs/lib/validation.js:283
+msgid "Implications failed:"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/validation.js:255
+#: node_modules/browser-sync/node_modules/yargs/build/lib/validation.js:266
+#: node_modules/localtunnel/node_modules/yargs/build/lib/validation.js:255
+#: node_modules/yargs/lib/validation.js:313
+#, javascript-format
+msgid "Arguments %s and %s are mutually exclusive"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/validation.js:285
+#: node_modules/localtunnel/node_modules/yargs/build/lib/validation.js:274
+#: node_modules/yargs/lib/validation.js:332
+#, javascript-format
+msgid "Did you mean %s?"
+msgstr ""
+
+#: node_modules/browser-sync/node_modules/yargs/build/lib/yargs-factory.js:181
+#: node_modules/localtunnel/node_modules/yargs/build/lib/yargs-factory.js:174
+#: node_modules/yargs/lib/validation.js:218
+#, javascript-format
+msgid "Argument check failed: %s"
+msgstr ""
+
+#: node_modules/yargs/lib/validation.js:26
+#: node_modules/yargs/lib/validation.js:49
+#, javascript-format
+msgid "Not enough non-option arguments: got %s, need at least %s"
+msgstr ""
+
+#: node_modules/yargs/lib/validation.js:37
+#, javascript-format
+msgid "Too many non-option arguments: got %s, maximum of %s"
+msgstr ""
+
+#: search.php:29
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Пошук за запитом: %s"
+
+#: searchform.php:23
+msgid "Search"
+msgstr "Пошук"
+
+#: template-parts/author-box.php:41 template-parts/author-box.php:43
+msgid "author of the article"
+msgstr "автор статті"
+
+#: template-parts/content-none.php:21
+msgid "Nothing Found"
+msgstr "Нічого не знайдено"
+
+#: template-parts/content-none.php:28
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Готові опублікувати свій перший пост? <a href=\"%1$s\">Почніть тут</a>."
+
+# @ _s
+#: template-parts/content-none.php:32
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Вибачте, але нічого не відповідає умовам пошуку. Будь ласка, спробуйте ще "
+"раз з іншими ключовими словами."
+
+#: template-parts/content-none.php:38
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"На жаль, потрібна сторінка не знайдена. Спробуйте скористатися пошуком."
+
+#: template-parts/content-page.php:73 template-parts/content-single.php:92
+msgid "Pages:"
+msgstr "Сторінки:"
+
+#: template-parts/content-single.php:149
+msgid "Tags:"
+msgstr "Мітки:"
+
+#: template-parts/sections/posts.php:166
+msgid "Subsections"
+msgstr "Підрозділи"
+
+#: vendor/wpshop/core/src/AdminNotices.php:82
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+"Дію виконати не вдалося. Будь ласка, оновіть сторінку та спробуйте ще раз."
+
+#: vendor/wpshop/core/src/Advertising.php:69
+#: vendor/wpshop/core/src/Advertising.php:70
+#: vendor/wpshop/core/src/Advertising.php:92
+msgid "Advertising"
+msgstr "Реклама"
+
+#: vendor/wpshop/core/src/Advertising.php:102
+msgid "Before content"
+msgstr "Перед контентом"
+
+#: vendor/wpshop/core/src/Advertising.php:111
+msgid "Middle content"
+msgstr "Посередині контенту"
+
+#: vendor/wpshop/core/src/Advertising.php:129
+msgid "After paragraph"
+msgstr "Після абзацу"
+
+#: vendor/wpshop/core/src/Advertising.php:162
+#: vendor/wpshop/core/src/ThemeSettings.php:79
+msgid "You do not have sufficient permissions to access this page."
+msgstr "У Вас немає доступу до цієї сторінки."
+
+#: vendor/wpshop/core/src/Advertising.php:210
+msgid "Desktop"
+msgstr "ПК"
+
+#: vendor/wpshop/core/src/Advertising.php:215
+msgid "Mobile"
+msgstr "Мобільна"
+
+#: vendor/wpshop/core/src/Advertising.php:222
+msgid "Show after"
+msgstr "Показувати після"
+
+#: vendor/wpshop/core/src/Advertising.php:222
+msgid "paragraph. If set to 0 - not displayed"
+msgstr "абзацу. Якщо задано 0 - не показується"
+
+#: vendor/wpshop/core/src/Advertising.php:226
+msgid "Show"
+msgstr "Виводити"
+
+#: vendor/wpshop/core/src/Advertising.php:227
+msgid "on the main"
+msgstr "на головній"
+
+#: vendor/wpshop/core/src/Advertising.php:228
+msgid "in posts"
+msgstr "в записах"
+
+#: vendor/wpshop/core/src/Advertising.php:229
+msgid "on pages"
+msgstr "на сторінках"
+
+#: vendor/wpshop/core/src/Advertising.php:230
+msgid "in the archives"
+msgstr "в архівах"
+
+#: vendor/wpshop/core/src/Advertising.php:231
+msgid "in search"
+msgstr "в пошуку"
+
+#: vendor/wpshop/core/src/Advertising.php:235
+msgid "Minimum characters"
+msgstr "Мінімум символів"
+
+#: vendor/wpshop/core/src/Advertising.php:235
+msgid "in the article to show ads"
+msgstr "в статті, щоб показувати рекламу"
+
+#: vendor/wpshop/core/src/Advertising.php:236
+msgid "Show through"
+msgstr "Показувати через"
+
+#: vendor/wpshop/core/src/Advertising.php:236
+msgid "days after the post was posted. 0 - show immediately"
+msgstr "днів після публікації запису. 0 - показувати відразу"
+
+#: vendor/wpshop/core/src/Advertising.php:237
+#: vendor/wpshop/core/src/Advertising.php:239
+msgid "Show only in"
+msgstr "Показувати тільки в"
+
+#: vendor/wpshop/core/src/Advertising.php:237
+#: vendor/wpshop/core/src/Advertising.php:238
+msgid "specify post IDs separated by commas"
+msgstr "вкажіть ID постів через кому"
+
+#: vendor/wpshop/core/src/Advertising.php:238
+#: vendor/wpshop/core/src/Advertising.php:240
+msgid "Do not show in"
+msgstr "Не показувати в"
+
+#: vendor/wpshop/core/src/Advertising.php:239
+#: vendor/wpshop/core/src/Advertising.php:240
+msgid "specify category IDs separated by commas"
+msgstr "вкажіть ID рубрик через кому"
+
+#: vendor/wpshop/core/src/ContactForm.php:72
+msgid "Sorry, but we can't send form. Error #1"
+msgstr "Вибачте, але ми не змогли відправити форму. Помилка #1"
+
+#: vendor/wpshop/core/src/ContactForm.php:76
+msgid "Sorry, but we can't send form. Error #2"
+msgstr "Вибачте, але ми не змогли відправити форму. Помилка #2"
+
+#: vendor/wpshop/core/src/ContactForm.php:85
+msgid "Fill field "
+msgstr "Заповніть поле "
+
+#: vendor/wpshop/core/src/ContactForm.php:98
+msgid "Message from contact form"
+msgstr "Повідомлення з форми зворотного зв'язку"
+
+#: vendor/wpshop/core/src/ContactForm.php:101
+msgid "Wrong e-mail format"
+msgstr "Невірний формат e-mail"
+
+#: vendor/wpshop/core/src/ContactForm.php:104
+msgid "Message from"
+msgstr "Повідомлення від"
+
+#: vendor/wpshop/core/src/Core.php:44
+msgid "Attention!"
+msgstr "Увага!"
+
+#: vendor/wpshop/core/src/Core.php:45
+#, php-format
+msgid ""
+"To activate theme you need to enter the license key on <a href=\"%s\">this "
+"page</a>."
+msgstr ""
+"Для активації теми Вам необхідно ввести ліцензійний ключ на <a href=\"%s"
+"\">цій сторінці</a>."
+
+#: vendor/wpshop/core/src/Core.php:71
+msgid "You need to activate the license in Settings section of Admin panel"
+msgstr ""
+"Вам необхідно активувати ліцензію в розділі Налаштування панелі "
+"адміністратора"
+
+#: vendor/wpshop/core/src/Core.php:185
+#, php-format
+msgid "Theme %s requires PHP version >= %s"
+msgstr "Темі %s необхідний PHP версії >= %s"
+
+#: vendor/wpshop/core/src/Core.php:186
+msgid "The version of PHP installed on your hosting is outdated."
+msgstr "Версія PHP, встановлена на Вашому хостингу, застаріла."
+
+#: vendor/wpshop/core/src/Core.php:187
+#, php-format
+msgid ""
+"Now you use PHP: %s. It can be unsafe and slowly your site. Please upgrade "
+"PHP."
+msgstr ""
+"Ви використовуєте PHP версії: %s. Це може бути небезпечно і може "
+"сповільнювати Ваш сайт. Будь ласка, оновіть PHP."
+
+#: vendor/wpshop/core/src/Core.php:188
+msgid ""
+"You can change PHP version by yourself or ask about it your hosting provider."
+msgstr ""
+"Ви можете змінити версію PHP самостійно або попросити про це Вашого хостинг-"
+"провайдера."
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:103
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:124
+msgid "Posts output"
+msgstr "Вивід постів"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:104
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:127
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:271
+msgid "HTML"
+msgstr "HTML"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:143
+msgid "Remove"
+msgstr "Видалити"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:154
+msgid "Presets"
+msgstr "Пресети"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:176
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:262
+msgid "Title tag"
+msgstr "Тег заголовка"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:185
+msgid "Category ID"
+msgstr "ID рубрик"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:189
+msgid "display category name as heading"
+msgstr "вивести назву рубрики в якості заголовка"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:193
+msgid "display heading with category link"
+msgstr "вивести заголовок з посиланням на рубрику"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:197
+msgid "Post type"
+msgstr "Тип постів"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:201
+msgid "Show only posts"
+msgstr "Показувати тільки записи"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:204
+msgid "Exclude posts"
+msgstr "Виключити записи"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:207
+msgid "Indentation"
+msgstr "Відступ"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:214
+msgid "show subcategories"
+msgstr "показувати підрубрики"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:226
+msgid "Type of post cards"
+msgstr "Вид карток постів"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:236
+msgid "Settings post cards"
+msgstr "Налаштування карток постів"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:247
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:274
+msgid "CSS classes"
+msgstr "CSS-класи"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:300
+msgid "show"
+msgstr "показувати"
+
+#: vendor/wpshop/core/src/Customizer/Control/PageConstructor.php:301
+msgid "hide"
+msgstr "приховати"
+
+#: vendor/wpshop/core/src/Customizer/Control/Typography.php:84
+msgid "Reset"
+msgstr "Скинути"
+
+#: vendor/wpshop/core/src/Customizer/Control/Typography.php:104
+msgid "Bold"
+msgstr "Жирний"
+
+#: vendor/wpshop/core/src/Customizer/Control/Typography.php:105
+msgid "Italic"
+msgstr "Курсив"
+
+#: vendor/wpshop/core/src/Customizer/Control/Typography.php:106
+msgid "Underline"
+msgstr "Підкреслений"
+
+#: vendor/wpshop/core/src/Customizer/Control/Typography.php:107
+msgid "Uppercase"
+msgstr "Верхній регістр"
+
+#: vendor/wpshop/core/src/Customizer/Control/Typography.php:113
+msgid "Font-size"
+msgstr "Розмір шрифту"
+
+#: vendor/wpshop/core/src/Customizer/Control/Typography.php:118
+msgid "Line-height"
+msgstr "Висота рядка"
+
+#: vendor/wpshop/core/src/Customizer/Control/Typography.php:125
+msgid "Color"
+msgstr "Колір"
+
+#: vendor/wpshop/core/src/Helper.php:120
+msgid "m."
+msgstr "м."
+
+#: vendor/wpshop/core/src/Helper.php:123 vendor/wpshop/core/src/Helper.php:126
+msgid "k."
+msgstr "к."
+
+#: vendor/wpshop/core/src/Shortcodes.php:85
+msgid "Show hidden content"
+msgstr "Показати прихований вміст"
+
+#: vendor/wpshop/core/src/Sitemap.php:95
+msgid "Pages"
+msgstr "Сторінки"
+
+#: vendor/wpshop/core/src/Social.php:35
+msgid "Vkontakte"
+msgstr "ВКонтакте"
+
+#: vendor/wpshop/core/src/Social.php:40
+msgid "LiveJournal"
+msgstr "LiveJournal"
+
+#: vendor/wpshop/core/src/Social.php:41
+msgid "My@Mail.Ru"
+msgstr "My@Mail.Ru"
+
+#: vendor/wpshop/core/src/Social.php:42
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: vendor/wpshop/core/src/Social.php:44
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: vendor/wpshop/core/src/Social.php:45
+msgid "Surfingbird"
+msgstr "Surfingbird"
+
+#: vendor/wpshop/core/src/Social.php:47
+msgid "Reddit"
+msgstr "Reddit"
+
+#: vendor/wpshop/core/src/Social.php:48
+msgid "Buffer"
+msgstr "Buffer"
+
+#: vendor/wpshop/core/src/Social.php:49
+msgid "StumbleUpon"
+msgstr "StumbleUpon"
+
+#: vendor/wpshop/core/src/Social.php:51
+msgid "Evernote"
+msgstr "Evernote"
+
+#: vendor/wpshop/core/src/Social.php:52
+msgid "Delicious"
+msgstr "Delicious"
+
+#: vendor/wpshop/core/src/Social.php:53
+msgid "Blogger"
+msgstr "Blogger"
+
+#: vendor/wpshop/core/src/Social.php:54
+msgid "LiveInternet"
+msgstr "LiveInternet"
+
+#: vendor/wpshop/core/src/Social.php:56
+msgid "Digg"
+msgstr "Digg"
+
+#: vendor/wpshop/core/src/Social.php:57
+msgid "Instapaper"
+msgstr "Instapaper"
+
+#: vendor/wpshop/core/src/Social.php:58
+msgid "WordPress"
+msgstr "WordPress"
+
+#: vendor/wpshop/core/src/Social.php:59
+msgid "Baidu"
+msgstr "Baidu"
+
+#: vendor/wpshop/core/src/Social.php:60
+msgid "RenRen"
+msgstr "RenRen"
+
+#: vendor/wpshop/core/src/Social.php:61
+msgid "Weibo"
+msgstr "Weibo"
+
+#: vendor/wpshop/core/src/Social.php:62
+msgid "Pocket"
+msgstr "Pocket"
+
+#: vendor/wpshop/core/src/Social.php:63
+msgid "Xing"
+msgstr "Xing"
+
+#: vendor/wpshop/core/src/Social.php:65
+msgid "SMS"
+msgstr "SMS"
+
+#: vendor/wpshop/core/src/Social.php:66
+msgid "Skype"
+msgstr "Skype"
+
+#: vendor/wpshop/core/src/Social.php:69
+msgid "LINE"
+msgstr "LINE"
+
+#: vendor/wpshop/core/src/Social.php:72
+msgid "YouTube"
+msgstr "YouTube"
+
+#: vendor/wpshop/core/src/Social.php:74
+msgid "TikTok"
+msgstr "TikTok"
+
+#: vendor/wpshop/core/src/StarRating.php:88
+msgid "No ratings yet"
+msgstr "Поки що оцінок немає"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:60
+msgid "License key"
+msgstr "Ліцензійний ключ"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:68
+msgid "Settings"
+msgstr "Налаштування"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:86
+msgid "You can familiarize yourself with the documentation on the topic"
+msgstr "З документацією по темі Ви можете ознайомитися"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:86
+msgid "by this link"
+msgstr "по цьому посиланню"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:87
+msgid "Appearance and color settings are in the customizer"
+msgstr "Налаштування зовнішнього вигляду і кольорів знаходяться в кастомайзері"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:87
+msgid "Appearance> Settings"
+msgstr "Зовнішній вигляд > Налаштування"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:112
+msgid "Enter your License key that was sent to the e-mail after the purchase."
+msgstr ""
+"Введіть ліцензійний ключ, який був відправлений на електронну пошту після "
+"придбання."
+
+#: vendor/wpshop/core/src/ThemeSettings.php:113
+msgid "Hide license key after activation"
+msgstr "Приховати ліцензійний ключ після активації"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:115
+msgid "You have hidden the license key."
+msgstr "Ви приховали ліцензійний ключ."
+
+#: vendor/wpshop/core/src/ThemeSettings.php:130
+msgid "Export settings"
+msgstr "Експорт налаштувань"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:132
+msgid "Copy this code to any text file to save all settings of this site"
+msgstr ""
+"Скопіюйте цей код в будь-який текстовий файл, щоб зберегти всі налаштування "
+"цього сайту"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:136
+msgid "Import settings"
+msgstr "Імпорт налаштувань"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:138
+msgid ""
+"Danger! Old settings will be removed before import! Paste code to this field "
+"and press Save"
+msgstr ""
+"Увага! Старі налаштування будуть видалені перед імпортом! Вставте код у це "
+"поле та натисніть Зберегти"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:142
+msgid "Reset all settings"
+msgstr "Скинути всі налаштування"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:143
+msgid ""
+"Danger! Reset all customizer settings. Reset counters, styles, sidebar "
+"settings etc."
+msgstr ""
+"Небезпека! Скидання всіх налаштувань кастомайзера (Зовнішній вигляд - "
+"Налаштувати). Скидання лічильників, стилів, сайдбару й т.д."
+
+#: vendor/wpshop/core/src/ThemeSettings.php:191
+msgid "How to fix it"
+msgstr "Як це виправити"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:194
+msgid "Activation error"
+msgstr "Помилка активації"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:196
+msgid "Can't get response from license server"
+msgstr "Не вдалося отримати відповідь від сервера ліцензій"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:291
+msgid "Successfully deleted"
+msgstr "Успішно скинуті"
+
+#: vendor/wpshop/core/src/ThemeSettings.php:293
+msgid "We cant delete settings"
+msgstr "Не змогли скинути налаштування"
+
+#: vendor/wpshop/core/src/ViewsCounter.php:83
+msgid ""
+"Your site does appear to be using WP-PostViews plugin. You can disable it "
+"because the theme already can track post views."
+msgstr ""
+"На вашому сайті, схоже, використовується плагін WP-PostViews. Ви можете "
+"вимкнути його, тому що тема вже може відстежувати перегляди."
+
+#~ msgid "Показать скрытое содержание"
+#~ msgstr "Показати прихований зміст"
+
+#~ msgctxt "Hide elements"
+#~ msgid "Views"
+#~ msgstr "Перегляди"
+
+#~ msgid "Views"
+#~ msgstr "Переглядів"
+
+#~ msgid "Add a comment"
+#~ msgstr "Додати коментар"
+
+#, fuzzy
+#~| msgid "Related articles"
+#~ msgid "Rate article"
+#~ msgstr "Похожие материалы"
+
+#~ msgid "Automatically add paragraphs"
+#~ msgstr "Автоматично додавати абзаци"
+
+#~ msgid "What can be done?"
+#~ msgstr "Що можна зробити?"
+
+#~ msgid "Try to use search"
+#~ msgstr "Скористайтеся пошуком"
+
+#, php-format
+#~ msgid "Go to <a href=\"%1$s\">Homepage</a>."
+#~ msgstr "Перейдіть на <a href=\"%1$s\">домашню</a> сторінку."
+
+#~ msgid "Footer "
+#~ msgstr "Підвал "
+
+#~ msgid "Try to change search phrase"
+#~ msgstr "Спробуйте змінити фразу для пошуку"
+
+#, fuzzy
+#~| msgid "Show title social buttons"
+#~ msgid "Show title social buttons on pages"
+#~ msgstr "Показать заголовок нижних соц. кнопок"
+
+#, fuzzy
+#~| msgid "Rating title"
+#~ msgid "Rating title on pages"
+#~ msgstr "Заголовок рейтинга"
+
+#~ msgid "Background color header"
+#~ msgstr "Цвет фона"
+
+#, fuzzy
+#~| msgid "Background color"
+#~ msgid "Background color menu"
+#~ msgstr "Цвет фона"
+
+#, fuzzy
+#~| msgid "Background color"
+#~ msgid "Background color footer"
+#~ msgstr "Цвет фона"
+
+#~ msgctxt "Header colors"
+#~ msgid "Header"
+#~ msgstr "Шапка"
+
+#, fuzzy
+#~| msgid "Link color"
+#~ msgid "Links color"
+#~ msgstr "Цвет ссылок"
+
+#~ msgctxt "Footer colors"
+#~ msgid "Footer"
+#~ msgstr "Подвал"
+
+#, fuzzy
+#~| msgid "Enable on mobile"
+#~ msgid "Show menu on mobile"
+#~ msgstr "Включить на мобильном"
+
+#~ msgid "Base font family"
+#~ msgstr "Основной шрифт"
+
+#~ msgid "Base font size"
+#~ msgstr "Основной размер шрифта"
+
+#~ msgid "Base line height"
+#~ msgstr "Основной межстрочный интервал"
+
+#~ msgid "Headers font family"
+#~ msgstr "Шрифт заголовков"
+
+#~ msgid "Base text color"
+#~ msgstr "Основной цвет текста"
+
+#~ msgid "Background pattern"
+#~ msgstr "Фоновый паттерн"
+
+#~ msgid "Show cooking time"
+#~ msgstr "Показать время готовки"
+
+#~ msgid "Show comments count"
+#~ msgstr "Показать количество комментариев"
+
+#~ msgid "Show views"
+#~ msgstr "Показать просмотры"
+
+#~ msgid "Blocks and structure"
+#~ msgstr "Блоки и расположение"
+
+#~ msgid "Google plus"
+#~ msgstr "Google plus"
+
+#~ msgid "Большая миниатюра"
+#~ msgstr "Большая миниатюра"
+
+#~ msgid ""
+#~ "На странице записи будет отображаться миниатюра на всю ширину сайта. "
+#~ "Рекомендуемый размер %s"
+#~ msgstr ""
+#~ "На странице записи будет отображаться миниатюра на всю ширину сайта. "
+#~ "Рекомендуемый размер %s"
+
+#~ msgid "Enable content"
+#~ msgstr "Включить содержание"
+
+#~ msgid "Please share to your friends:"
+#~ msgstr "Пожалуйста, поделитесь с друзьями:"
+
+#~ msgid "Show bottom social share buttons"
+#~ msgstr "Показать нижние соц. кнопки"
+
+#~ msgid "Main navigation width"
+#~ msgstr "Ширина основного меню"
+
+#~ msgid "Main navigation inner width"
+#~ msgstr "Ширина внутри основного меню"
+
+#~ msgid "Footer navigation width"
+#~ msgstr "Ширина навигации в подвале"
+
+#~ msgid "Footer navigation inner width"
+#~ msgstr "Ширина внутри навигации в подвале"
+
+#~ msgid "Read more"
+#~ msgstr "Читать полностью"
+
+# @ _s
+#~ msgid "Most Used Categories"
+#~ msgstr "Популярные рубрики"
