@@ -1,0 +1,12 @@
+Gitium Test File
+================
+
+Этот файл создан для проверки работы Gitium.
+This file is created to test Gitium synchronization.
+
+Дата создания / Created: 2025-10-27
+Сайт / Site: http://regret49.beget.tech/
+Ветка / Branch: claude/analyze-cook-it-theme-011CUXa4NDgv6o5r7efp8WAi
+
+Если вы видите этот файл на сервере - Gitium работает правильно! 🚀
+If you see this file on the server - Gitium is working correctly! 🚀
