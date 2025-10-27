@@ -1,0 +1,78 @@
+{
+  "deployer_for_git_config": {
+    "version": "1.0.8",
+    "repository": {
+      "type": "github",
+      "owner": "ilya3211",
+      "name": "test111",
+      "url": "https://github.com/ilya3211/test111",
+      "branch": "claude/analyze-task-011CUVxqfvcmXpncFzGgTDdb",
+      "deploy_path": "/",
+      "package_type": "full-site"
+    },
+    "webhook": {
+      "enabled": true,
+      "endpoint": "/wp-json/dfg/v1/deploy/webhook",
+      "events": ["push"],
+      "description": "Auto-deploy when Claude pushes changes"
+    },
+    "settings": {
+      "auto_deploy": true,
+      "clear_cache": true,
+      "cache_plugins": [
+        "wp-rocket",
+        "w3-total-cache",
+        "wp-super-cache",
+        "litespeed-cache"
+      ],
+      "notifications": {
+        "email_on_success": false,
+        "email_on_failure": true,
+        "email_address": ""
+      },
+      "security": {
+        "verify_signature": true,
+        "allowed_branch_pattern": "claude/*"
+      },
+      "deployment": {
+        "timeout": 300,
+        "exclude_paths": [
+          "wp-content/uploads/*",
+          "wp-content/cache/*",
+          ".git/*"
+        ]
+      }
+    },
+    "github_setup": {
+      "webhook_url": "https://YOUR-SITE.com/wp-json/dfg/v1/deploy/webhook?token=YOUR_TOKEN",
+      "webhook_config": {
+        "content_type": "application/json",
+        "events": ["push"],
+        "active": true,
+        "insecure_ssl": 0
+      },
+      "required_token_scopes": ["repo"],
+      "token_generation_url": "https://github.com/settings/tokens/new?scopes=repo&description=Deployer+for+Git"
+    }
+  },
+  "instructions": {
+    "step1": "Активируйте плагин Deployer for Git в WordPress",
+    "step2": "Перейдите в Settings → Deployer for Git",
+    "step3": "Добавьте репозиторий используя данные из секции 'repository'",
+    "step4": "Создайте Personal Access Token на GitHub по ссылке из 'github_setup.token_generation_url'",
+    "step5": "Скопируйте Webhook URL из плагина и добавьте в GitHub → Settings → Webhooks",
+    "step6": "Настройте дополнительные параметры из секции 'settings'",
+    "step7": "Протестируйте с помощью тестового commit"
+  },
+  "quick_commands": {
+    "test_webhook": "echo 'Test' > test-deploy.txt && git add test-deploy.txt && git commit -m 'Test webhook' && git push",
+    "check_status": "Откройте: WordPress Admin → Deployer for Git → Dashboard",
+    "manual_deploy": "Нажмите 'Deploy Now' в Dashboard плагина"
+  },
+  "notes": {
+    "private_repo": "Для приватных репозиториев требуется PRO версия плагина",
+    "webhook_delay": "Автодеплой занимает 10-40 секунд после push",
+    "file_permissions": "Убедитесь что WordPress имеет права на запись в директории",
+    "branch_strategy": "Claude всегда работает в ветках вида 'claude/*' для безопасности"
+  }
+}

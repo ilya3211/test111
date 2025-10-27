@@ -1,0 +1,17 @@
+Deployer for Git - Test File
+==============================
+
+This file was created by Claude Code to test the automatic deployment workflow.
+
+Created: 2025-10-26
+Repository: ilya3211/test111
+Branch: claude/analyze-task-011CUVxqfvcmXpncFzGgTDdb
+
+If you can see this file on your WordPress site, then the deployment is working correctly!
+
+Next steps:
+1. Check this file exists in your WordPress root directory
+2. Verify the deployment in: WordPress Admin → Deployer for Git → Dashboard
+3. Start making changes and let Claude auto-deploy them!
+
+Test completed successfully! ✅
