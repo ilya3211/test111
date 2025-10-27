@@ -21,3 +21,115 @@ Version: 1.0.0
     /* Удалите свойство background */
 }
 
+
+/* ============================================
+   СТИЛЬНЫЙ ГРАДИЕНТНЫЙ HEADER
+   ============================================ */
+
+/* Основной хедер с градиентом */
+.site-header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%) !important;
+    padding: 20px 0 !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* Логотип с эффектом при наведении */
+.site-branding img {
+    max-height: 60px !important;
+    transition: transform 0.3s ease !important;
+}
+
+.site-branding:hover img {
+    transform: scale(1.05);
+}
+
+/* Телефон в хедере - стильная кнопка */
+.header-html-1,
+.header-html-2 {
+    display: flex !important;
+    align-items: center !important;
+}
+
+.header-html-1 a,
+.header-html-2 a {
+    background: rgba(255,255,255,0.2) !important;
+    color: white !important;
+    padding: 12px 24px !important;
+    border-radius: 30px !important;
+    text-decoration: none !important;
+    font-weight: bold !important;
+    font-size: 18px !important;
+    display: inline-block !important;
+    border: 2px solid rgba(255,255,255,0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+.header-html-1 a:hover,
+.header-html-2 a:hover {
+    background: rgba(255,255,255,0.3) !important;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Меню навигации */
+.menu-top li a {
+    color: white !important;
+    font-weight: 600 !important;
+    padding: 10px 15px !important;
+    transition: all 0.3s ease !important;
+}
+
+.menu-top li a:hover {
+    background: rgba(255,255,255,0.1) !important;
+    border-radius: 5px;
+}
+
+.menu-top li.current-menu-item a,
+.menu-top li.current_page_item a {
+    background: rgba(255,255,255,0.15) !important;
+    border-radius: 5px;
+}
+
+/* Социальные иконки (если есть) */
+.site-header .social-links a {
+    color: white !important;
+    opacity: 0.8;
+    transition: opacity 0.3s ease !important;
+}
+
+.site-header .social-links a:hover {
+    opacity: 1;
+}
+
+/* Адаптивность для мобильных устройств */
+@media (max-width: 768px) {
+    .site-header {
+        padding: 15px 0 !important;
+    }
+
+    .site-branding img {
+        max-height: 45px !important;
+    }
+
+    .header-html-1 a,
+    .header-html-2 a {
+        font-size: 16px !important;
+        padding: 10px 20px !important;
+    }
+}
+
+@media (max-width: 480px) {
+    .site-header {
+        padding: 12px 0 !important;
+    }
+
+    .site-branding img {
+        max-height: 40px !important;
+    }
+
+    .header-html-1 a,
+    .header-html-2 a {
+        font-size: 14px !important;
+        padding: 8px 16px !important;
+    }
+}
