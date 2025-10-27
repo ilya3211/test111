@@ -46,3 +46,14 @@ function cook_it_child_replace_phone_callback($html) {
     $html = str_replace('34343', '555-0001', $html);
     return $html;
 }
+
+/**
+ * Add Hero Section to homepage
+ */
+add_action( 'cook_it_before_site_content', 'cook_it_child_add_hero_section' );
+function cook_it_child_add_hero_section() {
+    // Only show on front page
+    if ( is_front_page() || is_home() ) {
+        get_template_part( 'template-parts/hero/hero-section' );
+    }
+}
