@@ -26,29 +26,35 @@ Version: 1.0.0
    HEADER "К СЕБЕ" - ПСИХОЛОГИЧЕСКИЙ СЕРВИС
    ============================================ */
 
-/* Header Styles */
-header {
+/* Header Styles - Using specific selector for sticky positioning */
+#masthead.site-header {
     background-color: #fff;
     padding: 15px 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.05);
-    position: sticky;
+    position: sticky !important;
     top: 0;
-    z-index: 1000;
+    z-index: 9999 !important;
 }
 
-.container {
+/* Prevent page-header from being sticky */
+.page-header {
+    position: static !important;
+    z-index: 1 !important;
+}
+
+#masthead.site-header .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.header-content {
+#masthead.site-header .header-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo {
+#masthead.site-header .logo {
     display: flex;
     align-items: center;
     font-size: 20px;
@@ -57,13 +63,13 @@ header {
     text-decoration: none;
 }
 
-.logo svg {
+#masthead.site-header .logo svg {
     width: 35px;
     height: 35px;
     margin-right: 8px;
 }
 
-.nav-menu {
+#masthead.site-header .nav-menu {
     display: flex;
     gap: 20px;
     list-style: none;
@@ -71,29 +77,29 @@ header {
     padding: 0;
 }
 
-.nav-menu li {
+#masthead.site-header .nav-menu li {
     position: relative;
 }
 
-.nav-menu li a {
+#masthead.site-header .nav-menu li a {
     text-decoration: none;
     color: #333;
     font-size: 14px;
     transition: color 0.3s;
 }
 
-.nav-menu li a:hover {
+#masthead.site-header .nav-menu li a:hover {
     color: #FF9966;
 }
 
 /* Submenu indicator */
-.nav-menu li.menu-item-has-children > a::after {
+#masthead.site-header .nav-menu li.menu-item-has-children > a::after {
     content: " ↓";
     font-size: 12px;
 }
 
 /* Submenu styles */
-.sub-menu {
+#masthead.site-header .sub-menu {
     display: none;
     position: absolute;
     top: 100%;
@@ -103,22 +109,22 @@ header {
     list-style: none;
     padding: 10px 0;
     min-width: 200px;
-    z-index: 1000;
+    z-index: 10000;
     margin: 0;
 }
 
-.sub-menu li a {
+#masthead.site-header .sub-menu li a {
     display: block;
     padding: 8px 15px;
     font-size: 13px;
 }
 
-.nav-menu li:hover > .sub-menu {
+#masthead.site-header .nav-menu li:hover > .sub-menu {
     display: block;
 }
 
 /* Hamburger Menu */
-.hamburger {
+#masthead.site-header .hamburger {
     display: none;
     flex-direction: column;
     justify-content: space-around;
@@ -127,7 +133,7 @@ header {
     cursor: pointer;
 }
 
-.hamburger span {
+#masthead.site-header .hamburger span {
     height: 3px;
     width: 100%;
     background-color: #333;
@@ -135,20 +141,20 @@ header {
     transition: all 0.3s;
 }
 
-.hamburger.active span:nth-child(1) {
+#masthead.site-header .hamburger.active span:nth-child(1) {
     transform: rotate(45deg) translate(5px, 5px);
 }
 
-.hamburger.active span:nth-child(2) {
+#masthead.site-header .hamburger.active span:nth-child(2) {
     opacity: 0;
 }
 
-.hamburger.active span:nth-child(3) {
+#masthead.site-header .hamburger.active span:nth-child(3) {
     transform: rotate(-45deg) translate(7px, -6px);
 }
 
 /* Mobile Menu */
-.nav-menu.mobile {
+#masthead.site-header .nav-menu.mobile {
     display: none;
     position: absolute;
     top: 100%;
@@ -160,14 +166,15 @@ header {
     flex-direction: column;
     gap: 15px;
     align-items: center;
+    z-index: 10000;
 }
 
-.nav-menu.mobile.active {
+#masthead.site-header .nav-menu.mobile.active {
     display: flex;
 }
 
 /* Mobile submenu */
-.nav-menu.mobile .sub-menu {
+#masthead.site-header .nav-menu.mobile .sub-menu {
     position: static;
     box-shadow: none;
     padding-left: 20px;
@@ -175,39 +182,39 @@ header {
     width: 100%;
 }
 
-.nav-menu.mobile li.menu-item-has-children.active > .sub-menu {
+#masthead.site-header .nav-menu.mobile li.menu-item-has-children.active > .sub-menu {
     display: block;
 }
 
-.nav-menu.mobile .menu-item {
+#masthead.site-header .nav-menu.mobile .menu-item {
     width: 100%;
     text-align: center;
 }
 
 /* Responsive Styles */
 @media (max-width: 968px) {
-    .nav-menu {
+    #masthead.site-header .nav-menu {
         display: none;
     }
-    .hamburger {
+    #masthead.site-header .hamburger {
         display: flex;
     }
-    .nav-menu.mobile {
+    #masthead.site-header .nav-menu.mobile {
         display: none;
     }
 }
 
 @media (max-width: 640px) {
-    .container {
+    #masthead.site-header .container {
         padding: 0 10px;
     }
-    .logo {
+    #masthead.site-header .logo {
         font-size: 18px;
     }
-    .nav-menu li a {
+    #masthead.site-header .nav-menu li a {
         font-size: 13px;
     }
-    .sub-menu li a {
+    #masthead.site-header .sub-menu li a {
         font-size: 12px;
     }
 }
