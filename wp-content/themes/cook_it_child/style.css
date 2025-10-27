@@ -541,6 +541,48 @@ Version: 1.0.0
     color: #fff !important;
 }
 
+/* Category badge when OUTSIDE image block (posts without images) */
+.content-card > .entry-category {
+    display: inline-block !important;
+    background: rgba(255, 153, 102, 0.9) !important;
+    padding: 6px 12px !important;
+    border-radius: 20px !important;
+    font-size: 11px !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
+    margin-bottom: 12px !important;
+    transition: all 0.3s !important;
+}
+
+.content-card > .entry-category:hover {
+    background: rgba(255, 153, 102, 1) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+    transform: translateY(-2px) !important;
+}
+
+.content-card > .entry-category a {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+}
+
+.content-card > .entry-category a::before {
+    content: "📁 ";
+}
+
+.content-card > .entry-category a:hover {
+    color: #fff !important;
+}
+
+/* Hide empty category badges */
+.entry-category a[href="#"]:empty,
+.entry-category a[href="#"]:blank {
+    display: none !important;
+}
+
+.entry-category:has(a[href="#"]:empty) {
+    display: none !important;
+}
+
 /* Card Content */
 .content-card__title {
     font-size: 18px;
