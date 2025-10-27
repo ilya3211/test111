@@ -1,4 +1,4 @@
-﻿/*
+/*
 Theme Name: Cook It Child
 Theme URI: https://wpshop.ru/themes/cook-it
 Author: WPShop.biz
@@ -507,6 +507,7 @@ Version: 1.0.0
 .content-card__image .entry-category {
     position: absolute !important;
     top: 120px !important;
+    bottom: auto !important;
     left: 10px !important;
     background: rgba(255, 153, 102, 0.9) !important;
     padding: 6px 12px !important;
@@ -517,6 +518,8 @@ Version: 1.0.0
     transition: all 0.3s !important;
     backdrop-filter: blur(4px) !important;
     pointer-events: auto !important;
+    transform: none !important;
+    margin-right: 0 !important;
 }
 
 .content-card__image .entry-category:hover {
@@ -531,6 +534,11 @@ Version: 1.0.0
     font-weight: 600 !important;
     display: inline-block !important;
     pointer-events: auto !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    opacity: 1 !important;
 }
 
 .content-card__image .entry-category a::before {
@@ -539,18 +547,22 @@ Version: 1.0.0
 
 .content-card__image .entry-category a:hover {
     color: #fff !important;
+    background: transparent !important;
 }
 
 /* Category badge when OUTSIDE image block (posts without images) */
 .content-card > .entry-category {
     display: inline-block !important;
+    position: static !important;
     background: rgba(255, 153, 102, 0.9) !important;
     padding: 6px 12px !important;
     border-radius: 20px !important;
     font-size: 11px !important;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
     margin-bottom: 12px !important;
+    margin-right: 0 !important;
     transition: all 0.3s !important;
+    transform: none !important;
 }
 
 .content-card > .entry-category:hover {
@@ -563,6 +575,11 @@ Version: 1.0.0
     color: #fff !important;
     text-decoration: none !important;
     font-weight: 600 !important;
+    background: transparent !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    border-radius: 0 !important;
+    opacity: 1 !important;
 }
 
 .content-card > .entry-category a::before {
@@ -571,6 +588,7 @@ Version: 1.0.0
 
 .content-card > .entry-category a:hover {
     color: #fff !important;
+    background: transparent !important;
 }
 
 /* Hide empty category badges */
