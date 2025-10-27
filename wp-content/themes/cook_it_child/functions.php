@@ -17,6 +17,14 @@ function enqueue_child_theme_styles() {
 }
 
 /**
+ * Enqueue header menu JavaScript
+ */
+add_action( 'wp_enqueue_scripts', 'enqueue_header_menu_script', 100);
+function enqueue_header_menu_script() {
+    wp_enqueue_script( 'header-menu', get_stylesheet_directory_uri() . '/js/header-menu.js', array(), '1.0.0', true );
+}
+
+/**
  * НИЖЕ ВЫ МОЖЕТЕ ДОБАВИТЬ ЛЮБОЙ СВОЙ КОД
  */
 
