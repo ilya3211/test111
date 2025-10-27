@@ -22,12 +22,22 @@ global $wpshop_core;
             </a>
             <nav>
                 <ul class="nav-menu">
-                    <li><a href="#">Выбрать психолога</a></li>
-                    <li><a href="#">Специалистам</a></li>
-                    <li><a href="#">Блог</a></li>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Избранное ♡</a></li>
+                    <li class="menu-item menu-item-has-children">
+                        <a href="<?php echo esc_url( home_url( '/category/мрт/' ) ); ?>">МРТ</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="<?php echo esc_url( home_url( '/category/мрт/мрт-головы/' ) ); ?>">МРТ Головы</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/category/salaty/' ) ); ?>">Салаты</a></li>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/category/supy/' ) ); ?>">Супы</a></li>
+                    <li class="menu-item menu-item-has-children">
+                        <a href="<?php echo esc_url( home_url( '/category/vtorye-blyuda/' ) ); ?>">Вторые блюда</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="<?php echo esc_url( home_url( '/category/vtorye-blyuda/moreprodukty/' ) ); ?>">#Морепродукты</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/category/vtorye-blyuda/moreprodukty/vypechka/' ) ); ?>">Выпечка</a></li>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/category/deserty/' ) ); ?>">Десерты</a></li>
                 </ul>
                 <div class="hamburger">
                     <span></span>
@@ -35,12 +45,22 @@ global $wpshop_core;
                     <span></span>
                 </div>
                 <ul class="nav-menu mobile">
-                    <li><a href="#">Выбрать психолога</a></li>
-                    <li><a href="#">Специалистам</a></li>
-                    <li><a href="#">Блог</a></li>
-                    <li><a href="#">О нас</a></li>
-                    <li><a href="#">Отзывы</a></li>
-                    <li><a href="#">Избранное ♡</a></li>
+                    <li class="menu-item menu-item-has-children">
+                        <a href="<?php echo esc_url( home_url( '/category/мрт/' ) ); ?>">МРТ</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="<?php echo esc_url( home_url( '/category/мрт/мрт-головы/' ) ); ?>">МРТ Головы</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/category/salaty/' ) ); ?>">Салаты</a></li>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/category/supy/' ) ); ?>">Супы</a></li>
+                    <li class="menu-item menu-item-has-children">
+                        <a href="<?php echo esc_url( home_url( '/category/vtorye-blyuda/' ) ); ?>">Вторые блюда</a>
+                        <ul class="sub-menu">
+                            <li class="menu-item"><a href="<?php echo esc_url( home_url( '/category/vtorye-blyuda/moreprodukty/' ) ); ?>">#Морепродукты</a></li>
+                        </ul>
+                    </li>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/category/vtorye-blyuda/moreprodukty/vypechka/' ) ); ?>">Выпечка</a></li>
+                    <li class="menu-item"><a href="<?php echo esc_url( home_url( '/category/deserty/' ) ); ?>">Десерты</a></li>
                 </ul>
             </nav>
         </div>

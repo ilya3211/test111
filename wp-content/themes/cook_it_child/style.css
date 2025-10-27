@@ -71,6 +71,10 @@ header {
     padding: 0;
 }
 
+.nav-menu li {
+    position: relative;
+}
+
 .nav-menu li a {
     text-decoration: none;
     color: #333;
@@ -80,6 +84,37 @@ header {
 
 .nav-menu li a:hover {
     color: #FF9966;
+}
+
+/* Submenu indicator */
+.nav-menu li.menu-item-has-children > a::after {
+    content: " ↓";
+    font-size: 12px;
+}
+
+/* Submenu styles */
+.sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 10px 0;
+    min-width: 200px;
+    z-index: 1000;
+    margin: 0;
+}
+
+.sub-menu li a {
+    display: block;
+    padding: 8px 15px;
+    font-size: 13px;
+}
+
+.nav-menu li:hover > .sub-menu {
+    display: block;
 }
 
 /* Hamburger Menu */
@@ -131,6 +166,24 @@ header {
     display: flex;
 }
 
+/* Mobile submenu */
+.nav-menu.mobile .sub-menu {
+    position: static;
+    box-shadow: none;
+    padding-left: 20px;
+    display: none;
+    width: 100%;
+}
+
+.nav-menu.mobile li.menu-item-has-children.active > .sub-menu {
+    display: block;
+}
+
+.nav-menu.mobile .menu-item {
+    width: 100%;
+    text-align: center;
+}
+
 /* Responsive Styles */
 @media (max-width: 968px) {
     .nav-menu {
@@ -150,5 +203,11 @@ header {
     }
     .logo {
         font-size: 18px;
+    }
+    .nav-menu li a {
+        font-size: 13px;
+    }
+    .sub-menu li a {
+        font-size: 12px;
     }
 }
