@@ -490,6 +490,8 @@ Version: 1.0.0
 
 .content-card__image a {
     display: block;
+    position: relative;
+    z-index: 1;
 }
 
 .content-card__image img {
@@ -502,16 +504,17 @@ Version: 1.0.0
 
 .entry-category {
     position: absolute;
-    top: 30%;
+    bottom: 15px;
     left: 10px;
     background: rgba(255, 153, 102, 0.85);
     padding: 6px 12px;
     border-radius: 20px;
     font-size: 11px;
-    z-index: 2;
+    z-index: 10;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
     transition: background 0.3s, box-shadow 0.3s;
     backdrop-filter: blur(4px);
+    pointer-events: auto;
 }
 
 .entry-category:hover {
@@ -524,6 +527,8 @@ Version: 1.0.0
     text-decoration: none;
     font-weight: 600;
     display: inline-block;
+    position: relative;
+    z-index: 11;
 }
 
 .entry-category a::before {
@@ -539,8 +544,9 @@ Version: 1.0.0
     font-size: 18px;
     font-weight: 700;
     color: #1a1a1a;
+    margin-top: 0;
     margin-bottom: 10px;
-    padding: 15px 20px 0 20px;
+    padding: 12px 20px 0 20px;
     line-height: 1.3;
 }
 
