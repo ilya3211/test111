@@ -388,3 +388,251 @@ Version: 1.0.0
         padding: 15px;
     }
 }
+
+/* ============================================
+   SECTION BLOCK - POST CARDS
+   ============================================ */
+
+/* Section Block Styles */
+.section-block {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.section-block.section-preset--bgc-3 {
+    background-color: #f2f5fc;
+}
+
+.section-block__header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-block__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+}
+
+.section-block__title a {
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.section-block__title a:hover {
+    color: #FF9966;
+}
+
+.section-posts__categories {
+    text-align: center;
+}
+
+.section-posts__categories-title {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.section-posts__categories ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.section-posts__categories li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.section-posts__categories li a:hover {
+    color: #FF9966;
+}
+
+/* Post Cards Grid */
+.post-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.post-cards.posts-container--small {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Content Card Styles */
+.content-card {
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    padding: 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.content-card__image {
+    margin-bottom: 0;
+    position: relative;
+}
+
+.content-card__image a {
+    display: block;
+}
+
+.content-card__image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+    display: block;
+}
+
+.entry-category {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 4px 10px;
+    border-radius: 4px;
+    font-size: 11px;
+    z-index: 2;
+}
+
+.entry-category a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.entry-category a:hover {
+    color: #FF9966;
+}
+
+/* Card Content */
+.content-card__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    padding: 15px 20px 0 20px;
+    line-height: 1.3;
+}
+
+.content-card__title a {
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.content-card__title a:hover {
+    color: #FF9966;
+}
+
+.content-card__meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 12px;
+    padding: 0 20px;
+}
+
+.content-card__meta-left,
+.content-card__meta-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Meta Icons */
+.meta-cooking-time,
+.meta-serves,
+.meta-comments,
+.meta-views {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.meta-cooking-time::before {
+    content: "💰";
+    font-size: 14px;
+}
+
+.meta-serves::before {
+    content: "👥";
+    font-size: 14px;
+}
+
+.meta-comments::before {
+    content: "💬";
+    font-size: 14px;
+}
+
+.meta-views::before {
+    content: "👁";
+    font-size: 14px;
+}
+
+.content-card__excerpt {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.6;
+    padding: 0 20px 20px 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 968px) {
+    .post-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .post-cards.posts-container--small {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-block__title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 640px) {
+    .post-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .post-cards.posts-container--small {
+        grid-template-columns: 1fr;
+    }
+
+    .section-block {
+        padding: 40px 0;
+    }
+
+    .section-posts__categories ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-card__title {
+        font-size: 16px;
+    }
+
+    .content-card__meta,
+    .content-card__excerpt {
+        font-size: 12px;
+    }
+}
