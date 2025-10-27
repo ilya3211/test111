@@ -56,3 +56,4 @@ wp-includes/
 /wp-trackback.php
 /xmlrpc.php
 wp-content/plugins/wppusher
+fix-gitium.php
