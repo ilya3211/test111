@@ -490,8 +490,8 @@ Version: 1.0.0
 
 /* Image link - allow clicks through except on image itself */
 .content-card__image > a {
-    display: block;
-    pointer-events: none;
+    display: block !important;
+    pointer-events: none !important;
 }
 
 .content-card__image > a img {
@@ -500,45 +500,45 @@ Version: 1.0.0
     object-fit: cover;
     border-radius: 12px 12px 0 0;
     display: block;
-    pointer-events: auto;
+    pointer-events: auto !important;
 }
 
-/* Category badge - fully clickable */
-.entry-category {
-    position: absolute;
-    top: 120px;
-    left: 10px;
-    background: rgba(255, 153, 102, 0.9);
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 11px;
-    z-index: 10;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-    transition: all 0.3s;
-    backdrop-filter: blur(4px);
-    pointer-events: auto;
+/* Category badge - fully clickable with highest priority */
+.content-card__image .entry-category {
+    position: absolute !important;
+    top: 120px !important;
+    left: 10px !important;
+    background: rgba(255, 153, 102, 0.9) !important;
+    padding: 6px 12px !important;
+    border-radius: 20px !important;
+    font-size: 11px !important;
+    z-index: 999 !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
+    transition: all 0.3s !important;
+    backdrop-filter: blur(4px) !important;
+    pointer-events: auto !important;
 }
 
-.entry-category:hover {
-    background: rgba(255, 153, 102, 1);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    transform: translateY(-2px);
+.content-card__image .entry-category:hover {
+    background: rgba(255, 153, 102, 1) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
+    transform: translateY(-2px) !important;
 }
 
-.entry-category a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: 600;
-    display: inline-block;
-    pointer-events: auto;
+.content-card__image .entry-category a {
+    color: #fff !important;
+    text-decoration: none !important;
+    font-weight: 600 !important;
+    display: inline-block !important;
+    pointer-events: auto !important;
 }
 
-.entry-category a::before {
+.content-card__image .entry-category a::before {
     content: "📁 ";
 }
 
-.entry-category a:hover {
-    color: #fff;
+.content-card__image .entry-category a:hover {
+    color: #fff !important;
 }
 
 /* Card Content */
