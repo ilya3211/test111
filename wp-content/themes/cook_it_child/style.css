@@ -492,6 +492,8 @@ Version: 1.0.0
 .content-card__image > a {
     display: block !important;
     pointer-events: none !important;
+    position: relative !important;
+    z-index: 2 !important;
 }
 
 .content-card__image > a img {
@@ -501,6 +503,8 @@ Version: 1.0.0
     border-radius: 12px 12px 0 0;
     display: block;
     pointer-events: auto !important;
+    position: relative !important;
+    z-index: 2 !important;
 }
 
 /* Category badge - fully clickable with highest priority */
@@ -513,13 +517,15 @@ Version: 1.0.0
     padding: 6px 12px !important;
     border-radius: 20px !important;
     font-size: 11px !important;
-    z-index: 999 !important;
+    z-index: 1000 !important;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
     transition: all 0.3s !important;
     backdrop-filter: blur(4px) !important;
     pointer-events: auto !important;
     transform: none !important;
     margin-right: 0 !important;
+    cursor: pointer !important;
+    display: inline-block !important;
 }
 
 .content-card__image .entry-category:hover {
@@ -539,6 +545,9 @@ Version: 1.0.0
     margin: 0 !important;
     border-radius: 0 !important;
     opacity: 1 !important;
+    cursor: pointer !important;
+    position: relative !important;
+    z-index: 1001 !important;
 }
 
 .content-card__image .entry-category a::before {
