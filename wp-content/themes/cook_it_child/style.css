@@ -489,6 +489,17 @@ Version: 1.0.0
     pointer-events: none !important;
 }
 
+/* Disable clicks on ::after pseudo-element (camera emoji placeholder) */
+.content-card--small .content-card__image::after {
+    pointer-events: none !important;
+    z-index: 0 !important;
+}
+
+/* Hide ::after when post has image */
+.content-card__image:has(img)::after {
+    display: none !important;
+}
+
 /* Image link and image - enable clicks */
 .content-card__image > a {
     display: block !important;
