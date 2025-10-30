@@ -491,7 +491,6 @@ Version: 1.0.0
    CONTAINER - Image wrapper positioning
    ======================================== */
 .content-card__image {
-    margin-bottom: 0 !important;
     position: relative !important;
 }
 
@@ -500,18 +499,8 @@ Version: 1.0.0
     display: none !important;
 }
 
-/* Image link wrapper */
-.content-card__image > a {
-    display: block !important;
-    position: relative !important;
-    z-index: 1 !important;
-}
-
+/* ONLY pointer-events for clickability - do NOT change layout */
 .content-card__image > a img {
-    width: 100% !important;
-    height: 100% !important;
-    object-fit: cover !important;
-    display: block !important;
     pointer-events: none !important;
 }
 
