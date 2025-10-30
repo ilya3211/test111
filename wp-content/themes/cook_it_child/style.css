@@ -483,136 +483,128 @@ Version: 1.0.0
     box-shadow: 0 8px 25px rgba(0,0,0,0.1);
 }
 
+/* ============================================
+   CATEGORY BADGE FIX - CLEAN APPROACH
+   ============================================ */
+
+/* Container - simple relative positioning */
 .content-card__image {
     margin-bottom: 0;
     position: relative;
-    isolation: isolate !important;
-    perspective: 1000px !important;
-    transform-style: preserve-3d !important;
 }
 
-/* Disable clicks on ::after pseudo-element (camera emoji placeholder) */
+/* Hide camera emoji placeholder */
 .content-card--small .content-card__image::after {
-    pointer-events: none !important;
-    z-index: 0 !important;
-}
-
-/* Hide ::after when post has image */
-.content-card__image:has(img)::after {
     display: none !important;
 }
 
-/* Image link - enable clicks (goes to post) */
+/* Image link - no special z-index needed */
 .content-card__image > a {
-    display: block !important;
-    position: relative !important;
-    z-index: 1 !important;
-    pointer-events: auto !important;
+    display: block;
 }
 
-/* Image itself - clicks pass through to link */
 .content-card__image > a img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 12px 12px 0 0;
     display: block;
-    position: relative !important;
-    z-index: 1 !important;
-    pointer-events: none !important;
 }
 
-/* Category badge - fully clickable with highest priority */
+/* Category badge INSIDE image container (posts with images) */
 .content-card__image .entry-category {
-    position: absolute !important;
-    top: 120px !important;
-    bottom: auto !important;
-    left: 10px !important;
-    background: rgba(255, 153, 102, 0.9) !important;
-    padding: 6px 12px !important;
-    border-radius: 20px !important;
-    font-size: 11px !important;
-    z-index: 10000 !important;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
-    transition: all 0.3s !important;
-    backdrop-filter: blur(4px) !important;
-    pointer-events: auto !important;
-    transform: translateZ(100px) !important;
-    margin-right: 0 !important;
-    cursor: pointer !important;
-    display: inline-block !important;
+    /* Reset all parent theme styles */
+    all: unset;
+
+    /* Position at bottom of image */
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+
+    /* Appearance */
+    display: inline-block;
+    background: rgba(255, 153, 102, 0.95);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+
+    /* Clickability */
+    z-index: 100;
+    cursor: pointer;
+
+    /* Effects */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
 }
 
 .content-card__image .entry-category:hover {
-    background: rgba(255, 153, 102, 1) !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
-    transform: translateZ(100px) translateY(-2px) !important;
+    background: rgba(255, 153, 102, 1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .content-card__image .entry-category a {
-    color: #fff !important;
-    text-decoration: none !important;
-    font-weight: 600 !important;
-    display: inline-block !important;
-    pointer-events: auto !important;
-    background: transparent !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    border-radius: 0 !important;
-    opacity: 1 !important;
-    cursor: pointer !important;
-    position: relative !important;
-    z-index: 1001 !important;
+    /* Reset all styles */
+    all: unset;
+
+    /* Make it look like text */
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
 }
 
 .content-card__image .entry-category a::before {
     content: "📁 ";
+    margin-right: 4px;
 }
 
-.content-card__image .entry-category a:hover {
-    color: #fff !important;
-    background: transparent !important;
-}
-
-/* Category badge when OUTSIDE image block (posts without images) */
+/* Category badge OUTSIDE image container (posts without images) */
 .content-card > .entry-category {
-    display: inline-block !important;
-    position: static !important;
-    background: rgba(255, 153, 102, 0.9) !important;
-    padding: 6px 12px !important;
-    border-radius: 20px !important;
-    font-size: 11px !important;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
-    margin-bottom: 12px !important;
-    margin-right: 0 !important;
-    transition: all 0.3s !important;
-    transform: none !important;
+    /* Reset all parent theme styles */
+    all: unset;
+
+    /* Layout */
+    display: inline-block;
+    margin-bottom: 12px;
+
+    /* Appearance */
+    background: rgba(255, 153, 102, 0.95);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+
+    /* Clickability */
+    cursor: pointer;
+
+    /* Effects */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
 }
 
 .content-card > .entry-category:hover {
-    background: rgba(255, 153, 102, 1) !important;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
-    transform: translateY(-2px) !important;
+    background: rgba(255, 153, 102, 1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
 }
 
 .content-card > .entry-category a {
-    color: #fff !important;
-    text-decoration: none !important;
-    font-weight: 600 !important;
-    background: transparent !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    border-radius: 0 !important;
-    opacity: 1 !important;
+    /* Reset all styles */
+    all: unset;
+
+    /* Make it look like text */
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
 }
 
 .content-card > .entry-category a::before {
     content: "📁 ";
-}
-
-.content-card > .entry-category a:hover {
-    color: #fff !important;
-    background: transparent !important;
+    margin-right: 4px;
 }
 
 /* Hide empty category badges */
