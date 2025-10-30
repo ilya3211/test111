@@ -59,8 +59,10 @@ function cook_it_child_add_hero_section() {
 }
 
 /**
- * Change ingredients taxonomy rewrite slug from /ingredients/ to /search/
- * URL structure: http://site.com/search/сахар-песок/
+ * Change ingredients taxonomy rewrite slug from /ingredients/ to /ingredient/
+ * URL structure: http://site.com/ingredient/сахар-песок/
+ *
+ * NOTE: Using 'ingredient' (singular) to avoid conflicts with WordPress search functionality
  *
  * IMPORTANT: After activating this code, go to WordPress Admin → Settings → Permalinks
  * and click "Save Changes" to flush rewrite rules manually.
@@ -108,7 +110,7 @@ function cook_it_child_register_ingredients() {
         'show_tagcloud'              => true,
         'meta_box_cb'                => false,
         'rewrite'                    => array(
-            'slug'         => 'search',
+            'slug'         => 'ingredient',
             'with_front'   => false,
             'hierarchical' => true,
         ),
@@ -131,10 +133,11 @@ function cook_it_child_flush_rewrite_rules() {
 add_action( 'admin_notices', 'cook_it_child_permalink_flush_notice' );
 function cook_it_child_permalink_flush_notice() {
     // Show notice if transient is not set
-    if ( ! get_transient( 'cook_it_child_permalink_flushed' ) ) {
+    // Using v2 key to force showing notice again after slug change
+    if ( ! get_transient( 'cook_it_child_permalink_flushed_v2' ) ) {
         ?>
         <div class="notice notice-warning is-dismissible">
-            <p><strong>Cook It Child Theme:</strong> Taxonomy URL structure has been changed. Please go to <a href="<?php echo admin_url( 'options-permalink.php' ); ?>">Settings → Permalinks</a> and click "Save Changes" to update rewrite rules.</p>
+            <p><strong>Cook It Child Theme:</strong> Taxonomy URL structure has been changed to /ingredient/. Please go to <a href="<?php echo admin_url( 'options-permalink.php' ); ?>">Settings → Permalinks</a> and click "Save Changes" to update rewrite rules.</p>
         </div>
         <?php
     }
@@ -145,11 +148,11 @@ function cook_it_child_permalink_flush_notice() {
  */
 add_action( 'load-options-permalink.php', 'cook_it_child_set_permalink_transient' );
 function cook_it_child_set_permalink_transient() {
-    set_transient( 'cook_it_child_permalink_flushed', 1, MONTH_IN_SECONDS );
+    set_transient( 'cook_it_child_permalink_flushed_v2', 1, MONTH_IN_SECONDS );
 }
 
 /**
- * Replace all internal /ingredients/ links with /search/ links
+ * Replace all internal /ingredients/ links with /ingredient/ links
  * This ensures all existing content uses the new URL structure
  */
 
@@ -161,13 +164,13 @@ add_filter( 'the_excerpt', 'cook_it_child_replace_ingredients_links' );
 add_filter( 'widget_text', 'cook_it_child_replace_ingredients_links' );
 
 function cook_it_child_replace_ingredients_links( $content ) {
-    // Replace /ingredients/ with /search/ in all links
-    $content = str_replace( '/ingredients/', '/search/', $content );
+    // Replace /ingredients/ with /ingredient/ in all links
+    $content = str_replace( '/ingredients/', '/ingredient/', $content );
 
     // Also handle full URLs with domain
     $content = str_replace(
         'http://regret49.beget.tech/ingredients/',
-        'http://regret49.beget.tech/search/',
+        'http://regret49.beget.tech/ingredient/',
         $content
     );
 
@@ -179,7 +182,7 @@ add_filter( 'term_link', 'cook_it_child_replace_term_link', 10, 3 );
 function cook_it_child_replace_term_link( $url, $term, $taxonomy ) {
     // Only replace for ingredients taxonomy
     if ( $taxonomy === 'ingredients' ) {
-        $url = str_replace( '/ingredients/', '/search/', $url );
+        $url = str_replace( '/ingredients/', '/ingredient/', $url );
     }
     return $url;
 }
@@ -187,10 +190,10 @@ function cook_it_child_replace_term_link( $url, $term, $taxonomy ) {
 // Replace in menus
 add_filter( 'wp_nav_menu', 'cook_it_child_replace_menu_links' );
 function cook_it_child_replace_menu_links( $menu ) {
-    $menu = str_replace( '/ingredients/', '/search/', $menu );
+    $menu = str_replace( '/ingredients/', '/ingredient/', $menu );
     $menu = str_replace(
         'http://regret49.beget.tech/ingredients/',
-        'http://regret49.beget.tech/search/',
+        'http://regret49.beget.tech/ingredient/',
         $menu
     );
     return $menu;

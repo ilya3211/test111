@@ -222,8 +222,8 @@ $is_show_rating = true; // Установите значение true или fal
         <td>
       <?php
       $current_url = $_SERVER['REQUEST_URI'];
-      // Changed from /ingredients/ to /search/
-      $target_url1 = '/search/%d1%81%d0%b0%d1%85%d0%b0%d1%80-%d0%bf%d0%b5%d1%81%d0%be%d0%ba/';
+      // Changed from /ingredients/ to /ingredient/
+      $target_url1 = '/ingredient/%d1%81%d0%b0%d1%85%d0%b0%d1%80-%d0%bf%d0%b5%d1%81%d0%be%d0%ba/';
       $target_url2 = '/category/%d0%bc%d1%80%d1%82/';
 
       if (strpos($current_url, $target_url1) !== false || strpos($current_url, $target_url2) !== false) {
