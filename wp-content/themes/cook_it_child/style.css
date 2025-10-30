@@ -562,6 +562,10 @@ Version: 1.0.0
     cursor: pointer !important;
     font-weight: 600 !important;
     text-decoration: none !important;
+
+    /* CRITICAL: Enable pointer events on link */
+    pointer-events: auto !important;
+    display: inline !important;
 }
 
 .content-card__image .entry-category a::before {
