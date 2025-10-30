@@ -491,7 +491,7 @@ Version: 1.0.0
 .content-card__image {
     margin-bottom: 0;
     position: relative;
-    pointer-events: none;
+    pointer-events: none !important;
 }
 
 /* Hide camera emoji placeholder */
@@ -501,10 +501,10 @@ Version: 1.0.0
 
 /* Image link - enable clicks, but set lower z-index */
 .content-card__image > a {
-    display: block;
-    position: relative;
-    z-index: 1;
-    pointer-events: auto;
+    display: block !important;
+    position: relative !important;
+    z-index: 1 !important;
+    pointer-events: auto !important;
 }
 
 .content-card__image > a img {
@@ -518,55 +518,55 @@ Version: 1.0.0
 /* Category badge INSIDE image container (posts with images) */
 .content-card__image .entry-category {
     /* Reset parent theme styles */
-    all: initial;
-    font-family: inherit;
+    all: initial !important;
+    font-family: inherit !important;
 
     /* Position at bottom of image */
-    position: absolute;
-    bottom: 15px;
-    left: 15px;
+    position: absolute !important;
+    bottom: 15px !important;
+    left: 15px !important;
 
     /* Appearance */
-    display: inline-block;
-    background: rgba(255, 153, 102, 0.95);
-    color: #fff;
-    padding: 8px 16px;
-    border-radius: 20px;
-    font-size: 13px;
-    font-weight: 600;
+    display: inline-block !important;
+    background: rgba(255, 153, 102, 0.95) !important;
+    color: #fff !important;
+    padding: 8px 16px !important;
+    border-radius: 20px !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
 
     /* Clickability - HIGHER z-index and enable pointer events */
-    z-index: 999;
-    cursor: pointer;
-    pointer-events: auto;
+    z-index: 9999 !important;
+    cursor: pointer !important;
+    pointer-events: auto !important;
 
     /* Effects */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-    backdrop-filter: blur(8px);
-    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important;
+    backdrop-filter: blur(8px) !important;
+    transition: all 0.3s ease !important;
 }
 
 .content-card__image .entry-category:hover {
-    background: rgba(255, 153, 102, 1);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    background: rgba(255, 153, 102, 1) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
 }
 
 .content-card__image .entry-category a {
     /* Reset all styles */
-    all: initial;
-    font-family: inherit;
+    all: initial !important;
+    font-family: inherit !important;
 
     /* Make it look like text */
-    color: #fff;
-    cursor: pointer;
-    font-weight: 600;
-    text-decoration: none;
+    color: #fff !important;
+    cursor: pointer !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
 }
 
 .content-card__image .entry-category a::before {
-    content: "📁 ";
-    margin-right: 4px;
+    content: "📁 " !important;
+    margin-right: 4px !important;
 }
 
 /* Category badge OUTSIDE image container (posts without images) */
