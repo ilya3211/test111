@@ -97,3 +97,51 @@ function cook_it_child_flush_rewrite_rules() {
     // Flush rewrite rules
     flush_rewrite_rules();
 }
+
+/**
+ * Replace all internal /ingredients/ links with /search/ links
+ * This ensures all existing content uses the new URL structure
+ */
+
+// Replace in post content
+add_filter( 'the_content', 'cook_it_child_replace_ingredients_links' );
+// Replace in excerpts
+add_filter( 'the_excerpt', 'cook_it_child_replace_ingredients_links' );
+// Replace in text widgets
+add_filter( 'widget_text', 'cook_it_child_replace_ingredients_links' );
+
+function cook_it_child_replace_ingredients_links( $content ) {
+    // Replace /ingredients/ with /search/ in all links
+    $content = str_replace( '/ingredients/', '/search/', $content );
+
+    // Also handle full URLs with domain
+    $content = str_replace(
+        'http://regret49.beget.tech/ingredients/',
+        'http://regret49.beget.tech/search/',
+        $content
+    );
+
+    return $content;
+}
+
+// Replace in term links (category/tag/taxonomy archive links)
+add_filter( 'term_link', 'cook_it_child_replace_term_link', 10, 3 );
+function cook_it_child_replace_term_link( $url, $term, $taxonomy ) {
+    // Only replace for ingredients taxonomy
+    if ( $taxonomy === 'ingredients' ) {
+        $url = str_replace( '/ingredients/', '/search/', $url );
+    }
+    return $url;
+}
+
+// Replace in menus
+add_filter( 'wp_nav_menu', 'cook_it_child_replace_menu_links' );
+function cook_it_child_replace_menu_links( $menu ) {
+    $menu = str_replace( '/ingredients/', '/search/', $menu );
+    $menu = str_replace(
+        'http://regret49.beget.tech/ingredients/',
+        'http://regret49.beget.tech/search/',
+        $menu
+    );
+    return $menu;
+}
