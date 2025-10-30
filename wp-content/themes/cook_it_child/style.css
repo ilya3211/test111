@@ -509,15 +509,10 @@ Version: 1.0.0
 
 .content-card__image > a img {
     width: 100% !important;
+    height: 100% !important;
     object-fit: cover !important;
     display: block !important;
     pointer-events: none !important;
-}
-
-/* For small cards - adapt image to parent theme's float layout */
-.content-card--small .content-card__image > a img {
-    height: auto !important;
-    border-radius: 4px !important;
 }
 
 /* ========================================
