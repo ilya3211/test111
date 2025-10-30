@@ -487,18 +487,20 @@ Version: 1.0.0
    CATEGORY BADGE FIX - Z-INDEX ONLY APPROACH
    ============================================ */
 
-/* Container - simple positioning */
+/* ========================================
+   CONTAINER - Image wrapper positioning
+   ======================================== */
 .content-card__image {
     margin-bottom: 0 !important;
     position: relative !important;
 }
 
-/* Hide camera emoji placeholder */
+/* Hide camera emoji placeholder from parent theme */
 .content-card--small .content-card__image::after {
     display: none !important;
 }
 
-/* Image link - LOW z-index */
+/* Image link wrapper */
 .content-card__image > a {
     display: block !important;
     position: relative !important;
@@ -511,42 +513,35 @@ Version: 1.0.0
     object-fit: cover !important;
     border-radius: 12px 12px 0 0 !important;
     display: block !important;
-    pointer-events: none !important;
 }
 
-/* Category badge INSIDE image container (posts with images) */
+/* ========================================
+   CATEGORY BADGE INSIDE IMAGE (posts with images)
+   ======================================== */
 .content-card__image .entry-category {
+    all: unset;
     /* Position at bottom of image */
-    position: absolute !important;
-    bottom: 15px !important;
-    left: 15px !important;
-    z-index: 10 !important;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    z-index: 10;
 
     /* Appearance */
-    display: inline-block !important;
-    background: rgba(255, 153, 102, 0.95) !important;
-    color: #fff !important;
-    padding: 8px 16px !important;
-    border-radius: 20px !important;
-    font-size: 13px !important;
-    font-weight: 600 !important;
-    font-family: inherit !important;
-    line-height: 1.4 !important;
-
-    /* Clickability */
-    cursor: pointer !important;
+    display: inline-block;
+    background: rgba(255, 153, 102, 0.95);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    line-height: 1.4;
+    cursor: pointer;
 
     /* Effects */
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important;
-    backdrop-filter: blur(8px) !important;
-    transition: all 0.3s ease !important;
-
-    /* Reset parent theme styles */
-    transform: none !important;
-    margin: 0 !important;
-    top: auto !important;
-    right: auto !important;
-    opacity: 1 !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(8px);
+    transition: all 0.3s ease;
 }
 
 .content-card__image .entry-category:hover {
@@ -555,62 +550,40 @@ Version: 1.0.0
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
 }
 
-.content-card__image .entry-category a,
-.content-card__image .entry-category a:link,
-.content-card__image .entry-category a:visited {
-    /* Override ALL link styles */
+.content-card__image .entry-category a {
+    all: unset;
+    display: inline !important;
     color: #fff !important;
-    background: transparent !important;
-    cursor: pointer !important;
     font-weight: 600 !important;
     text-decoration: none !important;
-    display: inline !important;
-    font-family: inherit !important;
-    border: none !important;
-    padding: 0 !important;
-    margin: 0 !important;
-    box-shadow: none !important;
-    opacity: 1 !important;
-}
-
-.content-card__image .entry-category a:hover,
-.content-card__image .entry-category a:active,
-.content-card__image .entry-category a:focus {
-    color: #fff !important;
-    background: transparent !important;
-    text-decoration: none !important;
-    opacity: 1 !important;
+    cursor: pointer !important;
+    font-family: inherit;
 }
 
 .content-card__image .entry-category a::before {
-    content: "📁 " !important;
-    margin-right: 4px !important;
+    content: "📁 ";
+    margin-right: 4px;
 }
 
-/* Category badge OUTSIDE image container (posts without images) */
+/* ========================================
+   CATEGORY BADGE OUTSIDE IMAGE (posts without images)
+   ======================================== */
 .content-card > .entry-category {
-    /* Reset parent theme styles */
-    all: initial;
-    font-family: inherit;
-
-    /* Layout */
+    all: unset;
     display: inline-block;
     margin-bottom: 12px;
-
-    /* Appearance */
     background: rgba(255, 153, 102, 0.95);
     color: #fff;
     padding: 8px 16px;
     border-radius: 20px;
     font-size: 13px;
     font-weight: 600;
-
-    /* Clickability */
+    font-family: inherit;
     cursor: pointer;
-
-    /* Effects */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     transition: all 0.3s ease;
+    position: relative;
+    z-index: 10;
 }
 
 .content-card > .entry-category:hover {
@@ -620,15 +593,13 @@ Version: 1.0.0
 }
 
 .content-card > .entry-category a {
-    /* Reset all styles */
-    all: initial;
-    font-family: inherit;
-
-    /* Make it look like text */
+    all: unset;
     color: #fff;
-    cursor: pointer;
     font-weight: 600;
     text-decoration: none;
+    cursor: pointer;
+    font-family: inherit;
+    display: inline;
 }
 
 .content-card > .entry-category a::before {
@@ -636,13 +607,21 @@ Version: 1.0.0
     margin-right: 4px;
 }
 
-/* Hide empty category badges */
-.entry-category a[href="#"]:empty,
-.entry-category a[href="#"]:blank {
+/* ========================================
+   HIDE EMPTY CATEGORY BADGES
+   ======================================== */
+.entry-category a[href="#"],
+.entry-category a[href=""]:empty,
+.entry-category a[href="#"]:empty {
     display: none !important;
 }
 
-.entry-category:has(a[href="#"]:empty) {
+.entry-category:has(a[href="#"]),
+.entry-category:has(a[href=""]:empty) {
+    display: none !important;
+}
+
+.entry-category:empty {
     display: none !important;
 }
 
