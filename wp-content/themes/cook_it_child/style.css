@@ -491,11 +491,6 @@ Version: 1.0.0
    CONTAINER - Image wrapper positioning
    ======================================== */
 .content-card__image {
-    /* Override parent theme's fixed dimensions and float */
-    width: 100% !important;
-    height: auto !important;
-    float: none !important;
-    margin-right: 0 !important;
     margin-bottom: 0 !important;
     position: relative !important;
 }
