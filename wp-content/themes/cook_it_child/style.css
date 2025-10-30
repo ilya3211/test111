@@ -563,6 +563,16 @@ Version: 1.0.0
 .content-card__image .entry-category a:focus,
 .content-card__image .entry-category a:active {
     color: #fff !important;
+    background: transparent !important;
+    text-decoration: none !important;
+}
+
+/* More specific selector to override parent theme */
+.content-card--small .content-card__image .entry-category a:hover,
+.content-card--small .content-card__image .entry-category a:focus,
+.content-card--small .content-card__image .entry-category a:active {
+    color: #fff !important;
+    background: transparent !important;
     text-decoration: none !important;
 }
 
