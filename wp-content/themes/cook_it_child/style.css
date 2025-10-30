@@ -494,6 +494,12 @@ Version: 1.0.0
     position: relative !important;
 }
 
+/* Remove float for small cards - keep width/height from parent theme */
+.content-card--small .content-card__image {
+    float: none !important;
+    margin-right: 0 !important;
+}
+
 /* Hide camera emoji placeholder from parent theme */
 .content-card--small .content-card__image::after {
     display: none !important;
