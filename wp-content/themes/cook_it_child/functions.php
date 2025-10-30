@@ -57,3 +57,43 @@ function cook_it_child_add_hero_section() {
         get_template_part( 'template-parts/hero/hero-section' );
     }
 }
+
+/**
+ * Change ingredients taxonomy rewrite slug from /ingredients/ to /search/
+ * URL structure: http://site.com/search/сахар-песок/
+ */
+add_action( 'init', 'cook_it_child_change_ingredients_slug', 999 );
+function cook_it_child_change_ingredients_slug() {
+    // Get the existing taxonomy object
+    $taxonomy = 'ingredients';
+
+    // Check if taxonomy exists
+    if ( !taxonomy_exists( $taxonomy ) ) {
+        return;
+    }
+
+    // Get existing taxonomy object
+    global $wp_taxonomies;
+
+    if ( isset( $wp_taxonomies[$taxonomy] ) ) {
+        // Change the rewrite slug
+        $wp_taxonomies[$taxonomy]->rewrite = array(
+            'slug'         => 'search',
+            'with_front'   => false,
+            'hierarchical' => true,
+        );
+    }
+}
+
+/**
+ * Flush rewrite rules on theme activation (one time)
+ * This ensures the new /search/ URLs work correctly
+ */
+add_action( 'after_switch_theme', 'cook_it_child_flush_rewrite_rules' );
+function cook_it_child_flush_rewrite_rules() {
+    // Trigger init actions to register taxonomies
+    do_action( 'init' );
+
+    // Flush rewrite rules
+    flush_rewrite_rules();
+}
