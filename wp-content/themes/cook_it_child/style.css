@@ -511,6 +511,7 @@ Version: 1.0.0
     object-fit: cover !important;
     border-radius: 12px 12px 0 0 !important;
     display: block !important;
+    pointer-events: none !important;
 }
 
 /* Category badge INSIDE image container (posts with images) */
