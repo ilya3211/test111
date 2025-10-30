@@ -530,6 +530,7 @@ Version: 1.0.0
     font-size: 13px !important;
     font-weight: 600 !important;
     font-family: inherit !important;
+    line-height: 1.4 !important;
 
     /* Clickability */
     cursor: pointer !important;
@@ -539,9 +540,12 @@ Version: 1.0.0
     backdrop-filter: blur(8px) !important;
     transition: all 0.3s ease !important;
 
-    /* Reset parent theme transforms */
+    /* Reset parent theme styles */
     transform: none !important;
     margin: 0 !important;
+    top: auto !important;
+    right: auto !important;
+    opacity: 1 !important;
 }
 
 .content-card__image .entry-category:hover {
@@ -550,14 +554,31 @@ Version: 1.0.0
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
 }
 
-.content-card__image .entry-category a {
-    /* Link styles */
+.content-card__image .entry-category a,
+.content-card__image .entry-category a:link,
+.content-card__image .entry-category a:visited {
+    /* Override ALL link styles */
     color: #fff !important;
+    background: transparent !important;
     cursor: pointer !important;
     font-weight: 600 !important;
     text-decoration: none !important;
     display: inline !important;
     font-family: inherit !important;
+    border: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    box-shadow: none !important;
+    opacity: 1 !important;
+}
+
+.content-card__image .entry-category a:hover,
+.content-card__image .entry-category a:active,
+.content-card__image .entry-category a:focus {
+    color: #fff !important;
+    background: transparent !important;
+    text-decoration: none !important;
+    opacity: 1 !important;
 }
 
 .content-card__image .entry-category a::before {
