@@ -35,7 +35,8 @@ if (!file_exists('./wp-load.php')) {
 }
 require_once('./wp-load.php');
 
-$target_branch = 'claude/analyze-cook-it-theme-011CUXgR33JgnR5pcjeDPo9q';
+// UPDATED: Switching to branch that contains /tags/ changes
+$target_branch = 'claude/sync-tags-slug-from-analyze-011CUe7KYpipheZxXMV5WPJs';
 
 ?>
 <!DOCTYPE html>
@@ -171,6 +172,48 @@ $target_branch = 'claude/analyze-cook-it-theme-011CUXgR33JgnR5pcjeDPo9q';
         echo '<p style="margin-bottom: 0;">Could not update the branch. Current branch is still: <strong>' . $new_branch . '</strong></p>';
         echo '</div>';
     }
+
+    // Now switch git repository to the new branch
+    echo '<h2>🔧 Switching Git Repository</h2>';
+    chdir(ABSPATH);
+
+    // Fetch
+    echo '<div class="box info">';
+    echo '<h3 style="margin-top: 0;">Fetching branch from remote...</h3>';
+    exec("git fetch origin " . escapeshellarg($target_branch) . " 2>&1", $fetch_output);
+    echo '<pre>' . htmlspecialchars(implode("\n", $fetch_output)) . '</pre>';
+    echo '</div>';
+
+    // Checkout
+    echo '<div class="box info">';
+    echo '<h3 style="margin-top: 0;">Checking out branch...</h3>';
+    exec("git checkout " . escapeshellarg($target_branch) . " 2>&1", $checkout_output, $checkout_code);
+    echo '<pre>' . htmlspecialchars(implode("\n", $checkout_output)) . '</pre>';
+    if ($checkout_code === 0) {
+        echo '<p style="color: #28a745; font-weight: 600;">✓ Branch checked out successfully!</p>';
+    }
+    echo '</div>';
+
+    // Pull
+    echo '<div class="box info">';
+    echo '<h3 style="margin-top: 0;">Pulling latest changes...</h3>';
+    exec("git pull origin " . escapeshellarg($target_branch) . " 2>&1", $pull_output);
+    echo '<pre>' . htmlspecialchars(implode("\n", $pull_output)) . '</pre>';
+    echo '</div>';
+
+    // Status
+    echo '<div class="box info">';
+    echo '<h3 style="margin-top: 0;">Current git status:</h3>';
+    exec("git status 2>&1", $status_output);
+    echo '<pre>' . htmlspecialchars(implode("\n", $status_output)) . '</pre>';
+    echo '</div>';
+
+    // Log
+    echo '<div class="box info">';
+    echo '<h3 style="margin-top: 0;">Latest commits:</h3>';
+    exec("git log --oneline -5 2>&1", $log_output);
+    echo '<pre>' . htmlspecialchars(implode("\n", $log_output)) . '</pre>';
+    echo '</div>';
     ?>
 
     <h2>📊 Verification</h2>
@@ -201,19 +244,21 @@ $target_branch = 'claude/analyze-cook-it-theme-011CUXgR33JgnR5pcjeDPo9q';
         </table>
     </div>
 
-    <h2>✅ Next Steps</h2>
+    <h2>✅ Next Steps - IMPORTANT!</h2>
     <div class="box success">
         <ol style="margin: 15px 0; padding-left: 25px;">
-            <li style="margin-bottom: 10px;">Go to <strong>WordPress Admin → Gitium</strong> dashboard</li>
-            <li style="margin-bottom: 10px;">Verify the branch is set to: <code><?php echo $target_branch; ?></code></li>
-            <li style="margin-bottom: 10px;">Check the commits and pull/push status</li>
-            <li style="margin-bottom: 10px;"><strong style="color: #dc3545;">IMPORTANT:</strong> Delete this file (<code>update-gitium-branch.php</code>) after use!</li>
+            <li style="margin-bottom: 10px;">✓ Branch switched to: <code><?php echo $target_branch; ?></code></li>
+            <li style="margin-bottom: 10px;">✓ Changes with <strong>/tags/</strong> slug are now active</li>
+            <li style="margin-bottom: 10px;"><strong style="color: #dc3545;">REQUIRED:</strong> Go to <strong>Settings → Permalinks</strong> and click "Save Changes" to flush rewrite rules!</li>
+            <li style="margin-bottom: 10px;">Test new URLs: <code>http://your-site.com/tags/ingredient-name/</code></li>
+            <li style="margin-bottom: 10px;"><strong style="color: #dc3545;">IMPORTANT:</strong> Delete this file after use!</li>
         </ol>
     </div>
 
     <div style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #ddd;">
-        <a href="/wp-admin/admin.php?page=gitium" class="btn">Open Gitium Dashboard →</a>
-        <a href="?key=update-gitium-2025&delete=yes" class="btn btn-delete">Delete This File Now</a>
+        <a href="/wp-admin/options-permalink.php" class="btn" style="background: #28a745;">⚠️ Flush Permalinks (REQUIRED) →</a>
+        <a href="/wp-admin/admin.php?page=gitium" class="btn">Open Gitium →</a>
+        <a href="?key=update-gitium-2025&delete=yes" class="btn btn-delete">Delete This File</a>
     </div>
 
     <?php
