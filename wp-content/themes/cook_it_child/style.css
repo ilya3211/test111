@@ -486,7 +486,9 @@ Version: 1.0.0
 .content-card__image {
     margin-bottom: 0;
     position: relative;
-    pointer-events: none !important;
+    isolation: isolate !important;
+    perspective: 1000px !important;
+    transform-style: preserve-3d !important;
 }
 
 /* Disable clicks on ::after pseudo-element (camera emoji placeholder) */
@@ -500,7 +502,7 @@ Version: 1.0.0
     display: none !important;
 }
 
-/* Image link and image - enable clicks */
+/* Image link - enable clicks (goes to post) */
 .content-card__image > a {
     display: block !important;
     position: relative !important;
@@ -508,12 +510,16 @@ Version: 1.0.0
     pointer-events: auto !important;
 }
 
+/* Image itself - clicks pass through to link */
 .content-card__image > a img {
     width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 12px 12px 0 0;
     display: block;
+    position: relative !important;
+    z-index: 1 !important;
+    pointer-events: none !important;
 }
 
 /* Category badge - fully clickable with highest priority */
@@ -526,12 +532,12 @@ Version: 1.0.0
     padding: 6px 12px !important;
     border-radius: 20px !important;
     font-size: 11px !important;
-    z-index: 1000 !important;
+    z-index: 10000 !important;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2) !important;
     transition: all 0.3s !important;
     backdrop-filter: blur(4px) !important;
     pointer-events: auto !important;
-    transform: none !important;
+    transform: translateZ(100px) !important;
     margin-right: 0 !important;
     cursor: pointer !important;
     display: inline-block !important;
@@ -540,7 +546,7 @@ Version: 1.0.0
 .content-card__image .entry-category:hover {
     background: rgba(255, 153, 102, 1) !important;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
-    transform: translateY(-2px) !important;
+    transform: translateZ(100px) translateY(-2px) !important;
 }
 
 .content-card__image .entry-category a {
