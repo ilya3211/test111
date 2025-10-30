@@ -486,14 +486,15 @@ Version: 1.0.0
 .content-card__image {
     margin-bottom: 0;
     position: relative;
+    pointer-events: none !important;
 }
 
-/* Image link - allow clicks through except on image itself */
+/* Image link and image - enable clicks */
 .content-card__image > a {
     display: block !important;
-    pointer-events: none !important;
     position: relative !important;
-    z-index: 2 !important;
+    z-index: 1 !important;
+    pointer-events: auto !important;
 }
 
 .content-card__image > a img {
@@ -502,9 +503,6 @@ Version: 1.0.0
     object-fit: cover;
     border-radius: 12px 12px 0 0;
     display: block;
-    pointer-events: auto !important;
-    position: relative !important;
-    z-index: 2 !important;
 }
 
 /* Category badge - fully clickable with highest priority */
