@@ -102,7 +102,7 @@ function cook_it_child_register_ingredients() {
 
     $args = array(
         'labels'                     => $labels,
-        'hierarchical'               => true,
+        'hierarchical'               => true,  // Оставляем иерархию в админке
         'public'                     => true,
         'show_ui'                    => true,
         'show_admin_column'          => true,
@@ -112,7 +112,7 @@ function cook_it_child_register_ingredients() {
         'rewrite'                    => array(
             'slug'         => 'ingredient',
             'with_front'   => false,
-            'hierarchical' => true,
+            'hierarchical' => false,  // Отключаем родительские термины в URL
         ),
     );
 
