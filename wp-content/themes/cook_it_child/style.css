@@ -559,6 +559,13 @@ Version: 1.0.0
     pointer-events: auto !important;
 }
 
+.content-card__image .entry-category a:hover,
+.content-card__image .entry-category a:focus,
+.content-card__image .entry-category a:active {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
 .content-card__image .entry-category a::before {
     content: "📁 ";
     margin-right: 4px;
