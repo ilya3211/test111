@@ -484,14 +484,13 @@ Version: 1.0.0
 }
 
 /* ============================================
-   CATEGORY BADGE FIX - POINTER EVENTS APPROACH
+   CATEGORY BADGE FIX - Z-INDEX ONLY APPROACH
    ============================================ */
 
-/* Container - disable all pointer events */
+/* Container - simple positioning */
 .content-card__image {
-    margin-bottom: 0;
-    position: relative;
-    pointer-events: none !important;
+    margin-bottom: 0 !important;
+    position: relative !important;
 }
 
 /* Hide camera emoji placeholder */
@@ -499,32 +498,28 @@ Version: 1.0.0
     display: none !important;
 }
 
-/* Image link - enable clicks, but set lower z-index */
+/* Image link - LOW z-index */
 .content-card__image > a {
     display: block !important;
     position: relative !important;
     z-index: 1 !important;
-    pointer-events: auto !important;
 }
 
 .content-card__image > a img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-    border-radius: 12px 12px 0 0;
-    display: block;
+    width: 100% !important;
+    height: 200px !important;
+    object-fit: cover !important;
+    border-radius: 12px 12px 0 0 !important;
+    display: block !important;
 }
 
 /* Category badge INSIDE image container (posts with images) */
 .content-card__image .entry-category {
-    /* Reset parent theme styles */
-    all: initial !important;
-    font-family: inherit !important;
-
     /* Position at bottom of image */
     position: absolute !important;
     bottom: 15px !important;
     left: 15px !important;
+    z-index: 10 !important;
 
     /* Appearance */
     display: inline-block !important;
@@ -534,16 +529,19 @@ Version: 1.0.0
     border-radius: 20px !important;
     font-size: 13px !important;
     font-weight: 600 !important;
+    font-family: inherit !important;
 
-    /* Clickability - HIGHER z-index and enable pointer events */
-    z-index: 9999 !important;
+    /* Clickability */
     cursor: pointer !important;
-    pointer-events: auto !important;
 
     /* Effects */
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2) !important;
     backdrop-filter: blur(8px) !important;
     transition: all 0.3s ease !important;
+
+    /* Reset parent theme transforms */
+    transform: none !important;
+    margin: 0 !important;
 }
 
 .content-card__image .entry-category:hover {
@@ -553,19 +551,13 @@ Version: 1.0.0
 }
 
 .content-card__image .entry-category a {
-    /* Reset all styles */
-    all: initial !important;
-    font-family: inherit !important;
-
-    /* Make it look like text */
+    /* Link styles */
     color: #fff !important;
     cursor: pointer !important;
     font-weight: 600 !important;
     text-decoration: none !important;
-
-    /* CRITICAL: Enable pointer events on link */
-    pointer-events: auto !important;
     display: inline !important;
+    font-family: inherit !important;
 }
 
 .content-card__image .entry-category a::before {
