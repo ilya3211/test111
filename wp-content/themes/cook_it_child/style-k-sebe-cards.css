@@ -306,9 +306,9 @@ body {
     display: inline-block;
     background: #FF9966;
     color: #fff;
-    padding: 2px 5px;
-    border-radius: 8px;
-    font-size: 9px;
+    padding: 1px 4px;
+    border-radius: 5px;
+    font-size: 8px;
     font-weight: 600;
     margin-bottom: 15px;
     text-decoration: none;
@@ -343,8 +343,8 @@ body {
     z-index: 10;
     background: rgba(255, 153, 102, 0.95);
     backdrop-filter: blur(5px);
-    padding: 2px 4px;
-    font-size: 8px;
+    padding: 1px 3px;
+    font-size: 7px;
     color: #fff;
     font-weight: 600;
     pointer-events: auto;
