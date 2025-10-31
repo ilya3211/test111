@@ -110,9 +110,10 @@ body {
     transition: transform 0.3s ease;
 }
 
-.content-card--line:hover .content-card__image img {
+/* Убрана анимация увеличения фото */
+/* .content-card--line:hover .content-card__image img {
     transform: scale(1.05);
-}
+} */
 
 /* ============================================
    5. ЗАГОЛОВОК КАРТОЧКИ
@@ -303,32 +304,34 @@ body {
 
 .entry-category {
     display: inline-block;
-    background: #FFF4E6;
-    color: #D97706;
+    background: #FF9966;
+    color: #fff;
     padding: 4px 10px;
     border-radius: 15px;
     font-size: 11px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 15px;
     text-decoration: none;
     transition: all 0.3s ease;
 }
 
 .entry-category:hover {
-    background: #FFE6CC;
-    color: #C56600;
+    background: #FF8C5A;
+    color: #fff;
 }
 
 /* Если badge внутри изображения */
 .content-card__image .entry-category {
     position: absolute;
-    top: 10px;
+    top: 70px;
     left: 10px;
     z-index: 10;
-    background: rgba(255, 244, 230, 0.95);
+    background: rgba(255, 153, 102, 0.95);
     backdrop-filter: blur(5px);
     padding: 3px 8px;
     font-size: 10px;
+    color: #fff;
+    font-weight: 600;
 }
 
 /* ============================================
@@ -538,9 +541,10 @@ body {
     transition: transform 0.3s ease;
 }
 
-.content-card--line:hover .content-card__image img {
+/* Убрана анимация увеличения фото */
+/* .content-card--line:hover .content-card__image img {
     transform: scale(1.05);
-}
+} */
 
 /* Рейтинг из table */
 .content-card--line .entry-rating {
