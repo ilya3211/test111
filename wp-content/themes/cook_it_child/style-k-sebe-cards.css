@@ -504,13 +504,41 @@ body {
     padding: 30px;
 }
 
-/* Скрыть старые table layouts */
-.content-card--line table {
-    display: none;
+/* Адаптировать table layout для современного вида */
+.content-card--line > table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
 }
 
-/* Переопределить вывод для flex/grid */
-.content-card--line {
-    display: flex !important;
-    flex-direction: column;
+.content-card--line > table tr {
+    display: block;
+}
+
+.content-card--line > table td {
+    display: block;
+    padding: 0;
+    border: none;
+}
+
+/* Изображение карточки из table */
+.content-card--line .content-card__image {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.content-card--line .content-card__image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+.content-card--line:hover .content-card__image img {
+    transform: scale(1.05);
+}
+
+/* Рейтинг из table */
+.content-card--line .entry-rating {
+    margin-bottom: 15px;
 }
