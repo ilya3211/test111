@@ -306,9 +306,9 @@ body {
     display: inline-block;
     background: #FF9966;
     color: #fff;
-    padding: 4px 10px;
-    border-radius: 15px;
-    font-size: 11px;
+    padding: 2px 5px;
+    border-radius: 8px;
+    font-size: 9px;
     font-weight: 600;
     margin-bottom: 15px;
     text-decoration: none;
@@ -343,8 +343,8 @@ body {
     z-index: 10;
     background: rgba(255, 153, 102, 0.95);
     backdrop-filter: blur(5px);
-    padding: 3px 8px;
-    font-size: 10px;
+    padding: 2px 4px;
+    font-size: 8px;
     color: #fff;
     font-weight: 600;
     pointer-events: auto;
@@ -560,7 +560,6 @@ body {
 /* Ссылка на изображение - не должна блокировать badge */
 .content-card__image > a {
     display: block;
-    position: relative;
     z-index: 1;
 }
 
