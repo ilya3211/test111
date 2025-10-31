@@ -305,9 +305,9 @@ body {
     display: inline-block;
     background: #FFF4E6;
     color: #D97706;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 11px;
     font-weight: 500;
     margin-bottom: 15px;
     text-decoration: none;
@@ -322,11 +322,13 @@ body {
 /* Если badge внутри изображения */
 .content-card__image .entry-category {
     position: absolute;
-    top: 15px;
-    left: 15px;
+    top: 10px;
+    left: 10px;
     z-index: 10;
     background: rgba(255, 244, 230, 0.95);
     backdrop-filter: blur(5px);
+    padding: 3px 8px;
+    font-size: 10px;
 }
 
 /* ============================================
@@ -525,12 +527,14 @@ body {
 .content-card--line .content-card__image {
     margin-bottom: 20px;
     position: relative;
+    overflow: hidden;
+    border-radius: 12px;
 }
 
 .content-card--line .content-card__image img {
     width: 100%;
     height: auto;
-    border-radius: 12px;
+    display: block;
     transition: transform 0.3s ease;
 }
 
