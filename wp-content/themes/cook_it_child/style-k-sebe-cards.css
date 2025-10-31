@@ -320,6 +320,21 @@ body {
     color: #fff;
 }
 
+/* Ссылка внутри badge */
+.entry-category a {
+    color: inherit;
+    text-decoration: none;
+    pointer-events: auto;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+.entry-category a:hover {
+    color: inherit;
+    text-decoration: none;
+}
+
 /* Если badge внутри изображения */
 .content-card__image .entry-category {
     position: absolute;
@@ -332,6 +347,14 @@ body {
     font-size: 10px;
     color: #fff;
     font-weight: 600;
+    pointer-events: auto;
+}
+
+/* Ссылка внутри badge поверх изображения */
+.content-card__image .entry-category a {
+    pointer-events: auto;
+    cursor: pointer;
+    z-index: 11;
 }
 
 /* ============================================
@@ -532,6 +555,13 @@ body {
     position: relative;
     overflow: hidden;
     border-radius: 12px;
+}
+
+/* Ссылка на изображение - не должна блокировать badge */
+.content-card__image > a {
+    display: block;
+    position: relative;
+    z-index: 1;
 }
 
 .content-card--line .content-card__image img {
