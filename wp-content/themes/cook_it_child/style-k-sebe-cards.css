@@ -478,19 +478,13 @@ body {
     transition: all 0.2s ease;
 }
 
-/* Неактивная звезда */
+/* Неактивная звезда по умолчанию */
 .star-rating-item svg path {
     fill: #E0E0E0;
     transition: fill 0.2s ease;
 }
 
-/* Активная звезда (с классом или при наведении) */
-.star-rating-item.is-active svg path,
-.wp-star-rating[data-rating-value] .star-rating-item svg path {
-    fill: #FFB800;
-}
-
-/* Окрашиваем звезды по рейтингу */
+/* Полные звезды по рейтингу (целая часть) */
 .wp-star-rating.star-rating--score-1 .star-rating-item:nth-child(-n+1) svg path,
 .wp-star-rating.star-rating--score-2 .star-rating-item:nth-child(-n+2) svg path,
 .wp-star-rating.star-rating--score-3 .star-rating-item:nth-child(-n+3) svg path,
@@ -498,6 +492,62 @@ body {
 .wp-star-rating.star-rating--score-5 .star-rating-item:nth-child(-n+5) svg path {
     fill: #FFB800;
     filter: drop-shadow(0 2px 4px rgba(255, 184, 0, 0.3));
+}
+
+/* Частичная звезда через градиент (для дробных оценок) */
+.star-rating-item.star-half svg {
+    position: relative;
+}
+
+.star-rating-item.star-half svg path {
+    fill: url(#star-gradient);
+}
+
+/* Определяем градиенты для частичного заполнения */
+.wp-star-rating svg defs {
+    display: none;
+}
+
+/* Точный контроль заполнения звезд на основе data-rating-value */
+/* По умолчанию убираем автозаполнение из score-5 */
+.wp-star-rating.star-rating--score-5 .star-rating-item svg path {
+    fill: #E0E0E0;
+    filter: none;
+}
+
+/* Заполняем правильное количество звезд на основе целой части рейтинга */
+/* Рейтинг 1-1.9: 1 звезда */
+.wp-star-rating.star-rating--score-1 .star-rating-item:nth-child(1) svg path,
+.wp-star-rating.star-rating--score-2 .star-rating-item:nth-child(1) svg path,
+.wp-star-rating.star-rating--score-3 .star-rating-item:nth-child(1) svg path,
+.wp-star-rating.star-rating--score-4 .star-rating-item:nth-child(1) svg path,
+.wp-star-rating.star-rating--score-5 .star-rating-item:nth-child(1) svg path {
+    fill: #FFB800 !important;
+    filter: drop-shadow(0 2px 4px rgba(255, 184, 0, 0.3)) !important;
+}
+
+/* 2 звезды */
+.wp-star-rating.star-rating--score-2 .star-rating-item:nth-child(2) svg path,
+.wp-star-rating.star-rating--score-3 .star-rating-item:nth-child(2) svg path,
+.wp-star-rating.star-rating--score-4 .star-rating-item:nth-child(2) svg path,
+.wp-star-rating.star-rating--score-5 .star-rating-item:nth-child(2) svg path {
+    fill: #FFB800 !important;
+    filter: drop-shadow(0 2px 4px rgba(255, 184, 0, 0.3)) !important;
+}
+
+/* 3 звезды */
+.wp-star-rating.star-rating--score-3 .star-rating-item:nth-child(3) svg path,
+.wp-star-rating.star-rating--score-4 .star-rating-item:nth-child(3) svg path,
+.wp-star-rating.star-rating--score-5 .star-rating-item:nth-child(3) svg path {
+    fill: #FFB800 !important;
+    filter: drop-shadow(0 2px 4px rgba(255, 184, 0, 0.3)) !important;
+}
+
+/* 4 звезды */
+.wp-star-rating.star-rating--score-4 .star-rating-item:nth-child(4) svg path,
+.wp-star-rating.star-rating--score-5 .star-rating-item:nth-child(4) svg path {
+    fill: #FFB800 !important;
+    filter: drop-shadow(0 2px 4px rgba(255, 184, 0, 0.3)) !important;
 }
 
 /* Текст с количеством оценок */
