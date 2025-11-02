@@ -16,11 +16,15 @@ function enqueue_child_theme_styles() {
     wp_enqueue_style( 'cook-it-style-child', get_stylesheet_uri(), array( 'cook-it-style' )  );
 
     // Enqueue К СЕБЕ card styles
+    // Используем время модификации файла как версию для автообновления кеша
+    $css_file = get_stylesheet_directory() . '/style-k-sebe-cards.css';
+    $css_version = file_exists($css_file) ? filemtime($css_file) : '1.0.2';
+
     wp_enqueue_style(
         'k-sebe-cards',
         get_stylesheet_directory_uri() . '/style-k-sebe-cards.css',
         array( 'cook-it-style-child' ),
-        '1.0.0'
+        $css_version
     );
 }
 
