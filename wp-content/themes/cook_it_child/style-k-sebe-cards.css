@@ -419,34 +419,102 @@ body {
 }
 
 /* ============================================
-   13. РЕЙТИНГ
+   13. РЕЙТИНГ В СТИЛЕ К СЕБЕ
    ============================================ */
 
 .entry-rating {
-    background: #fff;
-    border-radius: 8px;
-    padding: 15px;
+    background: linear-gradient(135deg, #FFF9F0 0%, #FFFBF7 100%);
+    border-radius: 12px;
+    padding: 18px 20px;
     margin: 15px 0;
-    border: 1px solid #f0f0f0;
+    border: 1px solid #FFE5CC;
+    box-shadow: 0 2px 8px rgba(255, 153, 102, 0.08);
+    transition: all 0.3s ease;
 }
 
+.entry-rating:hover {
+    box-shadow: 0 4px 12px rgba(255, 153, 102, 0.12);
+    transform: translateY(-2px);
+}
+
+/* Заголовок рейтинга */
 .entry-rating .entry-bottom__header {
-    font-size: 14px;
-    font-weight: 600;
-    color: #333;
-    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #FF9966;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 
-/* Стилизация звёзд WordPress */
+.entry-rating .entry-bottom__header::before {
+    content: "⭐";
+    font-size: 16px;
+}
+
+/* Контейнер звёзд */
 .wp-star-rating {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 4px;
+    margin-bottom: 10px;
 }
 
-.wp-star-rating .star {
-    color: #FFD700;
-    font-size: 16px;
+/* Отдельная звезда */
+.star-rating-item {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.star-rating-item:hover {
+    transform: scale(1.15);
+}
+
+/* SVG иконка звезды */
+.star-rating-item svg {
+    width: 24px;
+    height: 24px;
+    transition: all 0.2s ease;
+}
+
+/* Неактивная звезда */
+.star-rating-item svg path {
+    fill: #E0E0E0;
+    transition: fill 0.2s ease;
+}
+
+/* Активная звезда (с классом или при наведении) */
+.star-rating-item.is-active svg path,
+.wp-star-rating[data-rating-value] .star-rating-item svg path {
+    fill: #FFB800;
+}
+
+/* Окрашиваем звезды по рейтингу */
+.wp-star-rating.star-rating--score-1 .star-rating-item:nth-child(-n+1) svg path,
+.wp-star-rating.star-rating--score-2 .star-rating-item:nth-child(-n+2) svg path,
+.wp-star-rating.star-rating--score-3 .star-rating-item:nth-child(-n+3) svg path,
+.wp-star-rating.star-rating--score-4 .star-rating-item:nth-child(-n+4) svg path,
+.wp-star-rating.star-rating--score-5 .star-rating-item:nth-child(-n+5) svg path {
+    fill: #FFB800;
+    filter: drop-shadow(0 2px 4px rgba(255, 184, 0, 0.3));
+}
+
+/* Текст с количеством оценок */
+.star-rating-text {
+    font-size: 12px;
+    color: #666;
+    font-style: normal;
+    margin-top: 8px;
+}
+
+.star-rating-text em {
+    font-style: normal;
+}
+
+.star-rating-text strong {
+    color: #FF9966;
+    font-weight: 600;
 }
 
 /* ============================================
