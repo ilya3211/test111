@@ -689,7 +689,7 @@ Version: 1.0.0
 }
 
 .meta-cooking-time::before {
-    content: "💰";
+    content: "💸";
     font-size: 14px;
 }
 
