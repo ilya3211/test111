@@ -198,34 +198,52 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 13px;
-    color: #999;
+    font-size: 11px;
+    color: #666;
     margin: 15px 0;
-    padding: 15px 0;
-    border-top: 1px solid #f0f0f0;
-    border-bottom: 1px solid #f0f0f0;
+    padding: 10px 12px;
+    background: #FFFBF7;
+    border-radius: 8px;
+    border: 1px solid #FFF0E6;
 }
 
 .content-card__meta-left,
 .content-card__meta-right {
     display: flex;
-    gap: 15px;
+    gap: 12px;
     align-items: center;
 }
 
 .content-card__meta span {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 4px;
+    font-size: 11px;
 }
 
-/* Иконки для мета */
-.meta-cooking-time::before,
-.meta-serves::before,
-.meta-comments::before,
+/* Иконки для мета - добавляем эмодзи-иконки */
+.meta-cooking-time::before {
+    content: "💰";
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.meta-serves::before {
+    content: "👥";
+    font-weight: normal;
+    font-size: 12px;
+}
+
+.meta-comments::before {
+    content: "💬";
+    font-weight: normal;
+    font-size: 12px;
+}
+
 .meta-views::before {
-    font-weight: bold;
-    color: #FF9966;
+    content: "👁";
+    font-weight: normal;
+    font-size: 12px;
 }
 
 /* ============================================
@@ -461,13 +479,22 @@ body {
     }
 
     .content-card__meta {
-        font-size: 12px;
-        gap: 10px;
+        font-size: 10px;
+        padding: 8px 10px;
+        gap: 8px;
+        flex-direction: column;
+        align-items: flex-start;
     }
 
     .content-card__meta-left,
     .content-card__meta-right {
         gap: 10px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .content-card__meta span {
+        font-size: 10px;
     }
 
     .nutritional {
