@@ -338,7 +338,7 @@ body {
 /* Если badge внутри изображения */
 .content-card__image .entry-category {
     position: absolute;
-    top: 70px;
+    top: 10px;
     left: 10px;
     z-index: 10;
     background: rgba(255, 153, 102, 0.95);
@@ -348,6 +348,12 @@ body {
     color: #fff;
     font-weight: 600;
     pointer-events: auto;
+}
+
+/* Фиксируем позицию при hover - не двигается */
+.content-card--line:hover .content-card__image .entry-category {
+    top: 10px;
+    left: 10px;
 }
 
 /* Ссылка внутри badge поверх изображения */
