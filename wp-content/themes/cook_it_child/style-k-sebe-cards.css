@@ -232,7 +232,7 @@ body {
 
 /* Иконки для мета - эмодзи в стиле К СЕБЕ */
 .meta-cooking-time::before {
-    content: "⏱️";
+    content: "💸" !important;
     font-weight: normal;
     font-size: 14px;
 }
