@@ -198,73 +198,52 @@ body {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    font-size: 12px;
-    color: #555;
+    font-size: 11px;
+    color: #666;
     margin: 15px 0;
-    padding: 12px 15px;
-    background: linear-gradient(135deg, #FFFBF7 0%, #FFF8F0 100%);
-    border-radius: 10px;
-    border: 1px solid #FFE5CC;
-    box-shadow: 0 2px 4px rgba(255, 153, 102, 0.05);
+    padding: 10px 12px;
+    background: #FFFBF7;
+    border-radius: 8px;
+    border: 1px solid #FFF0E6;
 }
 
 .content-card__meta-left,
 .content-card__meta-right {
     display: flex;
-    gap: 15px;
+    gap: 12px;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .content-card__meta span {
     display: flex;
     align-items: center;
-    gap: 5px;
-    font-size: 12px;
-    font-weight: 500;
-    color: #444;
-    transition: color 0.3s ease;
+    gap: 4px;
+    font-size: 11px;
 }
 
-.content-card__meta span:hover {
-    color: #FF9966;
-}
-
-/* Иконки для мета - эмодзи в стиле К СЕБЕ */
+/* Иконки для мета - добавляем эмодзи-иконки */
 .meta-cooking-time::before {
-    content: "⏱️";
+    content: "💰";
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .meta-serves::before {
     content: "👥";
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .meta-comments::before {
     content: "💬";
     font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .meta-views::before {
-    content: "👁️";
+    content: "👁";
     font-weight: normal;
-    font-size: 14px;
-}
-
-.meta-author::before {
-    content: "✍️";
-    font-weight: normal;
-    font-size: 14px;
-}
-
-.meta-date::before {
-    content: "📅";
-    font-weight: normal;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 /* ============================================
