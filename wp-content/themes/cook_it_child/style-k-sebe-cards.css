@@ -324,9 +324,9 @@ body {
     display: inline-block;
     background: #FF9966;
     color: #fff;
-    padding: 1px 4px;
-    border-radius: 5px;
-    font-size: 8px;
+    padding: 1px 3px;
+    border-radius: 3px;
+    font-size: 7px;
     font-weight: 600;
     margin-bottom: 15px;
     text-decoration: none;
@@ -336,6 +336,7 @@ body {
 .entry-category:hover {
     background: #FF8C5A;
     color: #fff;
+    transform: none;
 }
 
 /* Ссылка внутри badge */
@@ -361,8 +362,8 @@ body {
     z-index: 10;
     background: rgba(255, 153, 102, 0.95);
     backdrop-filter: blur(5px);
-    padding: 1px 3px;
-    font-size: 7px;
+    padding: 0px 2px;
+    font-size: 6px;
     color: #fff;
     font-weight: 600;
     pointer-events: auto;
@@ -372,6 +373,9 @@ body {
 .content-card--line:hover .content-card__image .entry-category {
     top: 10px;
     left: 10px;
+    transform: none;
+    padding: 0px 2px;
+    font-size: 6px;
 }
 
 /* Ссылка внутри badge поверх изображения */
