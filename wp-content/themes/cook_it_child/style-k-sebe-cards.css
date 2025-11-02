@@ -330,13 +330,15 @@ body {
     font-weight: 600;
     margin-bottom: 15px;
     text-decoration: none;
-    transition: all 0.3s ease;
+    transition: background 0.3s ease;
 }
 
 .entry-category:hover {
     background: #FF8C5A;
     color: #fff;
-    transform: none;
+    transform: none !important;
+    padding: 1px 3px !important;
+    font-size: 7px !important;
 }
 
 /* Ссылка внутри badge */
@@ -362,8 +364,8 @@ body {
     z-index: 10;
     background: rgba(255, 153, 102, 0.95);
     backdrop-filter: blur(5px);
-    padding: 0px 2px;
-    font-size: 6px;
+    padding: 0px 2px !important;
+    font-size: 6px !important;
     color: #fff;
     font-weight: 600;
     pointer-events: auto;
@@ -371,11 +373,11 @@ body {
 
 /* Фиксируем позицию при hover - не двигается */
 .content-card--line:hover .content-card__image .entry-category {
-    top: 10px;
-    left: 10px;
-    transform: none;
-    padding: 0px 2px;
-    font-size: 6px;
+    top: 10px !important;
+    left: 10px !important;
+    transform: none !important;
+    padding: 0px 2px !important;
+    font-size: 6px !important;
 }
 
 /* Ссылка внутри badge поверх изображения */
