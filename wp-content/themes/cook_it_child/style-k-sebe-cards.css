@@ -343,7 +343,7 @@ body {
 
 .entry-category {
     display: inline-block;
-    background: #FF9966;
+    background: #FF9966 !important;
     color: #fff;
     padding: 1px 3px;
     border-radius: 3px;
@@ -355,7 +355,7 @@ body {
 }
 
 .entry-category:hover {
-    background: #FF8C5A;
+    background: #FF8C5A !important;
     color: #fff;
     transform: none !important;
     padding: 1px 3px !important;
