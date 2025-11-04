@@ -376,7 +376,7 @@ body {
     font-size: 7px !important;
 }
 
-/* Ссылка внутри badge - блокируем синий цвет во всех состояниях */
+/* Ссылка внутри badge - блокируем синий цвет и фон во всех состояниях */
 .entry-category a,
 .entry-category a:link,
 .entry-category a:visited,
@@ -384,6 +384,7 @@ body {
 .entry-category a:active,
 .entry-category a:focus {
     color: #fff !important;
+    background-color: transparent !important;
     text-decoration: none !important;
     pointer-events: auto;
     position: relative;
