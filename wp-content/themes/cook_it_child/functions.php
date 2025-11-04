@@ -26,6 +26,20 @@ function enqueue_child_theme_styles() {
         array( 'cook-it-style-child' ),
         $css_version
     );
+
+    // Enqueue Archive Header styles (page header with stats)
+    // Стилизует .page-header с блоком статистики для архивов/категорий
+    if ( is_archive() || is_category() || is_tax() || is_home() ) {
+        $archive_header_css_file = get_stylesheet_directory() . '/style-archive-header.css';
+        $archive_header_version = file_exists($archive_header_css_file) ? filemtime($archive_header_css_file) : '1.0.0';
+
+        wp_enqueue_style(
+            'k-sebe-archive-header',
+            get_stylesheet_directory_uri() . '/style-archive-header.css',
+            array( 'k-sebe-cards' ),
+            $archive_header_version
+        );
+    }
 }
 
 /**
