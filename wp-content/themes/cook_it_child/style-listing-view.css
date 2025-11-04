@@ -1,0 +1,651 @@
+/**
+ * ============================================================================
+ * LISTING VIEW - Стиль "К СЕБЕ" для страниц категорий
+ * ============================================================================
+ * Трансформирует карточки рецептов в большой горизонтальный листинг
+ * Использовать на страницах архивов/категорий
+ */
+
+/* ============================================
+   1. CSS ПЕРЕМЕННЫЕ
+   ============================================ */
+:root {
+    --listing-primary: #FF9966;
+    --listing-primary-dark: #FF8C5A;
+    --listing-text: #333;
+    --listing-text-light: #666;
+    --listing-text-lighter: #999;
+    --listing-bg: #F9F9F9;
+    --listing-card-bg: #fff;
+    --listing-border: #e0e0e0;
+    --listing-shadow-sm: 0 2px 12px rgba(0,0,0,0.06);
+    --listing-shadow-md: 0 6px 20px rgba(0,0,0,0.1);
+    --listing-radius: 16px;
+    --listing-radius-sm: 8px;
+    --listing-spacing: 30px;
+}
+
+/* ============================================
+   2. ОБЩАЯ СТРУКТУРА СТРАНИЦЫ
+   ============================================ */
+body.archive,
+body.category,
+body.tax-ingredient {
+    background-color: var(--listing-bg);
+}
+
+/* Контейнер контента */
+.site-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+
+/* Заголовок категории */
+.page-header,
+.archive-header {
+    background-color: var(--listing-card-bg);
+    padding: 30px;
+    border-radius: var(--listing-radius);
+    margin-bottom: 30px;
+    box-shadow: var(--listing-shadow-sm);
+}
+
+.page-title,
+.archive-title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+.archive-description {
+    font-size: 16px;
+    color: var(--listing-text-light);
+    line-height: 1.6;
+}
+
+/* ============================================
+   3. LAYOUT СЕТКИ - ТРАНСФОРМАЦИЯ В ЛИСТИНГ
+   ============================================ */
+
+/* Убираем сетку, делаем вертикальный стек */
+.posts-list,
+.section-posts__body {
+    display: flex !important;
+    flex-direction: column !important;
+    gap: var(--listing-spacing) !important;
+    grid-template-columns: none !important;
+}
+
+/* ============================================
+   4. КАРТОЧКА РЕЦЕПТА - ГОРИЗОНТАЛЬНЫЙ LAYOUT
+   ============================================ */
+
+.content-card.content-card--line {
+    background-color: var(--listing-card-bg);
+    border-radius: var(--listing-radius);
+    padding: 0 !important;
+    box-shadow: var(--listing-shadow-sm);
+    transition: transform 0.3s, box-shadow 0.3s;
+    display: grid !important;
+    grid-template-columns: 280px 1fr;
+    gap: 30px;
+    overflow: hidden;
+    border: none !important;
+    margin: 0 !important;
+}
+
+.content-card.content-card--line:hover {
+    transform: translateY(-3px);
+    box-shadow: var(--listing-shadow-md);
+}
+
+/* ============================================
+   5. БЛОК ИЗОБРАЖЕНИЯ (ЛЕВАЯ ЧАСТЬ)
+   ============================================ */
+
+.content-card--line table {
+    display: contents !important;
+}
+
+.content-card--line table tr,
+.content-card--line table td {
+    display: contents !important;
+}
+
+.content-card--line .content-card__image {
+    position: relative !important;
+    width: 280px !important;
+    height: 100% !important;
+    min-height: 280px;
+    overflow: hidden;
+    margin: 0 !important;
+    padding: 0 !important;
+    display: flex !important;
+    align-items: stretch !important;
+}
+
+.content-card--line .content-card__image a {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.content-card--line .content-card__image img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover !important;
+    border-radius: 0 !important;
+}
+
+/* Badge категории на изображении */
+.content-card--line .content-card__image .entry-category {
+    position: absolute !important;
+    bottom: 15px !important;
+    left: 15px !important;
+    top: auto !important;
+    z-index: 10;
+    background: rgba(255, 153, 102, 0.95) !important;
+    backdrop-filter: blur(5px);
+    padding: 6px 12px !important;
+    font-size: 11px !important;
+    color: #fff !important;
+    font-weight: 600;
+    border-radius: var(--listing-radius-sm);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.content-card--line .content-card__image .entry-category a {
+    color: #fff !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+}
+
+/* ============================================
+   6. ТЕЛО КАРТОЧКИ (ПРАВАЯ ЧАСТЬ)
+   ============================================ */
+
+.content-card--line .content-card__body {
+    padding: 30px 30px 30px 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* ============================================
+   7. ЗАГОЛОВОК РЕЦЕПТА
+   ============================================ */
+
+.content-card--line .content-card__title {
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
+    margin: 0 0 10px 0 !important;
+}
+
+.content-card--line .content-card__title a {
+    color: #1a1a1a !important;
+    text-decoration: none !important;
+    transition: color 0.3s;
+}
+
+.content-card--line .content-card__title a:hover {
+    color: var(--listing-primary) !important;
+}
+
+/* ============================================
+   8. МЕТА ИНФОРМАЦИЯ (время, порции, просмотры)
+   ============================================ */
+
+.content-card--line .content-card__meta {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 12px !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    align-items: center !important;
+}
+
+.content-card--line .content-card__meta-left,
+.content-card--line .content-card__meta-right {
+    display: flex !important;
+    gap: 12px !important;
+    flex-wrap: wrap !important;
+}
+
+.content-card--line .content-card__meta span[class^="meta-"] {
+    display: inline-flex !important;
+    align-items: center !important;
+    gap: 6px !important;
+    padding: 6px 12px !important;
+    background-color: #F5F5F5 !important;
+    border-radius: 20px !important;
+    font-size: 13px !important;
+    color: var(--listing-text-light) !important;
+    font-weight: 500 !important;
+}
+
+/* Иконки перед мета информацией */
+.content-card--line .meta-cooking-time::before {
+    content: "💸";
+    font-size: 14px;
+}
+
+.content-card--line .meta-serves::before {
+    content: "👥";
+    font-size: 14px;
+}
+
+.content-card--line .meta-views::before {
+    content: "👁";
+    font-size: 14px;
+}
+
+.content-card--line .meta-comments::before {
+    content: "💬";
+    font-size: 14px;
+}
+
+.content-card--line .meta-date::before {
+    content: "📅";
+    font-size: 14px;
+}
+
+/* ============================================
+   9. ОПИСАНИЕ/EXCERPT
+   ============================================ */
+
+.content-card--line .content-card__excerpt {
+    font-size: 15px !important;
+    line-height: 1.7 !important;
+    color: var(--listing-text) !important;
+    margin: 0 !important;
+    display: -webkit-box !important;
+    -webkit-line-clamp: 3 !important;
+    -webkit-box-orient: vertical !important;
+    overflow: hidden !important;
+}
+
+/* ============================================
+   10. БЛОК РЕЙТИНГА
+   ============================================ */
+
+.content-card--line .entry-rating {
+    background: linear-gradient(135deg, #FFF9F0 0%, #FFFBF7 100%) !important;
+    border-radius: 12px !important;
+    padding: 15px 18px !important;
+    margin: 0 !important;
+    border: 1px solid #FFE5CC !important;
+    box-shadow: 0 2px 8px rgba(255, 153, 102, 0.08) !important;
+}
+
+.content-card--line .entry-rating .entry-bottom__header {
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    color: var(--listing-text) !important;
+    margin-bottom: 8px !important;
+}
+
+.content-card--line .entry-rating .wp-star-rating {
+    display: flex !important;
+    gap: 4px !important;
+}
+
+.content-card--line .entry-rating .star-rating-item svg {
+    width: 18px !important;
+    height: 18px !important;
+}
+
+.content-card--line .entry-rating .star-rating-item svg path {
+    fill: #FFB800 !important;
+    filter: drop-shadow(0 2px 4px rgba(255, 184, 0, 0.3)) !important;
+}
+
+.content-card--line .entry-rating .rating-text {
+    font-size: 14px !important;
+    color: var(--listing-text-light) !important;
+    margin-top: 5px !important;
+}
+
+/* ============================================
+   11. БЛОК ПИЩЕВОЙ ЦЕННОСТИ
+   ============================================ */
+
+.content-card--line .nutritional {
+    background: #FFFBF7 !important;
+    border-radius: 10px !important;
+    padding: 15px !important;
+    margin: 0 !important;
+    border: 1px solid #f0e8e0 !important;
+}
+
+.content-card--line .nutritional__header {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+    color: var(--listing-text) !important;
+    margin-bottom: 12px !important;
+}
+
+.content-card--line .nutritional-list {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    font-size: 13px !important;
+    color: var(--listing-text-light) !important;
+    margin-bottom: 8px !important;
+    padding-bottom: 8px !important;
+    border-bottom: 1px solid #f0e8e0 !important;
+    gap: 10px !important;
+}
+
+.content-card--line .nutritional-list:last-child {
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.content-card--line .nutritional-list > span:first-child {
+    flex: 0 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.content-card--line .nutritional-list > span:last-child {
+    flex: 0 0 auto;
+    white-space: nowrap;
+}
+
+.content-card--line .nutritional-list .strong {
+    font-weight: 600 !important;
+    color: var(--listing-primary) !important;
+}
+
+/* ============================================
+   12. КНОПКИ ДЕЙСТВИЙ
+   ============================================ */
+
+.content-card--line .card-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: auto;
+    padding-top: 15px;
+}
+
+.content-card--line .card-actions .btn {
+    flex: 1;
+    padding: 12px 24px;
+    border-radius: var(--listing-radius-sm);
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none !important;
+    display: inline-block;
+}
+
+.content-card--line .card-actions .btn-primary {
+    background: linear-gradient(135deg, var(--listing-primary) 0%, var(--listing-primary-dark) 100%);
+    color: white !important;
+    border: none;
+}
+
+.content-card--line .card-actions .btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 153, 102, 0.4);
+}
+
+/* ============================================
+   13. SIDEBAR ОПТИМИЗАЦИЯ
+   ============================================ */
+
+/* Сайдбар становится sticky */
+.sidebar {
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+}
+
+.sidebar .widget {
+    background-color: var(--listing-card-bg);
+    border-radius: var(--listing-radius);
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: var(--listing-shadow-sm);
+}
+
+.sidebar .widget-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--listing-text);
+    margin-bottom: 15px;
+}
+
+/* ============================================
+   14. АДАПТИВНОСТЬ ДЛЯ МОБИЛЬНЫХ
+   ============================================ */
+
+@media (max-width: 968px) {
+    /* Карточки становятся вертикальными на планшетах */
+    .content-card.content-card--line {
+        grid-template-columns: 1fr !important;
+        gap: 0 !important;
+    }
+
+    .content-card--line .content-card__image {
+        width: 100% !important;
+        height: 250px !important;
+        min-height: 250px !important;
+    }
+
+    .content-card--line .content-card__body {
+        padding: 25px !important;
+    }
+
+    /* Сайдбар становится обычным блоком */
+    .sidebar {
+        position: relative;
+        top: 0;
+    }
+}
+
+@media (max-width: 640px) {
+    /* Уменьшаем отступы на мобильных */
+    .site-content {
+        padding: 20px 15px;
+    }
+
+    .page-header,
+    .archive-header {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    .page-title,
+    .archive-title {
+        font-size: 24px;
+    }
+
+    .content-card.content-card--line {
+        gap: 0 !important;
+    }
+
+    .content-card--line .content-card__image {
+        height: 200px !important;
+        min-height: 200px !important;
+    }
+
+    .content-card--line .content-card__body {
+        padding: 20px !important;
+    }
+
+    .content-card--line .content-card__title {
+        font-size: 20px !important;
+    }
+
+    .content-card--line .content-card__meta {
+        gap: 8px !important;
+    }
+
+    .content-card--line .content-card__meta span[class^="meta-"] {
+        font-size: 12px !important;
+        padding: 5px 10px !important;
+    }
+}
+
+/* ============================================
+   15. АНИМАЦИИ И ВЗАИМОДЕЙСТВИЯ
+   ============================================ */
+
+/* Плавное появление карточек */
+.content-card.content-card--line {
+    animation: fadeInUp 0.5s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Эффект при наведении на изображение */
+.content-card--line .content-card__image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(to bottom, transparent 50%, rgba(0,0,0,0.1) 100%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.content-card--line:hover .content-card__image::after {
+    opacity: 1;
+}
+
+/* Увеличение изображения при hover */
+.content-card--line .content-card__image img {
+    transition: transform 0.5s ease;
+}
+
+.content-card--line:hover .content-card__image img {
+    transform: scale(1.05);
+}
+
+/* ============================================
+   16. ПАГИНАЦИЯ В СТИЛЕ К СЕБЕ
+   ============================================ */
+
+.pagination,
+.navigation.pagination {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 40px;
+    padding: 20px 0;
+}
+
+.pagination .page-numbers,
+.navigation.pagination .page-numbers {
+    min-width: 44px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--listing-card-bg);
+    border: 1px solid var(--listing-border);
+    border-radius: var(--listing-radius-sm);
+    color: var(--listing-text);
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.pagination .page-numbers:hover,
+.navigation.pagination .page-numbers:hover {
+    background-color: var(--listing-primary);
+    color: white;
+    border-color: var(--listing-primary);
+}
+
+.pagination .page-numbers.current,
+.navigation.pagination .page-numbers.current {
+    background: linear-gradient(135deg, var(--listing-primary) 0%, var(--listing-primary-dark) 100%);
+    color: white;
+    border-color: var(--listing-primary);
+}
+
+/* ============================================
+   17. ИНФОРМАЦИОННЫЙ БАННЕР
+   ============================================ */
+
+.category-info-banner {
+    background: linear-gradient(135deg, #F0FFF4 0%, #E6F9E9 100%);
+    padding: 20px 25px;
+    border-radius: var(--listing-radius);
+    margin-bottom: 30px;
+    border: 1px solid #D4F4DD;
+}
+
+.category-info-banner h3 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2D6A3E;
+    margin-bottom: 10px;
+}
+
+.category-info-banner p {
+    font-size: 14px;
+    color: #4A7C59;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* ============================================
+   18. СОРТИРОВКА И ФИЛЬТРЫ
+   ============================================ */
+
+.listing-controls {
+    background-color: var(--listing-card-bg);
+    padding: 20px;
+    border-radius: var(--listing-radius);
+    margin-bottom: 30px;
+    box-shadow: var(--listing-shadow-sm);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.listing-controls__count {
+    font-size: 15px;
+    color: var(--listing-text);
+    font-weight: 600;
+}
+
+.listing-controls__sort select {
+    padding: 10px 16px;
+    border: 1px solid var(--listing-border);
+    border-radius: var(--listing-radius-sm);
+    font-size: 14px;
+    background-color: var(--listing-card-bg);
+    cursor: pointer;
+    min-width: 200px;
+}
+
+.listing-controls__sort select:focus {
+    outline: none;
+    border-color: var(--listing-primary);
+}
