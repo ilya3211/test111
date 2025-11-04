@@ -26,6 +26,20 @@ function enqueue_child_theme_styles() {
         array( 'cook-it-style-child' ),
         $css_version
     );
+
+    // Enqueue Page Wrapper styles for archive/category pages
+    // Стилизует header, sidebar, layout - БЕЗ изменения карточек
+    if ( is_archive() || is_category() || is_tax() || is_home() ) {
+        $wrapper_css_file = get_stylesheet_directory() . '/style-page-wrapper.css';
+        $wrapper_css_version = file_exists($wrapper_css_file) ? filemtime($wrapper_css_file) : '1.0.0';
+
+        wp_enqueue_style(
+            'k-sebe-page-wrapper',
+            get_stylesheet_directory_uri() . '/style-page-wrapper.css',
+            array( 'k-sebe-cards' ),
+            $wrapper_css_version
+        );
+    }
 }
 
 /**
