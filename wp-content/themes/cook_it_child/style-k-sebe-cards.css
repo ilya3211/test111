@@ -1,0 +1,784 @@
+/**
+ * К СЕБЕ Card Styles
+ * Адаптация карточек под дизайн "К СЕБЕ"
+ * Version: 1.0
+ */
+
+/* ============================================
+   1. БАЗОВЫЕ СТИЛИ
+   ============================================ */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* ============================================
+   2. КОНТЕЙНЕР И СЕТКА КАРТОЧЕК
+   ============================================ */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Сетка карточек (3 колонки) */
+.cards-grid,
+.posts-container--line {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+/* ============================================
+   3. КАРТОЧКА ПРОБЛЕМЫ / РЕЦЕПТА
+   ============================================ */
+
+.problem-card,
+.content-card--line {
+    background: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 16px;
+    padding: 30px;
+    transition: all 0.3s ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.problem-card:hover,
+.content-card--line:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+/* ============================================
+   4. ИКОНКА КАРТОЧКИ
+   ============================================ */
+
+.card-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+/* Градиенты для иконок */
+.card-icon.anxiety-icon {
+    background: linear-gradient(135deg, #E6F3FF 0%, #CCE5FF 100%);
+}
+
+.card-icon.children-icon {
+    background: linear-gradient(135deg, #FFE6F0 0%, #FFCCDF 100%);
+}
+
+.card-icon.family-icon {
+    background: linear-gradient(135deg, #FFF9E6 0%, #FFF0CC 100%);
+}
+
+.card-icon.depression-icon {
+    background: linear-gradient(135deg, #F0E6FF 0%, #E0CCFF 100%);
+}
+
+.card-icon.other-icon {
+    background: linear-gradient(135deg, #FFFAE6 0%, #FFF4CC 100%);
+}
+
+/* Иконка для изображения рецепта */
+.content-card__image {
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.content-card__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* Убрана анимация увеличения фото */
+/* .content-card--line:hover .content-card__image img {
+    transform: scale(1.05);
+} */
+
+/* ============================================
+   5. ЗАГОЛОВОК КАРТОЧКИ
+   ============================================ */
+
+.card-title,
+.content-card__title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+    line-height: 1.3;
+}
+
+.content-card__title a {
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.content-card__title a:hover {
+    color: #FF9966;
+}
+
+/* ============================================
+   6. ЦИТАТА / EXCERPT
+   ============================================ */
+
+.card-quote,
+.content-card__excerpt {
+    font-size: 14px;
+    color: #999;
+    font-style: italic;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+/* ============================================
+   7. СЕКЦИЯ ВНУТРИ КАРТОЧКИ
+   ============================================ */
+
+.card-section-title {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+/* ============================================
+   8. СПИСОК В КАРТОЧКЕ
+   ============================================ */
+
+.card-list {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.card-list li {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.card-list li::before {
+    content: "•";
+    color: #FF9966;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+/* ============================================
+   9. МЕТА-ИНФОРМАЦИЯ
+   ============================================ */
+
+.content-card__meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 12px;
+    color: #555;
+    margin: 15px 0;
+    padding: 12px 15px;
+    background: linear-gradient(135deg, #FFFBF7 0%, #FFF8F0 100%);
+    border-radius: 10px;
+    border: 1px solid #FFE5CC;
+    box-shadow: 0 2px 4px rgba(255, 153, 102, 0.05);
+}
+
+.content-card__meta-left,
+.content-card__meta-right {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.content-card__meta span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #444;
+    transition: color 0.3s ease;
+}
+
+.content-card__meta span:hover {
+    color: #FF9966;
+}
+
+/* Иконки для мета - эмодзи в стиле К СЕБЕ */
+.meta-cooking-time::before {
+    content: "💸" !important;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.meta-serves::before {
+    content: "👥";
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.meta-comments::before {
+    content: "💬";
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.meta-views::before {
+    content: "👁️";
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.meta-author::before {
+    content: "✍️";
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.meta-date::before {
+    content: "📅";
+    font-weight: normal;
+    font-size: 14px;
+}
+
+/* ============================================
+   10. NUTRITIONAL INFO (в стиле card-list)
+   ============================================ */
+
+.nutritional {
+    background: #FFFBF7;
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.nutritional__header {
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.nutritional-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 8px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #f0e8e0;
+    gap: 10px;
+}
+
+.nutritional-list > span:first-child {
+    flex: 0 1 auto;
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.nutritional-list > span:last-child {
+    flex: 0 0 auto;
+    white-space: nowrap;
+}
+
+.nutritional-list:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.nutritional-list .strong {
+    font-weight: 600;
+    color: #FF9966;
+}
+
+/* ============================================
+   11. ССЫЛКА КАРТОЧКИ
+   ============================================ */
+
+.card-link {
+    display: inline-flex;
+    align-items: center;
+    color: #FF9966;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: auto;
+    padding-top: 20px;
+    text-decoration: none;
+    transition: gap 0.3s ease;
+}
+
+.card-link::after {
+    content: "→";
+    margin-left: 5px;
+    transition: margin-left 0.3s ease;
+}
+
+.card-link:hover {
+    gap: 8px;
+}
+
+.card-link:hover::after {
+    margin-left: 10px;
+}
+
+/* ============================================
+   12. КАТЕГОРИЯ BADGE
+   ============================================ */
+
+.entry-category {
+    display: inline-block;
+    background: #FF9966 !important;
+    color: #fff;
+    padding: 1px 3px;
+    border-radius: 3px;
+    font-size: 7px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-decoration: none;
+    transition: background 0.3s ease;
+}
+
+.entry-category:hover {
+    background: #FF8C5A !important;
+    color: #fff;
+    transform: none !important;
+    padding: 1px 3px !important;
+    font-size: 7px !important;
+}
+
+/* Ссылка внутри badge - блокируем синий цвет и фон во всех состояниях */
+.entry-category a,
+.entry-category a:link,
+.entry-category a:visited,
+.entry-category a:hover,
+.entry-category a:active,
+.entry-category a:focus {
+    color: #fff !important;
+    background-color: transparent !important;
+    text-decoration: none !important;
+    pointer-events: auto;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+}
+
+/* Если badge внутри изображения - переопределяем родительскую тему */
+.content-card--line .content-card__image .entry-category,
+.content-card__image .entry-category {
+    position: absolute !important;
+    bottom: 10px !important;
+    top: auto !important;
+    left: 10px !important;
+    z-index: 10;
+    background: rgba(255, 153, 102, 0.95) !important;
+    backdrop-filter: blur(5px);
+    padding: 2px 6px !important;
+    font-size: 9px !important;
+    color: #fff !important;
+    font-weight: 600;
+    pointer-events: auto;
+    transform: none !important;
+    transition: background 0.3s ease !important;
+}
+
+/* Фиксируем позицию при hover - не двигается */
+.content-card--line:hover .content-card__image .entry-category,
+.content-card:hover .content-card__image .entry-category {
+    bottom: 10px !important;
+    left: 10px !important;
+    top: auto !important;
+    transform: none !important;
+    padding: 2px 6px !important;
+    font-size: 9px !important;
+    background: rgba(255, 140, 90, 0.95) !important;
+}
+
+/* Ссылка внутри badge поверх изображения */
+.content-card--line .content-card__image .entry-category a,
+.content-card__image .entry-category a {
+    pointer-events: auto;
+    cursor: pointer;
+    z-index: 11;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
+/* ============================================
+   13. РЕЙТИНГ В СТИЛЕ К СЕБЕ
+   ============================================ */
+
+.entry-rating {
+    background: linear-gradient(135deg, #FFF9F0 0%, #FFFBF7 100%);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin: 15px 0;
+    border: 1px solid #FFE5CC;
+    box-shadow: 0 2px 8px rgba(255, 153, 102, 0.08);
+    transition: all 0.3s ease;
+}
+
+.entry-rating:hover {
+    box-shadow: 0 4px 12px rgba(255, 153, 102, 0.12);
+    transform: translateY(-2px);
+}
+
+/* Заголовок рейтинга */
+.entry-rating .entry-bottom__header {
+    font-size: 15px;
+    font-weight: 700;
+    color: #FF9966;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.entry-rating .entry-bottom__header::before {
+    content: "⭐";
+    font-size: 16px;
+}
+
+/* Контейнер звёзд */
+.wp-star-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+/* Отдельная звезда */
+.star-rating-item {
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.star-rating-item:hover {
+    transform: scale(1.15);
+}
+
+/* SVG иконка звезды */
+.star-rating-item svg {
+    width: 24px;
+    height: 24px;
+    transition: all 0.2s ease;
+}
+
+/* Неактивная звезда по умолчанию */
+.star-rating-item svg path {
+    fill: #E0E0E0;
+    transition: fill 0.2s ease;
+}
+
+/* Полные звезды по рейтингу (целая часть) */
+.wp-star-rating.star-rating--score-1 .star-rating-item:nth-child(-n+1) svg path,
+.wp-star-rating.star-rating--score-2 .star-rating-item:nth-child(-n+2) svg path,
+.wp-star-rating.star-rating--score-3 .star-rating-item:nth-child(-n+3) svg path,
+.wp-star-rating.star-rating--score-4 .star-rating-item:nth-child(-n+4) svg path,
+.wp-star-rating.star-rating--score-5 .star-rating-item:nth-child(-n+5) svg path {
+    fill: #FFB800;
+    filter: drop-shadow(0 2px 4px rgba(255, 184, 0, 0.3));
+}
+
+/* Частичная звезда через градиент (для дробных оценок) */
+.star-rating-item.star-half svg {
+    position: relative;
+}
+
+.star-rating-item.star-half svg path {
+    fill: url(#star-gradient);
+}
+
+/* Определяем градиенты для частичного заполнения */
+.wp-star-rating svg defs {
+    display: none;
+}
+
+/* Точный контроль заполнения звезд на основе data-rating-value */
+/* По умолчанию убираем автозаполнение из score-5 */
+.wp-star-rating.star-rating--score-5 .star-rating-item svg path {
+    fill: #E0E0E0;
+    filter: none;
+}
+
+/* Заполняем правильное количество звезд на основе целой части рейтинга */
+/* Рейтинг 1-1.9: 1 звезда */
+.wp-star-rating.star-rating--score-1 .star-rating-item:nth-child(1) svg path,
+.wp-star-rating.star-rating--score-2 .star-rating-item:nth-child(1) svg path,
+.wp-star-rating.star-rating--score-3 .star-rating-item:nth-child(1) svg path,
+.wp-star-rating.star-rating--score-4 .star-rating-item:nth-child(1) svg path,
+.wp-star-rating.star-rating--score-5 .star-rating-item:nth-child(1) svg path {
+    fill: #FFB800 !important;
+    filter: drop-shadow(0 2px 4px rgba(255, 184, 0, 0.3)) !important;
+}
+
+/* 2 звезды */
+.wp-star-rating.star-rating--score-2 .star-rating-item:nth-child(2) svg path,
+.wp-star-rating.star-rating--score-3 .star-rating-item:nth-child(2) svg path,
+.wp-star-rating.star-rating--score-4 .star-rating-item:nth-child(2) svg path,
+.wp-star-rating.star-rating--score-5 .star-rating-item:nth-child(2) svg path {
+    fill: #FFB800 !important;
+    filter: drop-shadow(0 2px 4px rgba(255, 184, 0, 0.3)) !important;
+}
+
+/* 3 звезды */
+.wp-star-rating.star-rating--score-3 .star-rating-item:nth-child(3) svg path,
+.wp-star-rating.star-rating--score-4 .star-rating-item:nth-child(3) svg path,
+.wp-star-rating.star-rating--score-5 .star-rating-item:nth-child(3) svg path {
+    fill: #FFB800 !important;
+    filter: drop-shadow(0 2px 4px rgba(255, 184, 0, 0.3)) !important;
+}
+
+/* 4 звезды */
+.wp-star-rating.star-rating--score-4 .star-rating-item:nth-child(4) svg path,
+.wp-star-rating.star-rating--score-5 .star-rating-item:nth-child(4) svg path {
+    fill: #FFB800 !important;
+    filter: drop-shadow(0 2px 4px rgba(255, 184, 0, 0.3)) !important;
+}
+
+/* Текст с количеством оценок */
+.star-rating-text {
+    font-size: 12px;
+    color: #666;
+    font-style: normal;
+    margin-top: 8px;
+}
+
+.star-rating-text em {
+    font-style: normal;
+}
+
+.star-rating-text strong {
+    color: #FF9966;
+    font-weight: 600;
+}
+
+/* ============================================
+   14. RESPONSIVE
+   ============================================ */
+
+/* Планшеты (2 колонки) */
+@media (max-width: 968px) {
+    .cards-grid,
+    .posts-container--line {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    .problem-card,
+    .content-card--line {
+        padding: 25px;
+    }
+
+    .card-title,
+    .content-card__title {
+        font-size: 18px;
+    }
+}
+
+/* Мобильные (1 колонка) */
+@media (max-width: 640px) {
+    .cards-grid,
+    .posts-container--line {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .problem-card,
+    .content-card--line {
+        padding: 20px;
+    }
+
+    .card-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .card-title,
+    .content-card__title {
+        font-size: 18px;
+        margin-bottom: 8px;
+    }
+
+    .card-quote,
+    .content-card__excerpt {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+
+    .card-section-title {
+        font-size: 15px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+
+    .card-list li {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+
+    .content-card__meta {
+        font-size: 10px;
+        padding: 8px 10px;
+        gap: 8px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .content-card__meta-left,
+    .content-card__meta-right {
+        gap: 10px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .content-card__meta span {
+        font-size: 10px;
+    }
+
+    .nutritional {
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    .nutritional__header {
+        font-size: 15px;
+        margin-bottom: 10px;
+    }
+
+    .nutritional-list {
+        font-size: 13px;
+    }
+}
+
+/* ============================================
+   15. СЕКЦИЯ ЗАГОЛОВКОВ
+   ============================================ */
+
+.section-title {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.section-subtitle {
+    text-align: center;
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 60px;
+    line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+    .section-title {
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .section-subtitle {
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+}
+
+/* ============================================
+   16. УТИЛИТЫ
+   ============================================ */
+
+.text-center {
+    text-align: center;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.p-30 {
+    padding: 30px;
+}
+
+/* Адаптировать table layout для современного вида */
+.content-card--line > table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 0;
+}
+
+.content-card--line > table tr {
+    display: block;
+}
+
+.content-card--line > table td {
+    display: block;
+    padding: 0;
+    border: none;
+}
+
+/* Изображение карточки из table */
+.content-card--line .content-card__image {
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+}
+
+/* Ссылка на изображение - не должна блокировать badge */
+.content-card__image > a {
+    display: block;
+    z-index: 1;
+}
+
+.content-card--line .content-card__image img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+/* Убрана анимация увеличения фото */
+/* .content-card--line:hover .content-card__image img {
+    transform: scale(1.05);
+} */
+
+/* Рейтинг из table */
+.content-card--line .entry-rating {
+    margin-bottom: 15px;
+}
