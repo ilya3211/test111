@@ -56,4 +56,9 @@ wp-includes/
 /wp-trackback.php
 /xmlrpc.php
 wp-content/plugins/wppusher
+# Temporary sync scripts
+fix-gitium-warning.php
+apply-phone-change.php
+sync-phone-change.php
 fix-gitium.php
+.gitignore_global

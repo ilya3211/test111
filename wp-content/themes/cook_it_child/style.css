@@ -1,4 +1,4 @@
-﻿/*
+/*
 Theme Name: Cook It Child
 Theme URI: https://wpshop.ru/themes/cook-it
 Author: WPShop.biz
@@ -21,3 +21,739 @@ Version: 1.0.0
     /* Удалите свойство background */
 }
 
+
+/* ============================================
+   HEADER "К СЕБЕ" - ПСИХОЛОГИЧЕСКИЙ СЕРВИС
+   ============================================ */
+
+/* Header Styles - Using specific selector for sticky positioning */
+#masthead.site-header {
+    background-color: #fff;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+    position: sticky !important;
+    top: 0;
+    z-index: 9999 !important;
+}
+
+/* Prevent page-header from being sticky */
+.page-header {
+    position: static !important;
+    z-index: 1 !important;
+}
+
+#masthead.site-header .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+#masthead.site-header .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#masthead.site-header .logo {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+    color: #333;
+    text-decoration: none;
+}
+
+#masthead.site-header .logo svg {
+    width: 35px;
+    height: 35px;
+    margin-right: 8px;
+}
+
+#masthead.site-header .nav-menu {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#masthead.site-header .nav-menu li {
+    position: relative;
+}
+
+#masthead.site-header .nav-menu li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+#masthead.site-header .nav-menu li a:hover {
+    color: #FF9966;
+}
+
+/* Submenu indicator */
+#masthead.site-header .nav-menu li.menu-item-has-children > a::after {
+    content: " ↓";
+    font-size: 12px;
+}
+
+/* Submenu styles */
+#masthead.site-header .sub-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 10px 0;
+    min-width: 200px;
+    z-index: 10000;
+    margin: 0;
+}
+
+#masthead.site-header .sub-menu li a {
+    display: block;
+    padding: 8px 15px;
+    font-size: 13px;
+}
+
+#masthead.site-header .nav-menu li:hover > .sub-menu {
+    display: block;
+}
+
+/* Hamburger Menu */
+#masthead.site-header .hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+}
+
+#masthead.site-header .hamburger span {
+    height: 3px;
+    width: 100%;
+    background-color: #333;
+    border-radius: 2px;
+    transition: all 0.3s;
+}
+
+#masthead.site-header .hamburger.active span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+#masthead.site-header .hamburger.active span:nth-child(2) {
+    opacity: 0;
+}
+
+#masthead.site-header .hamburger.active span:nth-child(3) {
+    transform: rotate(-45deg) translate(7px, -6px);
+}
+
+/* Mobile Menu */
+#masthead.site-header .nav-menu.mobile {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px 0;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    z-index: 10000;
+}
+
+#masthead.site-header .nav-menu.mobile.active {
+    display: flex;
+}
+
+/* Mobile submenu */
+#masthead.site-header .nav-menu.mobile .sub-menu {
+    position: static;
+    box-shadow: none;
+    padding-left: 20px;
+    display: none;
+    width: 100%;
+}
+
+#masthead.site-header .nav-menu.mobile li.menu-item-has-children.active > .sub-menu {
+    display: block;
+}
+
+#masthead.site-header .nav-menu.mobile .menu-item {
+    width: 100%;
+    text-align: center;
+}
+
+/* Responsive Styles */
+@media (max-width: 968px) {
+    #masthead.site-header .nav-menu {
+        display: none;
+    }
+    #masthead.site-header .hamburger {
+        display: flex;
+    }
+    #masthead.site-header .nav-menu.mobile {
+        display: none;
+    }
+}
+
+@media (max-width: 640px) {
+    #masthead.site-header .container {
+        padding: 0 10px;
+    }
+    #masthead.site-header .logo {
+        font-size: 18px;
+    }
+    #masthead.site-header .nav-menu li a {
+        font-size: 13px;
+    }
+    #masthead.site-header .sub-menu li a {
+        font-size: 12px;
+    }
+}
+
+/* ============================================
+   HERO SECTION - К СЕБЕ
+   ============================================ */
+
+/* Hero Section */
+.hero-section {
+    padding: 40px 0;
+    background-color: #FFFBF7;
+}
+
+.hero-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    align-items: center;
+}
+
+.hero-text {
+    padding-right: 20px;
+}
+
+.badge {
+    display: inline-block;
+    background-color: #FFF4E6;
+    color: #D97706;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+
+.hero-title {
+    font-size: 36px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+    line-height: 1.2;
+}
+
+.hero-subtitle {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.search-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.08);
+}
+
+.select-wrapper {
+    margin-bottom: 15px;
+}
+
+.select-wrapper select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #666;
+    background-color: #fff;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.select-wrapper select:hover,
+.select-wrapper select:focus {
+    border-color: #FF9966;
+    outline: none;
+}
+
+.search-button {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(135deg, #FF9966 0%, #FF8C5A 100%);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.search-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(255, 153, 102, 0.4);
+}
+
+.privacy-notice {
+    font-size: 11px;
+    color: #999;
+    margin-top: 12px;
+    margin-bottom: 0;
+    line-height: 1.4;
+}
+
+.privacy-notice a {
+    color: #FF9966;
+    text-decoration: none;
+}
+
+.privacy-notice a:hover {
+    text-decoration: underline;
+}
+
+.accept-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    background-color: #FF9966;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.accept-button:hover {
+    background-color: #FF8C5A;
+}
+
+.hero-illustration {
+    position: relative;
+}
+
+.hero-illustration svg {
+    width: 100%;
+    height: auto;
+}
+
+/* Responsive Styles (для hero-section) */
+@media (max-width: 968px) {
+    .hero-content {
+        grid-template-columns: 1fr;
+    }
+    .hero-text {
+        padding-right: 0;
+    }
+    .hero-title {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 640px) {
+    .hero-section {
+        padding: 30px 0;
+    }
+    .hero-title {
+        font-size: 28px;
+    }
+    .hero-subtitle {
+        font-size: 13px;
+    }
+    .badge {
+        font-size: 11px;
+        padding: 5px 10px;
+    }
+    .search-box {
+        padding: 15px;
+    }
+}
+
+/* ============================================
+   SECTION BLOCK - POST CARDS
+   ============================================ */
+
+/* Section Block Styles */
+.section-block {
+    padding: 60px 0;
+    background-color: #fff;
+}
+
+.section-block.section-preset--bgc-3 {
+    background-color: #f2f5fc;
+}
+
+.section-block__header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.section-block__title {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+}
+
+.section-block__title a {
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.section-block__title a:hover {
+    color: #FF9966;
+}
+
+.section-posts__categories {
+    text-align: center;
+}
+
+.section-posts__categories-title {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.section-posts__categories ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.section-posts__categories li a {
+    color: #333;
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s;
+}
+
+.section-posts__categories li a:hover {
+    color: #FF9966;
+}
+
+/* Post Cards Grid */
+.post-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+.post-cards.posts-container--small {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+/* Content Card Styles */
+.content-card {
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    border-radius: 12px;
+    padding: 0;
+    transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
+    overflow: hidden;
+}
+
+.content-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+/* ============================================
+   CATEGORY BADGE FIX - Z-INDEX ONLY APPROACH
+   ============================================ */
+
+/* ========================================
+   CONTAINER - Image wrapper positioning
+   ======================================== */
+.content-card__image {
+    position: relative !important;
+}
+
+/* Remove float for small cards - keep width/height from parent theme */
+.content-card--small .content-card__image {
+    float: none !important;
+    margin-right: 0 !important;
+}
+
+/* Hide camera emoji placeholder from parent theme */
+.content-card--small .content-card__image::after {
+    display: none !important;
+}
+
+/* ONLY pointer-events for clickability - do NOT change layout */
+.content-card__image > a img {
+    pointer-events: none !important;
+}
+
+/* ========================================
+   CATEGORY BADGE INSIDE IMAGE (posts with images)
+   ======================================== */
+.content-card__image .entry-category {
+    all: unset;
+    /* Position at bottom of image */
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    z-index: 10;
+
+    /* Appearance - compact for small cards */
+    display: inline-block;
+    background: rgba(255, 153, 102, 0.95);
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: inherit;
+    line-height: 1.2;
+    cursor: pointer;
+    white-space: nowrap;
+
+    /* Effects */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+
+    /* Ensure clickability */
+    pointer-events: auto !important;
+}
+
+.content-card__image .entry-category:hover {
+    background: rgba(255, 153, 102, 1) !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3) !important;
+}
+
+.content-card__image .entry-category a {
+    all: unset;
+    display: inline !important;
+    color: #fff !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    cursor: pointer !important;
+    font-family: inherit;
+    pointer-events: auto !important;
+}
+
+.content-card__image .entry-category a:hover,
+.content-card__image .entry-category a:focus,
+.content-card__image .entry-category a:active {
+    color: #fff !important;
+    background: transparent !important;
+    text-decoration: none !important;
+}
+
+/* More specific selector to override parent theme */
+.content-card--small .content-card__image .entry-category a:hover,
+.content-card--small .content-card__image .entry-category a:focus,
+.content-card--small .content-card__image .entry-category a:active {
+    color: #fff !important;
+    background: transparent !important;
+    text-decoration: none !important;
+}
+
+.content-card__image .entry-category a::before {
+    content: "📁 ";
+    margin-right: 4px;
+}
+
+/* ========================================
+   CATEGORY BADGE OUTSIDE IMAGE (posts without images)
+   ======================================== */
+.content-card > .entry-category {
+    all: unset;
+    display: inline-block;
+    margin-bottom: 12px;
+    background: rgba(255, 153, 102, 0.95);
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: inherit;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+    position: relative;
+    z-index: 10;
+}
+
+.content-card > .entry-category:hover {
+    background: rgba(255, 153, 102, 1);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.content-card > .entry-category a {
+    all: unset;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    font-family: inherit;
+    display: inline;
+}
+
+.content-card > .entry-category a::before {
+    content: "📁 ";
+    margin-right: 4px;
+}
+
+/* ========================================
+   HIDE EMPTY CATEGORY BADGES
+   ======================================== */
+.entry-category a[href="#"],
+.entry-category a[href=""]:empty,
+.entry-category a[href="#"]:empty {
+    display: none !important;
+}
+
+.entry-category:has(a[href="#"]),
+.entry-category:has(a[href=""]:empty) {
+    display: none !important;
+}
+
+.entry-category:empty {
+    display: none !important;
+}
+
+/* Card Content */
+.content-card__title {
+    font-size: 18px;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding: 12px 20px 0 20px;
+    line-height: 1.3;
+}
+
+.content-card__title a {
+    color: #1a1a1a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.content-card__title a:hover {
+    color: #FF9966;
+}
+
+.content-card__meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 12px;
+    padding: 0 20px;
+}
+
+.content-card__meta-left,
+.content-card__meta-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+/* Meta Icons */
+.meta-cooking-time,
+.meta-serves,
+.meta-comments,
+.meta-views {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.meta-cooking-time::before {
+    content: "💸";
+    font-size: 14px;
+}
+
+.meta-serves::before {
+    content: "👥";
+    font-size: 14px;
+}
+
+.meta-comments::before {
+    content: "💬";
+    font-size: 14px;
+}
+
+.meta-views::before {
+    content: "👁";
+    font-size: 14px;
+}
+
+.content-card__excerpt {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.6;
+    padding: 0 20px 20px 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 968px) {
+    .post-cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .post-cards.posts-container--small {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .section-block__title {
+        font-size: 28px;
+    }
+}
+
+@media (max-width: 640px) {
+    .post-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .post-cards.posts-container--small {
+        grid-template-columns: 1fr;
+    }
+
+    .section-block {
+        padding: 40px 0;
+    }
+
+    .section-posts__categories ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content-card__title {
+        font-size: 16px;
+    }
+
+    .content-card__meta,
+    .content-card__excerpt {
+        font-size: 12px;
+    }
+}
